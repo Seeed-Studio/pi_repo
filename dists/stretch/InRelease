@@ -1,0 +1,53 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Suite: stable
+Codename: stretch
+Date: Thu, 14 Jun 2018 02:37:42 UTC
+Architectures: armhf
+Components: main
+Description: deb repository for MRAA & UPM
+MD5Sum:
+ c3c6bf0c6fc89e52214d379fe8a818fc 63918 main/binary-armhf/Packages
+ 0339860d6def511d513dbf867e3ebf3e 28224 main/binary-armhf/Packages.gz
+ ce03b39ad63f59f03fafd88e2880418e 95 main/binary-armhf/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
+ e18463dd172c6a239c7371ad870193d9 5152 main/source/Sources
+ 7db5a122156956e0b2cac6992f01898d 1521 main/source/Sources.gz
+ b79ad56f8c0df15e03e33fb2dfec3115 96 main/source/Release
+SHA1:
+ 5e28d966632eac69cafb9b9f0a4dc85dea03cd06 63918 main/binary-armhf/Packages
+ 2b6ce8b63e19e7feeeed485250e3b59d34d31536 28224 main/binary-armhf/Packages.gz
+ a2dada4fb04bb77c510f0ca103794eccceba11e3 95 main/binary-armhf/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
+ 1e5f1ac8b68f4ee10b2e9049ac6ccfab910e93ad 5152 main/source/Sources
+ 47068f2949ca301603bcc78791d0775a3d6199d2 1521 main/source/Sources.gz
+ 6360552fbc144d0501ec341d04da37fcce76a2e5 96 main/source/Release
+SHA256:
+ 4e7831329662ad2c6ae25173248caf7274ef5898aaee205608eb09e3702e7af3 63918 main/binary-armhf/Packages
+ 5566429f9e3b11aad17ef14aa9f23129cfa4319507393995bb7bb26b58b3a3e6 28224 main/binary-armhf/Packages.gz
+ a1cf43b610e4799004d74dbdf148cca5ac18a1508122fd32e225f8c8ca025eac 95 main/binary-armhf/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
+ dacd4ab6280e93825357bdd51257e2ada82545a7c8ccb9fd6f2bac91d1e8f6dd 5152 main/source/Sources
+ fd7ef86ac12ffc35acfdbb1730ed281421be60cbf631871e8b53ca7a4cc6910d 1521 main/source/Sources.gz
+ 4d84f80c644d1a0682b7cdc1104ba35b179b573f30441e7fe8bfa2cbcb60214a 96 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
+
+iQIcBAEBCAAGBQJbIdT3AAoJENxhIVdKO/isqFkQAI5m6qLWpCo/2BDRCp9n3NPO
+s+4obb06b/qPtNX06FumYJVd5lhigyRuRhZQr67DGBxDcTJptzQ/17oLn8njufqD
+3/0xBc/8m6JKfj1DKUOApcHDaB61RKiPob+TUwsVjLqfRipGuIhhDII1nl67n6Bn
+jxAok/kJiIy1I2p4QOR4ELIJ398Ke7P+zZnWEXLyjbY4hW+M7LcdlvPgW1nHQX8v
+lZ+8LLKsql9j27StWdp0V5JvCK9iFs69H1nr6vdmM4EIYS9WKgoiqZkzhCZJINwf
+qkRkmcuqy/2N+/c94Z+ADHGi0msO4EmiC+RESz3CE6bq0OpgJAAYGppJMHRcI8aB
+5rjwxXG2Et1fewKdfejawt6RCOQ433Co7eBdwmm0N2tDxvxtJGfwrS/FQ9ipf8j9
+ds3fcU0MseBGI9s/NAUkFEnBAwMM6D0XluQ2EAzg7x/G5GTedw8ZWNa3YOJTQ+JC
+dqOrnm2yD8VwjnUGyHG8XQqsQkhoJz0tTTI+KZzf5PYi4qQEXGjR/8v88drJCU/D
+4KlKkf7+lbMIe885BcgFnsetkI8i2SS54EJQRJ5zqTUciH2rNe0bqF42hnO/CYpK
+zV08zYdoSjXGsL2XnuXa9GKL/XdxFeGLZk1CP5S86w1bp3xj6qjbhdKnSdIllqNt
+OWacxYOCqeNLqJJHnSNI
+=jFlk
+-----END PGP SIGNATURE-----

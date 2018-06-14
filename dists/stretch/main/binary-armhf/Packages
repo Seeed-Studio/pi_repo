@@ -1,0 +1,619 @@
+Package: libmraa-dev
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 199
+Depends: libmraa1 (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mraa/libmraa-dev_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 32722
+SHA256: 7779641adde0225035c75afd652fa610951d858c6aa0e0a8d1707d92cdeeeed5
+SHA1: 224f2b2277e0b59a1fb2736119376ef4ea3af1c3
+MD5sum: 084c65660ae0df7239d3bdba72dd300c
+Description: userspace I/O library (development)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the library development files.
+
+Package: libmraa-java
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 122
+Depends: libmraa1 (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: java
+Filename: pool/main/m/mraa/libmraa-java_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 57890
+SHA256: 02870638f82dcf6857169725f37fab85a58520a10e248a7e071a4fdb8459ebd3
+SHA1: db3fb47182aa4fef93a1f4faaedf796ef48f8e4c
+MD5sum: c7e058e138b8d7a9dc8056dfbc8653ef
+Description: java bindings for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa Java binding.
+
+Package: libmraa-java-dbg
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 187
+Depends: libmraa-java (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/libmraa-java-dbg_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 151220
+SHA256: cc1a865574965ec487d3a5d34f20783b2835dc42c7b9390aa31dec1a67570b5c
+SHA1: d595d29720e8e31a2d452d622cb951d3cd56a4f0
+MD5sum: 74ce5296d6e764b09e258bf3f8345b29
+Description: debugging symbols for mraa java binding
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the debugging symbols for mraa java binding.
+Build-Ids: 5675a3ad58405c506591215b0f855020b169e6cc
+
+Package: libmraa1
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 160
+Depends: libc6 (>= 2.15), libjson-c3 (>= 0.10)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mraa/libmraa1_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 71074
+SHA256: e5a615bb95c8b9e76dff22aa31bc4977608a5faf10cc768acb56fe5eb3673931
+SHA1: b402dc7de5081f3b299cf8b8777b166d53dd0edf
+MD5sum: 4d08513e2fb7a0f58fd23f90e720cf72
+Description: userspace I/O library (runtime)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the library used at runtime.
+
+Package: libmraa1-dbg
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 303
+Depends: libmraa1 (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/libmraa1-dbg_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 262128
+SHA256: a841ae32e14bf29832d3aae53a84e789564dfb9748f41abf3c8082ac1e3050b2
+SHA1: b16ee4888c6e7b17a48466ebb0631f166c38fdda
+MD5sum: 9fdd18d7f53eacf87e4d67c79cda2e97
+Description: debugging symbols for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa debugging symbols.
+Build-Ids: e93410818f2a127d111d31edf8607f32bac800f8
+
+Package: libupm-dev
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 3852
+Depends: libupm1 (= 1.6.0-git20180602-re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: libdevel
+Filename: pool/main/u/upm/libupm-dev_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 374682
+SHA256: 6d0de9b7b5961a6988537909fd8555c0345ec05810bfd311583b8b05915ed0b3
+SHA1: 842065c86393067f2025634b34b073bb76936f25
+MD5sum: c38de21d7faa479bbebc2bebcc8f437e
+Description: Sensor/Actuator repository for MRAA (development)
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the library development files.
+
+Package: libupm-java
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 9911
+Depends: libupm1 (= 1.6.0-git20180602-re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: java
+Filename: pool/main/u/upm/libupm-java_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 2767262
+SHA256: 4f910c95b2f2774db18816473a6c5657164ac7e24d6b271a061377bebe365ba5
+SHA1: 283837529ee5ec8d9a25060ec21c8ccf2747dabd
+MD5sum: 3c6cced86e132f10d431c2352c9a313d
+Description: java bindings for mraa
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains upm Java binding.
+
+Package: libupm-java-dbg
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 21295
+Depends: libupm-java (= 1.6.0-git20180602-re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: extra
+Section: debug
+Filename: pool/main/u/upm/libupm-java-dbg_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 17993562
+SHA256: 9e0b96bf595a7f06f3a726c9aa74f2169e22c516a09f23e9be73efd5ba8b994d
+SHA1: 7c5fc402e7c52a4ee9dd3904a9c9431ce55d8194
+MD5sum: 2c2b443ceac2ed0170dbde4021b1cab0
+Description: debugging symbols for mraa java binding
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the debugging symbols for upm java binding.
+Build-Ids: 0261b15fd4f60c55e506fd43574c71eb34e8db8d 03f2d61b07868d467bad47314be22e0ccb2de97e 043458c31addd302ff5821300f6a29dc06bc0951 045740b4c9930389d4500412443d74dc1725e6f8 09c8b41583d51c9086242bccdc9234dcdd612cbe 0a81e4a5394ab717f8e79da848a6351f0c729cdd 0b3bc8a94cc8b7166bd080c4c64f9fa44a19da7a 0defe347a02f9983a371532db0af2604f43f9271 0f5a4567b9e1246d5b6d83a9d745d92a291a9e56 0f6a46c5cce85f0e69357d30d8b964d6675a847e 1028e50305f6bc0db09e7ccd0e06c990bb9421c7 112599be8426d784e463badf6790779d3d27b625 13a4bb74fa9538c851d8b0b8cbd7a9305b60c70f 14f759eb16ec003c5a7c1ca8e0febb7b6ab8bb2e 1880caa4a795d7f959b1a326886fdc1b010f8b9a 1920b7dc8cd2afc6ee6494ff047649ba5b4cd67e 1ad8925fb85244ba93c09d6d031f0bae49fb9383 1e422d9d2a8b470608b08e509e8b0f914f318d03 1f6d711feb56f69de059bb080670caf57c0674f7 1f6dac4be9efbb2433045324df8ba584792169a9 1fa4113ddee8e2ea0c177f1dfa357eecf79e9253 21a29b7f543eae0b3d8534162f2e6f43676299c3 22e21c51daec2aec5c37f3b448c210683e825a8f 234b1eec6ae8dd6b16c385a923715cc8f6d2eb21 24d4ee51e293288e0825941a62759e7208787be1 24fabd284d86fb6aaf5c064717c21dd4d15c3991 2507b0e8c13079dcc4ec19b64f661e616a1101bc 26f14fdf9035d0ae53c455d588dfd6ad8f6d1ff9 28975a9c2d647ddcc210927a9946a50b892f2b18 28f19494d098b9189656ecf92039001adb3d201d 29594dbb609675d3024e949c277375efaed08201 2a4ad7b08131ed4c28ea531bd544f9d1d1a9d50c 2a752272e0967226a5920923b56c77348516be88 2d3ba677e7c7388af64e3761e7e273191ecf3a7c 2e0a2677b01981ddaa7db4f2d42fe9532caaeef9 2e3a11a3a89dbada43726bc92cf633f6e5f367db 2ed4627effcc7d258401408234567984e9f9b9ee 302a53c75be7593d352be3a6843feeea694bd247 32dbc3a615f748c683c7bb88c988f9df548d05d1 35c977cbff4b0546de5d41f0967c541bda552ce2 396479ba830a22ea0bfef2555003431c8ca04f2b 39fd893fd39678f293b9c9a8a17674e21208f57c 3d3189ba1b7977e9fb292f93382c42b21ce7ead9 3d9dc0da442957d54d4ce9281a70b0320e3d09e6 3da45c0cbae4d78c0988c3621d41afc7da71c83b 3ed5a1c84a497a3d868949f63c145dc5eec9bf45 40147c25c9acaf8f1164d252daaca838a7c08546 403bc26b1e5c6c3e52332871cb2c1b7840a12ff6 44278ec68633cf517720e9d08168ed925e174e24 452f2a43df52b91ae485ab3b51c6a066752ff303 45889cd643fb4665bb0141d2ea35cba59549f88f 46e22c607305f3bf4067568fc8de88635c56169b 48a887343cc86e9072fac576c08131987ff996b9 4b66dde95ca79b5a0a3d13bd3ad5d51a514b721a 4d66b59f906e3299ec6a69795f7ebc396981a05c 4d894f292311846583dd63f8243366867ae907ff 4dcecc7e7c4309f9329bffa587b2e50fbdc826e1 4e24dac387de85f460e93fd912850080ce5fc8c6 521f15709154f1a8f2f2ac5b09f642dcfa8ee8be 529e09f05199f04bd731f7d51fdaf6eaa24b9d14 5351b7a55833488591e6b6a8360586fcb1704635 54e5fe56dae65bbe2395fb0cbd5f7cd29d2e9bde 575f7ef98078e0f76958f06ab193c2acb99cd24c 588a52b1afea366c8e41f4f5b973d4006932da47 59f8b01b20126573fde4032c3191240416427bb1 5a5f0d0476ef30353b81e8c033824e8158511e12 5ab0eb173c32ac839f528ec95bd5086f3a50c85c 5cca86071ed0c86add5744a19ebda434223525c6 5d0f7223bf61d69edbf2df71ba475e6281b54558 5f9f936a4669c1d62027974dbd307c8c0aca8b92 60e06f35d0ee86553dcb7409ecdac765aefc1e67 63cd23aa8d5979bc45e0e4da826ad43f9091cd79 655cc97b0c55971fd8c00a7c69dd398580886027 6570a0637b905319408293cdb2ab28e2ef87e182 65e9cf976bd90bd3eeeb3c6673d27059ee0e8c21 6717bbe2079a5412cab597bc807e35b72b5d6a45 6731ca67d8df74cc4ff3d20b8bf41efa88f7a227 67f3d328403eb7ef2915e9e867d525805e2010f5 68987b54901e2e13b60427f387dc82b9e535daae 69c80f0aff4f50914592e51867b669c364b52ffb 6b1f4ddea102f31bf3fa7a40a4ea3ff19972e1be 6c6ffe54f99a326b7f61bf8f4343caae95f35936 6d61a6f03e1b2566cfa7418ca76c31f07b7faeb5 6e0fe84839ffd91bc0d2d126da51cab9ee767687 6f191954e0f003b59f0fb4931e83fe4c34e4919c 6fca6f3b937a1f7a794b1c4e4b73ae045e6b0f1b 70b734008f5e8d8630b73afe9787fdf8ceefd1de 71621f957e464f987849e3e3ab05557ebb6f5d72 71cbf3b110f6a2b5825446cc6ab90dee88649cdb 71d56c204f3ac08f28bd1ebac4b3fedbc83aa04d 72dd16bee6e596008a73a326c4bbaac0d220291d 73ed59a17ac1d47b3c1b0f4ac918884147f6a4fd 7527f7879764ce3af00cd965ac61ee7e0d88834e 75a2e3447c4fc3fb5f3d8195fde88c49aeafdf71 76285173e5db68c9a9047792a932dadf0987eae9 7764d0d42c48298fb3b3a2827fadaf4e3cfbb646 78c43e04f7bed22fe6008a8b4d5cd6f694c69f7f 78e5cbbfb3dc894b9a5308b43f8ec4dab64508eb 79afc5549e653423b511f5f3da4ec20ec0c1a722 7adeb528d63c262ce3555c066f9b16ccf0868fdf 7b4f90aeeaac5bb0cfbdb2dd3277007e7d0414fc 7c963258a6f108810ae31f9743f47c3454d46378 7cf237e44bae4b2458cdf1ce80e163854af0227e 7d7842935a3db085bbc06af88eec3e11668abd72 7e81cb9a38b3f5d811a48304a7ef4e46388c096f 7f5229f8d2cd18b39206afe8e019743d116ea864 7f6ff6c8fd55c3022d7cd1a627646e8ec1654487 80107774d80c1a2115c5be3de20c800bb7126184 8155a70a75eb9de34d2f7031b3f19c344a51ec42 83d112895749f45c8170e82f35701ee40b160f12 86df68dad805e9df8b08f15fe4476450951bbc86 88dc26415ee9613800371e5820558e021a40d087 8932c43bd2ca8bd5f1b0970d804f942743331f9a 89e0e37538d30dbd3be6ec32f669c0442a49e73c 8b8b8ac3a6b8805def4bda2302c1c1983e6c7642 8cc50b46b723647445db1618f2eafece20bef540 8ef1654b90e2f3d812ed1f99b09c9a4672bbaa24 8f8da9759df568a2bb3f54c68c34120edc4c6023 92d233b192ec281f1f2660280088e1a1b82564bd 92f47ff80efb2cdb6619ec74775d2c61a3eafb55 92fc797bd928a72ce7fd3dad0899ff376ac243e8 948c9b537757a7db6494cd1321f8ac97ed863595 95117bc4b29098b89ee2cf435155e458a7669a02 96e76fe65bd6366ce5c465ab153dbabf2e1d192c 98d8c6b86aaa804578cc4edcca97a4b5d6a0a9b2 9b6f57bc239d8c616e213496d969bcd205522942 9ce4e51217479f339a8e6762105a9d7c50db21f1 9dbc9ddb9f8ab23b4a779ef19d4541c2229f6239 a45565ea36351c0c35124818dbc41b00571e49a1 a549bb375ab5e8a1b2d81a2546fd6180575c7d0f a61decb993fd70561347b55a391bd707eb13f27c a6c2ff65e6e7da33e8e51c38eed353d408d9f4d5 a77b4fac40719e7268e90f72fca69eceb05bcedd a853fc9812e2480efc911faa48c8394667352508 a9f653a85639e1c0ab772ba461213305e1a8a46f aaa2e0b354bf2623b8048c08b3a7f43401f6d3c7 ac835be0f9d74b72816e7082f22322e6828387ce aca996f622fe4a2b1d0515fb62a826ae7c3de39d acfbdeb82f339411ebe98312df169cf64fec3016 ae74841187d4afa5cbc2f334bd1b3e4b6e92fac1 aeaab4a2986128c0a323809695dca02b84703f80 aebc0d61ecb5358ba25a8d1ed5dd4c537621d757 aebe9f136e408b8e13960a19bf2fe2ec18db1056 aeefebf7e229fb1888b7dfd10db8a83ef0ed6ac1 b03a0f6917dd6e97e907bbfe5e0c629e82352229 b06ea3bc2475936d21d5d924bb40250be6688f30 b157cb632105b7fd7dee54d9da23c7f164b8c7b6 b27735e4c240804c9f7ba03c54998d4107c8a3a8 b370f32038eac06fc8b39cb103f365ad35a63857 b377f4dabd33027ffda685c7cce2a3d5e8128237 b4316f1141a3bff2689c311b8dd28eb33b2eceb1 b5447a2ac485d5135734660feaca541875151a40 b5a0f2e078d2b817a2be0977403ea59cf1626bc7 b65b73618b0e1bba30ca8a049d6d4dec148c48a3 b67c95328944bc74bc2aa09b1d4810fdedab5a7d b6d286c3614dc2ab1c76910ddbfcf9f049801268 b798d665a5e948db3ab22306ea583f8d0429225d b7f4fe9ae44257c684a3663cbb964459da2c63d0 b8669523c2f8ad6aa0ca8386d33278273048715d b917a6bfe766c24f333e1d403c0ea392a6b2e38a bb59782dbb25e36d4eb0ba317972394c4fee1d48 bc121758f8620749d1a887d0111e9759184e2071 bc2a5b21c89bcae3aa65355b4722fbe2e017b540 be0a5f7485bb6c6f7b2c91d4ccddeba15cb1508c bf42a309b0598d304eb7454b0b946547344b6cda c060c6229bbbf1de2b2eee30f13cf1ff42f1a03f c28cdcef27c2a2288d2fd05b92e489eca1ccb28e c3443231a1bc855fdba8d71da1db53cbb5a954ad c4c3f610616d6d8dd69ff7f985fdd31a0afc07a6 c7f57cbe94d932407ea86de27a8d64dbf89bb2c8 c7fc335ff717a3bbf1ec297a96d111efcf927e90 c971585b60b99b568b5b2ab22807da87844ca9bf caf5209a91f3e65e02e0ac96a15e4c851693cc4c cd927c8b933c52a3b07200fd4c6025feee0ad3ed ce431079a46e99026ccbfe8e0d6e65e071ae9789 ce6798f07513179ee107b068cc32d005d32bb575 ce6d1867ac7c5c1dea08aa5fc500922819b50f9c d187a6e1976c24073b19c26cd929556561b70922 d200c834cefe9d9f7216c765f2b1dce3881cec16 d2b8daeb54f0e013f8b683068aa57581b119211e d414b987f565086bee13c7e2de1b720d6386cd56 d536c7c043e48a03a526721c2bd5710bede8f0d7 d663cb7a5f99a2b3b96b36e12777ea6bcc3420bb d6ce8e4c8d25d28a15d7441bfbb0010e93634479 d6da9de83123565011c679119952cbae48a246c2 d6fedacc3007747e8e2d0a098a1b4ea38a5b5cc9 d725c0b39a86901eab527f72d6e1683e416e33b4 d78776aee12bbb011fe5d42d49c0995db8d0f41d db435f7a6417015cdd35449991f1255ce52927e3 dc2b61ea59556e1437338333114a8c27fec635e6 dd3181bbdc1e56488792554e81ca595813ce3571 ddc8520eb12fbda6606fe2a2f340c7579ccf630d dde6034bf7c6c3bf5990ae3c01e71b7f63428fbd dee6f82b146ca83661be481a6fea847fbf2b15e6 e0a97c81883eab1516d0c157daa678fa46b24d54 e0af74cfad26b1862d04d11cc32709b44cec5aeb e565b89c4cb53432d7de3764cc40fcee71ec1ed2 e5a521f8876d665d51b769d71be7906257f33a8c e69372bc53369cb9859e0409d53795ce252662c4 e9c3c160cde97bc8bc8c818026b32ce8b20c8725 f00e610dbcd00186abed39e1b14252317a10a6e1 f03370f765de4225adc07d281487fbdf06beff97 f2def93b3e0e6a999fdd810ce713e7265de301f8 f4e118c82d4edbbb5ecb406fc0605eb922d1c464 f55b78d4043bcef1bbe7148079022a0c31946cfe f6ffe89a80b2408f2c400573826cbe3ae1e99a91 f74721416f76037d10604096c6503110bc545d39 f82aa5fc7102b63ab64520ecdc6ed04abc3ce265 fa0097232464db7cb85ef56a9ade08ddd52f4f29 fb3ac21512c12f22a5495d8a798899ba76480625 fbf226e4de4147133fc07c411e638d6b915392b9 fc4077b364d7a138f91c0a9e447824c08c135d19 fcfba9ddc91cc8a744ec0a2654a10bb178b456b0 fd04120aee864dc4db3fbde1b07d3cea13234d67 fda8b370031b53952de77c727c01a1bfcbe76c5a feba4809e8dd29314f3004fa1e76a9c1b485c540
+
+Package: libupm1
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 3794
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.5), libjpeg62-turbo (>= 1.3.1), libmraa1, libstdc++6 (>= 6)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: libs
+Filename: pool/main/u/upm/libupm1_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 626782
+SHA256: 517e21a66f02711b47c06e69a615959d597b63c567a208c732548eb11b6825ca
+SHA1: 3b4328399d990a8afa19a2dc4dcf941c56ff09a7
+MD5sum: 006880b068711e6c64ed9805434e3974
+Description: Sensor/Actuator repository for MRAA (runtime)
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the library used at runtime.
+
+Package: libupm1-dbg
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 9752
+Depends: libupm1 (= 1.6.0-git20180602-re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: extra
+Section: debug
+Filename: pool/main/u/upm/libupm1-dbg_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 7547682
+SHA256: 63dc6659df8375445414901ee78bf4469dd0a7a628f3717d3bb5765e0cbb9480
+SHA1: 3f61474ae19485873e632899e074ce81993accde
+MD5sum: 6a11cf56e66f497abfc5194f9d6c402d
+Description: debugging symbols for UPM
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains UPM debugging symbols.
+Build-Ids: 00a71839b40e2467c9cd7e74c110112e8b514243 0126b57d2d83b322b61265663e4db5e7f997dfab 014720aa94786f1a1e87db9b416764c6cafeb179 01922b1784c16b60a4ed0c1e428297bef746eb6d 02122d95b7fe4e8dfd92ad3678f1903dbc181d6a 044269c5a637c4aba91264f591439823f041844c 0447f49a58627b4ef7adfc008c95dafab8d602cd 04a3639a527af163078674ab489a6c73a4506ee9 05bc8ed39b837c0917871b7e044226288348152f 060a15791058de352e1a3a681b2b7a5341730ee7 0635180d628c565539c204c56cb57796b5d65909 069eaf611899b3cdc12bd2fe38322f7a89088744 07585f2a2dbc55ddbf5bfad0e1637153e971b900 081654aac6711ad5d12032da9107c9dbbee01ff1 085ee3baf06a1265e88321e08c5ea3ea51a73472 086a28ff610dde08722c7b95ce8420e4cba84a83 0897914760f8b4f048ded84357558938ce30e90b 094f441f4f96b2cac3644d76b7834511aef90b5f 0a99c3641dac7e79baaf344446a56bbc043df049 0ab2824ff34aa4c60a1b21bfc397574b7a332ea9 0b20ce9dd773f989e54fece94ca5204031ac2b9d 0b5e32d5a365cfc3a66ca087b488739d690d0807 0bc4b501aaf3388bf9db1c52b089276f1f00d3b6 0bc9e2993ab37644bf5ba853e37d168edbe5e38c 0d2683c50c47af7265d20efeb038ed151b50f124 0dd31eeb4ebe85734de0e586f013a2e73eea9f0e 0e1647d9a4bc08eda4d1d0c2269527426ddcde69 10b0c1f993dd6fb0e6258e03abfc4dce38c5e3c1 10c88d19687de6d1a73d32e88f21bb978ec54ad0 130dad6731ad6ccf840d9df69b95b6d85a25f100 1316848ce88cb221400af43a14f269aa6048f9f4 13b465015af6d8d8604a1415ab552546fe5f3fc0 144fa54fccf07940934f96185d71833188c0acac 15703a5f5fb163f6eb9bda9eaa2ded04659c2372 164372cd9ddb1c7d9419dfe652427f7c5eadce35 18f45ece83949449dbdb0f6644557f913b6c9548 1b9b1ec8d07624dfd90034a1c60de8dfc5537b73 1c1af93061bd5c61b0aa1524c2b9c03ef0537c89 1c6317690a38ff9b08bb4b7949db7466a8322b65 1d08bb96ebf2c982cd7790fb9c1bea0d00b69600 1d2da8b5345f9b5f70c85ac65ccd264bee98604b 1de4f0027267e95301cf86ade310671a57e89d53 1e26b4e95edd51d019b1ce8db1a126c6dc2e47a5 1f078e99887dea1c1a0738f56cd296030c1a44de 1f1951e5ef7fa4bdc9831313c7b67f4a5566137b 1f796132cb92c2b3e06451690a50571de43d81f0 1fd2d1b28d5cc796323b4a89e6df83abec32ca6f 2128bc9ece455e3db68b80d3d5c633cc6d325e09 21de673df2d198220264c3546ec5c850a19f3e28 235cf55f28636356373cfe7e80d25e6caf861bbf 251a840033ed21db4acd485b4d2eb4d96b3e6781 266fe1f877a6a29360d8cfd9ec761374d01bcc3c 2734ec52cd1b72e902449699a90b65ec5eae2eee 273d83c6997478e885dc2179f26a6128eb649db3 273eb958a015a8a4ac112b072ff3e59ff1c17351 27ce8612965cd6bbab07263072fa96b49383b77d 27edf2e28b50357f67780eb7a1372e89a8a1b9dd 282ff60388cecc6943671509c8d8667286f95eca 289c215fb6f924a5f046741b93330643f2ed11e9 2922fae496351d2a254003e780b288274ddb5888 2a20dcab98024a2ab064513bedb5249da26d3448 2b7f8f85d19a87f8ea8ae1451f0ce2f0fc1406d5 2d1640933353e29f9804fab939e10da2b8c4fd05 2faacb8222b631ab2fc62321741cae8f2320f8b8 31704c4e0cba27a65febf1276d67cb0031563699 341c3d0ecef2da5c0bb5d3974db43dfe2942d708 379742635588181a2d9005f2f786c21978269173 37da6f5ae39e7618d867f3a9617ed68dd04e6d0d 3807a1fab486a22b79314d7c16754950754342e5 3854a978b3cc90417d0ffe6a83f5763a241f076a 39120582d014d9d5feb4677c9805cc9f499a80d2 3a3a91b21d3ca8ee891e28558455edf92c156a0c 3b19c4878d52ca36cda798f4dd011d37c99d9e4d 3b398624a583415cc1efba313b9c15287f9c4409 3c769512656ea3ef051810a97e9a70c5a1239ee1 3cad6eff6f2aa49c501ac9238648c02fb806a890 3ea3b93c20ec422f1cdefe9cf10988ef4af5a72e 3f2c19abbde5fa63ee64ee521d945ae863fddc5c 4071cf8e487f775c2f2345d9f7364c3798e9625f 409b56634ca2aed4cde59a9a149789b255d9ad37 424c8a00166f3ca526f0c0a23f809fbb59b6e81a 42a78852e5f7ea7f4b47fca63c85c78118940930 431861c39cc5654285761378aba02e44783fa713 448d8b36051469ed771dd0e2c9b480ccb6520d49 46a83aa317dbe7e06daa81cda4b1f46bce1cd5ac 48740611449235f978c0e3ec9046d72f7532b42c 4902e3489bb0d7d1b93ae376aa84fe4aba0d367e 49f1ed2bc9451d0b4f6dfa1af9ed394397b3cc61 4a29be3f619934bfd1fbed8057988d99d726a041 4bfd72ef462f8be4051476c43f35caab42f50a97 4dcaf3fd1344381c027b203561ce45ae7a07e9e2 4dfda70c78d97730df3d96a91b2e40ff5d74e10c 4e0223e3a84daf36ea7a53f1211fdcca74deb3c4 4ec6957640402f4caffec33810912d69c3359293 4f06465ab8993ae7afb918fca900e1165f28a394 53c76c79ae48932620bc675e567b8aa19389eed6 54e3ee98894a02fc5d7426268271fb67de969ee8 5502278f4527567dcffc1323ccbbd4361617277c 5591b55802d0c27dab089fe629b4949b67dfc1ea 5647312859ed56846430d75e9d6cf4c4db6c1723 5881ef04bf903064137c77d228a92c0593236b4a 595a3fb31b99261884c099aa3b48e0260f90c77a 5969a9d22c028740c0eeba0a69ab4bf671fbc16d 5af312016568ee069d4f86f82683627ae38410a7 5bb266247355372c5b497b181462f1b33033071f 5c9a5bd4234dff7a80256693aed4a72b55717067 5ca5fb4103e45a403e4d348029816a7247c48581 5cabfd6dd8c1e803e88c5cf682481ca09ba5a034 5e2dbfa62a747675402a49a84eef34fa349c1ca7 5e6fcca1ade44a10d9da4dc5c7ac10b369e0c5ad 605e540d315d295041c089931bdb4b8e7d6b05b0 616e605f397b595e8d4049ed4159c357def57abf 61aa85046b42e8fea8822c2145cb24d94ee8ca28 61c65691b2a36ecdc1db7a2f5f8424a0e68db29d 63b1c8f57d1e0b1c31ea61108bdb518a9b2354ce 640eb99918bc372baaaf8950e9bceb018177680c 641a5dd51324810963d718028c4d3b63bbb40f96 6483a7523a48c30461b3c02e163159ceab57f837 64e2e4c5ad833775679ed2c7e9efcd28d8678b35 65d8c3ec9a8fc373f47849d06d905fe76a838190 65db8109d41782739b4bef1213bc03b8629d6279 6626df323d3664f6e29b921beef262876d08752f 664af1a96c4db905945640fb4363abd7cac482e4 66c79f503f079ba3e98527c77d318ee22a27e7f2 6758392c9d1be0428fd21ce30d82b943273307bf 68505f21f5365b0bd38521eafbf3a3800cebad9b 6896096db1d7eaf90fa89a352e524ab1e9be7d52 6d71c1d10f234abbe8dc44fdf3199e3659e9fab8 6de8b54a868f342d38a724e4f65a5f6a82ca6989 6e6b1f61d6d3a3a597bf5c31d6c72e49dbe0ad25 6f0a8a6762d9784be05e611296ff4fb0a3b4f3d9 6f73e5502be9355614d77aa7a7896b579ad43537 6fc18a2bfe3191ad32ea8250ee197231e8099a25 7257a4933d29b07f73dfb859cc6f4796d6572b98 73242e81adc17a728984d961c1ad22ecdc6a823b 732be6209968e3847aa89ffdf6cc65d6640944e5 732bfe53e0b33a29c3baedb02d0de4bdda47066c 73e23220a2e43f908b5177f36ea9e6351c2127d4 765e7ec7ba9671bc3e0e406618bf57953b1ce7b4 7745450b1265e69efd8680e1ec10b97c73bfe926 77ff2755e677f28f957f149b7c785761f5237859 78b70358ff3c78e2c678fd37758eb37d37954b87 78e43f0b1ea5047c9cab336240f4ff1bb5992773 78f8d6df2fe31f611e40bd50267415068467c206 79c94cdfcce39023c8bb92224ff32e58f722f6ec 79d81fd3d371ef8033f813583d22888734ba4d3b 7a407ddc350dd30cd1dc1f3b1df2795ad5822cd0 7ab93143b219a08baa12e6afc259e45faa3ca04a 7afd3d52fa0fc5996f81fbace0c1d70b6cb0a4ed 7b6b8aa0721f853e8b05c5f71b69c5b381082489 7c7dfa3a197e95f5b7294038cfb4b0565669f8db 7ca16a6512e9940de5d1465eca0eb9d159064ffb 7eb5e152d1dbcec837c2154f761939f5bf78e7d9 80244ba037516ef4b678667d4f1ebc075614da17 806ed1f9ddea06a71ba9ee3e5e5b2253678ead49 81aa00014ccb1d6d8b7afa71ecb0866f3dc39f8a 844b77094ac5a8388f3528bf927d3cde429c3a39 85c1074647fb5422ce0e7e036901e18e3bb1b45d 8611ddc06faa36a4b31ec437632c901b98128a91 8618093f53764d846b6478b68a1cbe13ebe094cf 86a70c2dd76096419a4a3bcbe29aff00cae7071f 87c2c3b5c18347d4ea5f80ee4d4750e509cfa74c 882addbef53faf14b949ba6b96aa3bec6234c8a2 88f125fcb6cfb6aaaf448fe6cc2ad22d60dcebba 895c2ea1155e0624a5e8647430f4fb6e9a93be3b 8a0cc62098be3da46149dbc4a023bf7f7b08b098 8af793e6ad2ca9222e86535fbbb8c88f63a77cb5 8cc2a5eaa490602981fa066543f0dccd235f9e1c 8ce981cc9f99b01b1849e58796de412617f2835e 8d1fc940e07c4130a8c6351089a89031d4acf082 8e20b8b87b67089d142c51acf92bba9533141b92 8f8762d2553780b78e2e6b3919b89c55462aa0e2 8ff604b9280dacc003e24d6e4c17df6224a07a22 90e798f1e5fc7c20349547d7e83b09ca65194ff9 9255bfa6f21a6ad375a6db20f5bfb813a2bdde9d 93d6f06daa949651a1b499fa40afd06af3fdc8f1 9636155f8e2f35156735356b34360e8e72a0b9eb 969cc655f59cfd1e90c2d5c1140e378939c6423e 97203ff1dd554c15dc9f1bb6d65df44aa92ef2e9 973c652856b0c357b34d2806b54d84e23c2a25a5 97ca06016f18e71e8d5d002079cadc5e2acaffdc 982581051b79c83fe473a86f973290ec2d9d8b38 989ff7d88dae2a295c1cea1dde69f82e0a8b899c 999389035a5ba80f24bc0e7d5e7d0f97ffb73112 99c30cef9575467c4bd653dc08b25ab3eefb87db 9a6733d2d66beb5cd4dafaad0f201647ef738778 9abdfc36c10d086e3af7099b1b72a5141d696bb0 9e4edf667269ba132a9459c28bce5701dc1505a3 9e69e6dd72077b72dcf8379fc4a96d8316cc67cd 9ea5de59be54603a89017fc3ab9d0c68956d4c56 9f6ddc1f82ba3b275040f53534269dc715ec4ef8 a224a5f20d6613b36e82b14867309065bd17e628 a26d883419ba6c8f9b467e97cea54ddfd976b706 a31439db8405e917365614e3dfd33adac84ba829 a46e62a7fe9742366ba241590ca4463944aad48f a61e5e94407a806ee3702e0b0666fc90d76f0709 a626a18f345138a04b9875b9a78eef542afb9b6a a658820f7885f351b3563332cb0196c18bdbccf9 a6f618ee2c3f08ce03324d0c10d9c680f2e61180 a75354e61e14c4815bd995a5f8477110a13207c3 a76efbeb7465d5511663b23fcc5b0dfb70c15731 a897aa11f169f0b69a67a28427452a24b1960bbc a95d8f418ba2a5e68c27faf05036cc45b07baa2a ab0adf8c470af8490bc4d4587960c2bac98f2269 ab72cc4e7a3ac8b9b6815f8df461dbbb0b15db84 ad51684dada9df71c60d072f5579cb1ef6c0cc33 af126d1498b0fedb958b0f4cba68cdd7e03822d4 b3298248f0111e5819149d6925562187492a6ec1 b517c8449cb8a95aef3f16a05d404e1b461b962d b52b6d4bbb9ececa3272bb49bf6673d718b6f5fa b5fe3c2469fcea5cabe8d4d746e42b8768ffd7fa b61304cf30511ede4850e5f67c757dc8545afe4c b8081f083a279952782c21880e90e840486c28b2 b9c7d492fbe6e6625d8c559a73e6129bd2745439 ba61023e4663d97b0e91a3b2a16356404ef4ac75 bb24500d55bc80fe54ab0315f627277f7d67abe2 bb3d0d04e531e2c1da2343711cc98494d41abcfe bd5aeca9d643d60a76fedb1f2d27c72feecde864 bf4cd0284904dbacf4eedbffd18f833b02013b0c c07358171de1f759e1aa63bb87add618eec133dd c07efd1f1dabb37f52de8659c2c17e716402954a c100f9fa887c6bb25bd0226d4d7da97b86723772 c2a259d2a855dfa13d51f70037c09acffde54e6b c2e7aec3483ab0162a7c47f5816e099f5b504613 c36f1b0e67921d91c164ddaf23436bd2dd4ce1ad c37c9a5539fffb87f8ee1ed7b90df19c99a20249 c3d83c817e6de52c1e573245297140992f537a02 c428b8d2a34202c39cf8243189d2b99d64965043 c42f4b246ce28f2cd1c4dc43b1399b65f9fa744a c49401da83510290bc99c1835554e5be7f47cca2 c4d45e4bb57a7b5732d4ceb27ff8e89fe1fffdd0 c519ddbedacd5242fcfa41a7fe3fb6bbe223d47e c562f36e3877065ec2d8834aca4bf4e46483f592 c59b945d3ae72dd0d2e501150948fd0a68880b47 c623a967e38997d999dbdad845e6444b0169302c c68729f173425bd5f3492c6a431ea9a2570873a3 c716524d5650c9156c6bb756ffba2b14267fe14f c741fcd3058be268c73cac3c3d2b4533014c1a6c c8892fe02af142a221081e3846a75c91cdadc7a6 ca0261f4c0c41c9b32fd87c336e3dac9ab5419ef ca8091cfd9b2049767380d0c0d9f4d80a9045d08 cbb48be2e5f4fc7206439b76ba98aed2c28e1944 ccaeac68f48f216fec55196232096e5f463289d2 cd2eb7b6d406290075af00c33a6a808bcd1df1a0 cd2ed9b5f7bfda2e24e0c75a46b6259d1d0a71d9 cd9da67a3850b5bcb2cb36f94e7dcbb41b2f14f3 ce4bc896a6e91498979b283a523935d58fb80528 ced203c23b8d535198a2b3327cc63121ecb92f7a ceee9ab8853163ae7fe107b05b1db10e54e11fa1 d080920b9b6aa20f1b3cf4261b1b4e36e24fe4df d126e3bc456707835b022f4694852548ac79b28c d12ab2618277aaf439f970170e93e2a55412dd5d d3b51698fb5689c53f8ea4b3ed30c519581f5afe d3ba40caeee9ce4064387a08a86ebf89e3da6aa1 d4b84519485b83891655c0b4d9247e41ae99c716 d6548a1effb9fbc6f6c48c1166a8f28db24e8a38 d6caf76fce7703d48d3b777e06202e5d713cbb8a d764e219c183b622e48edabadbef92eb884aa7bb d7a8cec67390332a0009fb7061b9dc05df46be33 d91a42d1bd0f2d02494425ec22a7be4edfabe51d d9c2b4728e7951f1161b5742902d475d08356117 da091c37b2c17b36d56e8c04c3b7fead4d045603 daea1e0a5f9de656eb0979d11c0607f53da1fb60 db9e4fa1f817bbb696d39893ddd1197e877f2094 dcf4e6f7b5801f48b1ee28d91859007dde007270 dd173035525dadcae5aa62701ef944e96167db70 dd9862be23bc73eb8721e6e82b679cfe6d1435cc ddeddd75499426eceb49fc741a3b8f159441d63b de38597ad9c717ef63cd568b415f770d65048d8e e0398fd3edd265f7cba5f67a7f3fb8e268906168 e0cc89663374b9e8e529f9a96ee2fac106ad1caf e25d71f4b4dc2c66d95bfef140fd6d8dbc091a0e e5724586537e314e39eaa1889b2d0f9dbed2331d e57ec6b4507c05f60f8664051c86833ef9dc2e2d e5b9dee2b91ff15bcc6e4812d0ec60601c12f623 e5ddd13f02fc3a0be792404e20075503cd5e5584 e67dfb27364176fae6475ed3d111d919e838bf4d e7184237677ab2f291825b76f92d2911c5a02288 e8ee15d7e4c94c86f330ba9cc670d90f6a525760 e923785d13fef9b11e4fbf08b2d68f02be24baae ea1db9b21f544a5043c432284c11eb497276d12d ea6ddb9978667493c797436d66cf0818f524f3d8 eadc3efa01952072559d8a1cdf3343f85afd5107 ec72629004b34501ed152d6e209128b2716c0552 ed9f281186508ada26aa5c1d1c66b055da74a29f f0c1d41925b41a33f1aa9365d9bb224217b45318 f1e85ddeb14dda26a6c727e4d22e4bb3ca38c8af f1ed8aeed28405202037307d8aa14c638cae17be f2a19123db0eb7887d49f91783854f42b22250ba f2b595926c3f5b3198e2c4e73b15df041302c2c3 f2f45e0c439aac2110c368e8c644cbe3c6a7f8ed f32cb366b670536d213d93b2c4147ecabf8427d7 f3d0baa90313a532e2b54d4a177c57a0b4f51bb2 f4898418935cb801edb4a936dfc83fedeaacd85a f4bd58989b6e131c4ec0329dbff3ada1e273c09e f76f3317fe87a716bee4ea603864c1b669fb16dd f8a9d828df87798f592cc04e3d4acc3abd35b16c f8f7bcbc405e687a7995ded9a043392e0760456f f96e5a4f914faa0e2d93718b6e9b0b48a85ef153 f9ce8483346a4131a20dcc6dc30ab350ccbfd523 fb856f0b7a4f6104f75a99ccff3ed8d245dabf25 fb9cf0dc31c374ef66ffaf0b11c07f71178dc8a8 fbc31ba04795b197feffd95db532ae062a78f478 fc50057d8d6c324b8dcfb4392b5b942f1e8ee691 fd3acdb98bab9f6540639378a02d516e2bcc03ec fec7ab71224767b8b4e22c1385feb73e859087c6 ff827774b12ba5cbd7180cd15093353558a2dde0
+
+Package: mraa-doc
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: all
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 4244
+Depends: libjs-jquery, libjs-underscore
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mraa/mraa-doc_1.9.0-git20180602-0re2~re2+20180602+1_all.deb
+Size: 1113242
+SHA256: 7c442c7630b6f462d41ec1b5342aa9e6256f9e6135ca7f6a0bfec1f1542e4882
+SHA1: af1a79193008789220063ff24601fbffaeef21c3
+MD5sum: dbfab0f9af82d117f9e0f5303870bb83
+Description: documentation for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa documentation.
+
+Package: mraa-examples
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: all
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 258
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mraa/mraa-examples_1.9.0-git20180602-0re2~re2+20180602+1_all.deb
+Size: 33068
+SHA256: 2291c330bb8aa3bb8cd056c286811000a245b9b68e5189d08364820c229a395c
+SHA1: 72e66c9645fa9b004b8b2c0dba389c3d4d57c3ce
+MD5sum: 0ec9347c1b0de531a707ceab9d957088
+Description: examples for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa examples.
+
+Package: mraa-imraa
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 124
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.4), libjson-c3 (>= 0.10), libmraa1, libudev1 (>= 183), dfu-util (>= 0.9), mraa-firmata-fw
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mraa/mraa-imraa_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 38840
+SHA256: f7d18cde67b35cdfb0d028182dba9a5f8e25bba06c5191eef64719604ed9dab5
+SHA1: 0e67d414b06be5d777868d5bc40e608ae5fb7d42
+MD5sum: 8758165c912bf0d11ebb6156b271b7d7
+Description: mraa imraa tool (firmata)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa imraa tool. Daemon that configures firmata devices
+
+Package: mraa-imraa-dbg
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 15
+Depends: mraa-imraa (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/mraa-imraa-dbg_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 7362
+SHA256: 5b43daa6140d0d81e20cd0c855613ae3c06d4b7a91db76a87f72d318f6013e9c
+SHA1: 3aa1dc7c9424b458733486004c4f480833024470
+MD5sum: 7afa4a32aa109c5ea86f33dd90792e88
+Description: debugging symbols for mraa imraa tool
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+
+Package: mraa-tools
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 36
+Depends: libc6 (>= 2.7), libjson-c3 (>= 0.10), libmraa1
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mraa/mraa-tools_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 13640
+SHA256: 05c3fbbead7db13845af8313fca34946d86ff97d9099b58d1f380a3565370e74
+SHA1: a6f0cdc50b68c6f9ee9d182f722fa9bf2dced64d
+MD5sum: b41bd11b735ce7149efb2348f59c8648
+Description: userspace I/O  tools (GPIO/I2C)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa GPIO tool.
+
+Package: mraa-tools-dbg
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 53
+Depends: mraa-tools (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/mraa-tools-dbg_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 29658
+SHA256: 2ac432402f86a88f9eec1d96657d61820d47930f32948cce94d917206c77c5ec
+SHA1: adbf023aa9e182f2eb5438717be0fb8232bf4b8d
+MD5sum: 439f2702a4a2222dd092ce9c72f98c76
+Description: debugging symbols for mraa GPIO tool
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa GPIO tool debugging symbols.
+Build-Ids: 9e003b983c2e74b918419df6d836b02785b3e09d b8f2382a7903e1cd0d2d262ac5e6e21598974790
+
+Package: python-mraa
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 209
+Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7.5-5~), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjson-c3 (>= 0.10), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: python
+Filename: pool/main/m/mraa/python-mraa_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 52400
+SHA256: bf56053e7e766aaefe7b71889fb732771acbd01b99197249b7240284c7f4d3cb
+SHA1: eb9940a13e7662ca56b27a9d7d7a2db7f1c4bdb5
+MD5sum: a95008990ad9f129110b0176140fd97b
+Description: Python binding for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa Python binding.
+
+Package: python-mraa-dbg
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 231
+Depends: python-mraa (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/python-mraa-dbg_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 200318
+SHA256: cde515802e861647667d63bb940a9e33690c412c4669f5cfd23aaf84ac1c0145
+SHA1: 74ccf04955e283285daaf94ed69448792b15fbf3
+MD5sum: 1002c878a2f5719dae50c9cdace84020
+Description: debugging symbols for mraa Python 2 binding
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the debugging symbols for mraa Python 2 binding.
+Build-Ids: 22df5dd65de115648976c70a9e130a7ec03272b3
+
+Package: python-mraa-doc
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: all
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 462
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mraa/python-mraa-doc_1.9.0-git20180602-0re2~re2+20180602+1_all.deb
+Size: 62806
+SHA256: e5b6acdd709a4508a0cf521c56adf9ab6d8f63afe423bf6762db8e442405d645
+SHA1: 582822513d42c018b79a39127247b6d35ca06af8
+MD5sum: 724fc51bdfc7c46a73ee8f81b6a40ba4
+Description: Python binding for mraa (documentation)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the documentation for mraa Python binding.
+
+Package: python-upm
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 19906
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjpeg62-turbo (>= 1.3.1), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2), libupm1
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: python
+Filename: pool/main/u/upm/python-upm_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 2604862
+SHA256: 0de739b294d6c5d0fd54dee9ade22831b929034ca8c1fd0923618e802bd4e723
+SHA1: 50197ffdf99392c575665080e3fe329d89b91c7f
+MD5sum: 852932f369746bc7d2106b80690a7ed7
+Description: Python binding for upm
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains upm Python binding.
+
+Package: python-upm-dbg
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 39545
+Depends: python-mraa (= 1.6.0-git20180602-re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: extra
+Section: debug
+Filename: pool/main/u/upm/python-upm-dbg_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 34673944
+SHA256: ca375c32d503b4b0a937d747a7aa970e1f7a9b14cfe4aae674c7badb3f0e71e9
+SHA1: a165a7691a6d6bd972b340e0fd4e660c1894dacc
+MD5sum: cae51f217e3d7ae3a95a5713a08c89bb
+Description: debugging symbols for upm Python 2 binding
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the debugging symbols for upm Python 2 binding.
+Build-Ids: 00285702d509d98e608b2cf2d5dba2b9ba9708be 00f24db178a70e0f0f0a33c674a4800897791d46 016225ae8beabc039bd253261d9171191e4532e2 0195809fdf666de8214ed98946de74a1b3e6c006 03225ca70da924dfd70371198f4f224d24bba33d 0ab9c432f89cbf21c857e1e1a870d1da4b48290e 0c8d0b0498d816f22e4cbe00871f59ad0a7968bd 0d788ca767698290bf28f87383ae33bf84ec5525 0e41d96bda5ff6596be7f79f667710dbbcf6e382 10682f4363f794a9209cbfc856b9f71959a870e2 111958912772319b8c57651decfda4b68df1cbf8 11fb3c6f3f6ae7f63403874ecbc26b8b21fbf70a 12dcb5970155a26b2b124a638235fe1645eb7451 140ff263f9f675405fa034e8ad3ed12985591073 172235dd886e814baab990db5a167a44e0a42957 184319b320d340ffaf6906054a5873a465fd9c21 194999b68eac53258c7643eb26b84961c8726490 1b04137a5d5eb082f41ea3c5ffb2ae15a2296307 1bd34cf8718cd88171ee28ebd6cdfeee9ba3d3ca 1bed5666c79f7951db97d98118fd5b27d2e4472f 1c0cd9551c1f6dfff9888d8c9dee7f496b3f06f9 1da850226ad458b1a7a2fad22c6f839f8aa5c6e0 1e4289c9badb494063acb160dae37af6a442d9af 20f4cb2e43675c8b80704a436126558680b5ecc7 21cc1dded6c66f2839eaa703cd8c108339a09475 21da7e4f735298dad2dc566fec86dd07aa82cf2e 2427149f36cbb8c42a6b0e2f9894e7c0989e55f3 253ccd20fe1700bb508cfb8a09e8fdae61741bd2 253fb4a13eb5b4283318553ef523c688d461e52b 25b5072dfdb83d1816ef6ba811f9f3a7d008fd01 25de25bdc2019068d30930265751a7eba233b92b 2885cf92242913d37383bcc43bdd7a0bd25f135d 2ad3d565f1e06c05adf1f5f64f4d81406bd84972 2ba6285984e19921a0a744d12944500771402ebd 2c87c7378f112e54d365c9aa39cf2753e8f8374d 2d1b8ccdf22c5b03a12381e730503bcbf76841b0 2e245bf51452cf14401972c7abe9d6fa8203c75d 2e9992167fcaae942750216acbcf6a26bc197930 2fa201af1bf0f6602d002fad709f12d2f090f19f 3085bdae5c3414c775bff25023be40739b9e1bc6 309bf7230115374f2714893e26273cac36deda1a 30cf92db2841d351dc379a640b551cc1e1398e5f 35965c65c26efe32f9d64eb2c00f509ecba04a63 363965168543309f7d16d9b73b01b1798e66c9cc 367a130a9667d6543d9af0283fc09eed6a0b5b20 370340fb7c603bd46788f1e27938d5da1dbde56b 37dbbb343851d62b7546ae750e31ccd5620b66f0 387a5273bd10e17d0d9f323d0a58af438b6ad667 39363a05f3e0229b3e19f2ca8fa9d84b575aa762 39c4f76b61ca76357b9a5bcbca3304e8111fd1f6 3a1b9f581cae940190ef3b97328616db8fcef51c 3a4048dc66d2d329e980ec42cbc9927d65386bc4 3a53edb8fefd3df086b1f7df67e10f1d39223238 3b91aad3430a9fa41163a6e1b1846db9ad9e6cdf 3cfe9be101e82003b3ec1e1810a91952011c6cb7 3d7ad11f56d1041ba9da5cefa2509f1e827c83bc 3e269168e44b07a6fec0003cdb4bcec4d2c717ab 3efd7517b9ff3a6683f8b9084e650db0070c3e43 40016ec808f5b7273f03e58b51a6d9404be91bfa 410bafd60c2542b65991c9aed1c443e9d494cadf 4263e74cc0556f56914b713174b100e451f46647 4332e47756819ef81a5caa9ae2e412e72a1cd479 447c926835906c3f98014bb46df830dd97c89789 44ca8fe3d5a618d585a059a16fb529e0965f0056 453b5f0e70683d1ac775fd11154a506f2ae0b587 45ab68cfa01d9597f85f3723066201b1bd433477 45cd23c706afafa4e346bb5401b555a3ea96af49 48bcb9005bdc21cab4b6b2400a2a7edba2a10916 493e2dd2d14335d95709d3d05e5bcd309a8887e8 49ebc204453e94094891d4bcfdb0351752019953 4bee172e157018867a42c51ddd2c54bad115b862 4da3c88710c27ed239ab5b955b0725908d07cddb 4daa3df468ac5a25ab46b208e047845af1074dbe 4e50c0d4a62bb393bbdccb126b329b1790d2b5ab 503f634f350e046c67d281aaf2a89537009a2766 541ec301075a5f96e496a8b37ebb219b2ed5362a 55bb9b3c7e79ae050fd882c115bf7d7237250d42 573bd580c6b7343766daec3a2992a1e9cc7b5fb0 5746020bc9e3eafcf3ce74e8c05cef47332664bb 574d34899a7dfdc7195b1b88751738661331fb47 575ac29bc094f5d91e61ce06a5d761e7cc14cde5 5812b3bd91bf078c53feca306b4093369878be37 5bdc232584f646eab1c139a7c48757d479210c3a 5c35f107f0948cce0f9352aadfbdd1c79b32a235 5d5a5367252e98a32c25d5cfb49ab257995e1d86 5e0be9c93090c122344f92b0d6bd303ab0898c72 5e167f035d1e113d5b94cf417eba766e8589cd6e 602e1319a597edfad187ea8cd575549a89663845 6130c977d7ecaee1201589be7aa49153ba419bc7 6138c1adffdc4e387a4eceeb890914423796d466 61ecae6b08d1570672456addd611eeced1fbad3c 61f1c9b7a32712a980f1b83c7da16e2e6a1a5c1f 6261b9d8e96d39ab788bb347f4a8554891412e1d 629cc523c5ec7b9dc34f61195285876093ce6057 64d1b520944435135d37159233ee66b8b7a3d5aa 652cbe6e5d60b06adb8439c6c1f2fdd0bb6d32db 6532ce5f4efae9402bff43ab045182a4bdf8fea8 663a2741ffae88e62295fd418f47e4cbaaeffdcf 667c55ff865478d6a6e587019db6602b75999dba 6872f09e3d3c340fb4b790e9a668c6af784f586c 6a5d1128b5af807f0c7bf972449f334acb12d019 6a7370d013e6b49e6592f31312e46d7ac4d01cd8 6aa6ac542ab56c5558b23b0990560ca601deb86d 6af9e52184443a549e9ce48d9d8218377242f918 6b9a52bc54a0f65c1b4e1567d34aa284071423ef 6d1f5f5baeecee3545b317e28455a21d3df5a900 6d38f64f4771cc2852d40ac3444614bb8f3903bb 6fa6b53fbaac7d97c910dcd77f698874dad045b4 6ff1d0399698c738963b8d5987ce49176c7f34c2 722c687d9b71c40e282859976b96c36aa6cc77eb 7985134498405db58df5683780a1a2461156dde6 79b4bf00aeca2bd6534751197da9ded169294098 7ce95d60571c3047ee441a44068617d54f6a34be 7e75a7f59fc373d996e14e99e5a71ecf8ad300f9 7eab9b171cb02b92d3f8fe0334041029f280802b 7ecd0b1b6e658121189c88cf2d239cb2aa726461 7f1bfcd599c751fc9f03a49a555424b2a1f63e90 7fa8b09161055d110c1d75b7614044bfaf332f04 80b8d34c8e5bc8ef3c08f6ff01c9548fe9456103 8176ae038e0853a419bbe99102d4458ca452759a 8180e0468afd9888875c732aa7f6b9fe87be77ba 824afef4970ffd9908c62380b6a49e2a3ed92363 838e613eba969d429443445e75d3d5b934f518a0 842b526cd55718889ec761ca370eb42d5d88f06f 859166c351671da48809074640317b7c9f4ac60b 86359c8447046bc2ee6523a5dc696ec066a47c42 885f421e42e3ee8cdaa8b03b33b3f0920072d251 88e3ceaece95b222b00044d4cf144963e5de0f6c 893c456b39deff2a380f10b97150aeeb800a597b 89cfcd474082aaa1dfa9714c282ea4f391c699a3 8bd079672a0cc11c0480cbae3388b7404004cd14 8cb9a6f0ac0010b389e458c486e53a6485b853e3 8ded5e2d1e16d96748229f1d1a83354b3840ae23 8e390c4e70860c8bdcca0ab419a6187e6c92c931 8e40da190eaf07b97fb7ef5cfba5784525b6b5e2 902d22a236e754b786f8795f7a1816f34e787c90 92819925374827f6cc0db9b6537f02c58a87b26e 9544fc0d522c376b1ed041ce44dcbb24033b3955 95d05f7d833731b676dab02c2c9fd509ad10b9fc 970b022dd288804f5dda6444a6aa441ba2f1f4a7 9719b91136c8cda36f95552f73606c8447cdd621 9750688d94ecd35073aae42468425ba675af55dd a40473f3cf97ddfad2870fe396ce60cea0df26d3 a41b2330959c7183c1cf277bb195fa57aafe5021 a45285963b620b61208a9c3f3049227b4a5a9302 a7d9e74bd9a894e1c6d3a805ad2a49b7f3e27130 a7f359c2eeeb0c2b79aa6d09812e3760b78bd016 a8523947e3e46508b7b8fa5e1956a8e5a4718120 a9d32234959ef8506ba4c4f45e7ad60eec18b438 abacfa3aa39a626b3a78c611ad1af33e74e25aff ad528937b410b2f0e4dde3aab1db91e2ede7eaeb ad595be5004dfbc35ca23944209c6cfc1edfd2db aeda3b27a3db79053823bb7f007530a762c314fb af93a0ee2b26088d7d96fecf489faacfd9877d4c b0f4a5aa70983235a1dbbefe6e1c45f447431d9a b254fafd4989ec1e8a8d43a6fdece1568f157c5a b645e6fd9cfcefad271537d6d445466e08d208ee b687d33e6ae2377792bdce9d2e4b3ac6f676ca45 b6bb40bb78b57c416d6e308d8ecac431de6f3a78 b6fae38c904b62816dfccadea57fccb3079e2d25 b7865283764c29e198ad0ffedbe9f25a81b45c68 b88826fce808d76e0ec46fd1107d123b4f069973 bd373585b5154a3758df6eab5361cbfb6e664354 bd54b627b847e11a31da03768a2df297bb7993d6 bda59e009f95a0b3e39ce3f1c79006e62d68c7f4 c01a7986c01337f1431a6cbadc78211fb30ffd03 c1f5734c321447a5687dc4733a6d86146e667c74 c4c778e1293e63e1602ee6c5a69229bbed683cb8 c77e9334fc5ae26b22a444bcace90abea6c8b74d c7b43abfb8366d7c61243239234957e096ac3cf3 cd44c81cc858b643fa32369cce7a1212a09d1a86 cd83e18f7cdff9462e18b6dc6b7c1d4474d565a9 cfc8c120e13fc04983c46a8a0a9c6b84f6ed8c74 cfd363f7fabae831163b1f71bcc662f734fb9136 d292d84654f64abb7417102e70d298a5148be5df d38d4defcad906a2608ba6cee189281131378eed d597032061985f6260c98a0127e9d84a170c1ee8 d6603a299ee71255dc9ed6774773d2a3ca4c48b8 d6f541ff261e661b671e70bdfe8ac6655ee3a665 d7a81c383331c79fbb7da09a82ba171eb9f3b2a9 d8c33ed962c271bc2d6da12ea588bbed0e6e236e da0bf7a501330d2998667705b1bf9b8a2e659573 dc1e72bd727538ae805bffb58b391b93e7a4af1d dd5f41280dd4f50a6c2e28be141842507cebbe1c ddcd4897dccc7b296a2f3d09190a363c9d58be0f dde78cbd9a3f2935c5e7dee8f4da434dd2910c1c dea1b7a611fe055e9169c34ab68e5979e4bf646d dfb863c59bf0db2fc6594d924fd11743ad3086d8 dfd81d71cb684d8bf27b6ed9855fc3b5eabdbf7f e14de4cc4b540820e06b7ef89fb1d6f5ba5de68d e314a489bf41741a625404849c16ca0c4bc2044a e3d168ebddae78bec938903588ef12942a12e8ec e517241ae85bb1e4f2f8540d6213aa4f73ec5d4e e5d497acf2330019b5c41b837a2ff9fe173df72b e6dc1d79193297a6edc4a0d213bd6b729455f57c e7c37ef3574a5a2196d08f37645d691b3433ecbf e9cfb153dc161f90abe139f38c205fec4eb9e694 eb182b05800e8b2880cebecf336017bd09c795c0 ec0e538951733c44d76b717db07b4d8a63d91880 ec1441a336232ae7bdb0a3253db4daae4191d3ae ecfa42998c2ea586eff33bf30b0264728b94c49b ee964e293064a83bd8c1f27747dd4f8e94b7eece f292ed58eaf8554b9171969eeb2f724c0babe15a f3b72a6acbb84897c01c3cdef170b3bf42289034 f4c4469375c088ba8dde54565c11b4e65214f1d0 f4cb89833ceff1a71239078fbaabe9ce99af26d5 f5da2ff7786849294eecbe21b870e8eaeae2a924 f723b380da9aa3a863afb2393d2ed55ad51880eb f7346b31d2163da526c128dc91bbc0e3fe491c11 f92aad0853360ca68e255711daf20d29bdc7fe0a fa499da66fe07ff5963101612459caf53d6d7fe5 fa8f3994b3a11d4f66a1c2a5989842a00df8146b fb4a04ee82729cb38784cc6c95f738bcbd02e78c fbff7bc4803716ab20d3b811521f624c3f80dd4f fdd3efc4eb63356e26e7f535342879a6329ad214 fe825830131b36f067718a081401f04811d39c30
+
+Package: python-upm-doc
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: all
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 13
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: doc
+Filename: pool/main/u/upm/python-upm-doc_1.6.0-git20180602-re2~re2+20180602+1_all.deb
+Size: 7514
+SHA256: 4bda418e8364a7159b05dfa76866f935125135683aca9e5c3516657a6f4f7480
+SHA1: 541424038a1d573c9781783cbb5707977995c14b
+MD5sum: 29c557f997699a3000144fef59831a93
+Description: Python bindings for upm (documentation)
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the documentation for upm Python binding.
+
+Package: python3-mraa
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 155
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjson-c3 (>= 0.10), libmraa1, libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: python
+Filename: pool/main/m/mraa/python3-mraa_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 45054
+SHA256: 9cf4fcaf0d509ee3786a16195a5317eacf4d2bc1ef0a46439411f74aef18c9fc
+SHA1: 71c197e8ca74c671b2cde9fe0987f6e314d44b77
+MD5sum: cdc54bd1fe218da6dffeaa32d9a88ad8
+Description: Python 3 binding for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa Python 3 binding.
+
+Package: python3-mraa-dbg
+Source: mraa
+Version: 1.9.0-git20180602-0re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 232
+Depends: python3-mraa (= 1.9.0-git20180602-0re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/python3-mraa-dbg_1.9.0-git20180602-0re2~re2+20180602+1_armhf.deb
+Size: 201802
+SHA256: 880ff4ffe48416a8f4d8e3930491673db4a7dda872ff0b564b1993b1d7454efb
+SHA1: 707ecf599436904980648a684c431ddc231dbf8c
+MD5sum: 7b6625aa4e9eee163c0fbe1858acb085
+Description: debugging symbols for mraa Python 3 binding
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the debugging symbols for mraa Python 3 binding.
+Build-Ids: 81b53c9177e9851a4445e0f97ea15186aae4e98d
+
+Package: python3-upm
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 19726
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjpeg62-turbo (>= 1.3.1), libmraa1, libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2), libupm1
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: python
+Filename: pool/main/u/upm/python3-upm_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 2587910
+SHA256: a76f2b043fc0ea53a450249b434132e175af2d6af2b4940b86e8a78bd503d934
+SHA1: 7b373f0cb0a96f24b0c1d30f73429c363a888a7c
+MD5sum: 31a404a424a76d915f1cadf9c0119882
+Description: Python 3 binding for upm
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains upm Python 3 binding.
+
+Package: python3-upm-dbg
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: armhf
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 39647
+Depends: python3-mraa (= 1.6.0-git20180602-re2~re2+20180602+1)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: extra
+Section: debug
+Filename: pool/main/u/upm/python3-upm-dbg_1.6.0-git20180602-re2~re2+20180602+1_armhf.deb
+Size: 34937042
+SHA256: 15097456b9896ac7ff43db071f9e08f7ad8f0e95b022193950368525f698cef6
+SHA1: f5258b8c63e6b5fce96ede4425ca75454eb92aa5
+MD5sum: 2d8b4708271ddbfd5ab9a71e8845864b
+Description: debugging symbols for upm Python 3 binding
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the debugging symbols for upm Python 3 binding.
+Build-Ids: 01e00ef46f405807a499ffaf0c8f84ec43a591c1 01fe660de4142bdb840df2b2a15219786d22c249 02c6cf9643a49ac3255610ba05916363333ad269 03fb4186d28ce0f7722d5bd9aa4edeb9ffe2df53 09e227d31b53b2bf02cd571682aa1eae4b9bcf31 0a563e0aa3ce48768be1612bfc3d7502f0988393 0adac770e13234670bde249b481ca7742b8d152c 0b8fd9ac3877b6bf63d531674fa1869664df685b 0bd214cb80fafa7d4908b5ed44704cbd1a9fbaaf 0c15b33e7972e15939c7a2b549d65e7f193c98e7 104887f2ce533dddad4cb0ca55779ad87f4d58a0 11276b7e6cffc1b83a6364e9b31bd1107a1e3adc 11567f505998f87084b6576ff3c5dd2b4f7bfc2f 11ecf6af86e2e24b2c15dd76303074b2e1d45d60 12354ae501c262fb59b93289ee064e66b9381b14 14499a7d5a7f1f162b713a57c57290b4d01e9004 150582e7df466339ceccb30a9672a86638a6f556 15138f1c2b46ab5a33d3fcd3dcf97d5c9e24868a 1595fc05bd6bfc098014d3b9b8ca752fab20574f 1905fa591b9ce1993abd1194dc943b6ff7dfcd2a 1b944de257a69a939a39083602d410ac560d0585 1d0ad7107502d238a9ad92702a5279325bb866c0 1dce6fbdfd7766f2151c5fdbb0c6fe92267e564e 1edeef58103d9a32d7dcd93fd95898a93f50c46f 1fd10c9d482c777c6d68e0f415d99b1f26521af4 218bf19f20b13af122faa821a4fad9f0de6abe4b 219c197a0e4d11ffb330805fa98acf5196ae0e58 2329ae41537f379616e06d8eb33843b4e36e8176 26292ce639b85c5a322cec0a42c02b30bfaa3490 26a1a76fc58a88eacb0b990e6bd5ee8a85e73b51 276a5acfbbc25e72af0c3b6d4041e368b7e613ca 2783dc9424977dbd12620725c577ab549c8362a6 27e33fa26d951525a3784acbc0594b09659ab940 281ce90c4f4e3c88d4e49855c6058d3f289982ff 28f64d8033031be03637ff94083f94c7ee5d130d 2913b65aac6a5c42192b70344411ebe522082530 29df22da0f036732762f25a1c81eb5ac921b62ce 2bdcf382e531f107feeba7081ef415208d894b50 2c394504ec2b1aa340ee387f138c5c1dbd08137c 2cd3da6b309725d59fe58fca49cf1a556c8d95d7 2dc2cd38540f526d1ae2031b75d2fc9b095d5bba 2e8e292f1b8abbc6ab88eebc792e2e4027cff440 2eadbc9d23a8264aa5f2cfc91201b4a7d1baa73e 300189233a3bd75826add8461ee132be7975fc54 30104925b674aa4bb720fd7665e25af6ed9e4d83 327a3d0804092de3b6bce8a923368c6d7085da62 328c76384f7459777e44a7f4f039875c27545c65 3350e69964b27f53c3efb01be0aff8d877009aa3 3355ca88e1800b90fde7128c1b6ed8ad6b00a1e1 3751afe90161fb9d7b27ef78774db3595204cd12 37af86fb4e8babc170e0a7b4b800abbc8d218655 384b3346d5bd9bf51f2c4181d098e169db5e425b 38db1800977fa8ad960af32acab9a60f8f4fed23 3953f170b3a831d984d10f60663e36a89ca374d0 3a6d8efbb7e450dc7ddac05296e9dc2dc73a07aa 3c13f1713477c3fd64c0b40f96ef58085cf1686b 3d22c74bc724b6cb6e81b44dce4f6c9f8054a700 3eb4e07cfbfa13d5ea2fb824383b85f54de6e94d 402f72d7f48185c9de93c323e677212fda1a044a 4153200573df1e0e3a21fb87de99abd6b724e001 4356dae60921666e65845f136521873712e10848 4602bfbdd5cc39d591c883fff306c2ed3632b9cc 46125e9c2f3049ff9f08e0f42ba413f3feea6f23 47a237b56c82b619b4b35c21d9d728987c81bfa9 47f9d961ba8aaa417c68b630f7d6e41ef9a7dfe1 485aa40c54bf0438845075b4d069f86c88e61a29 49eaf45b558fff1bfa8da3d46e3a28250ec05e37 4aab3d76af6aa5c1715a5fe5833312f8e1fab00e 4b0165f4796c554c8e666be492f8aa9f15177724 4cc7f7f4bf9f4b3490956e83a728c9801cf2ebd8 4d7c3f8d6b0bd8b91c7941e41ff55f5bac8a7f41 4edb5c96cb642d936d432e0a6a8442e73ac417ee 4f02223b7d08f419d6d8ba76bdc3f8b788a29ed7 4f1f50127abc37ad50d4405e686b798f68957922 4fd80cbdcdeefb3b866a5e2f2875d6bc2a613823 518c31100d4b80148536b612d0e9786dfb175fdf 52ae40566e8423e1ecfe2daed230b3c7fe494383 547801a5a19f39e2bf49fc9d91f3d287b92ff220 54a919dd8826edb037c6b454b01caf285caa6c74 55ac55f4398a334fdb2e5d71d6a2be4bc36a9634 578f20c15b9786593878bf95d9cbb298cdf2fc7a 585874a9460028ce2f270d048b26fa33aa14faf8 5a73c6efce946cd2f5aaab8aa9319cd690a75fa2 5ae0cb398086a86fc412d2bcafde7d050316e1e1 5bd33b4239339bd12837196f0671fe4f5a66c4eb 5c13a9ed071fd96ee6b2b5c26f0bf04b8fc11929 5dbd03a99bd99ebd3de0e0eca83b17c4bbe08009 5e1b4b6e7e33a3e3f4b3266f0097e14f102b4f80 61e9352ced0a273b2bdce72d9d6ade871508b8d2 6360559851f51645e7b1f6dc2da5ca5babaf8fed 64cb6ecabda5e4f265ea8a136c3a6556707a643c 66a452844ad715b16943bbb1e3164520a1a636c8 66c247c576bbe48a8ccfe2b4698380974cbe8146 6794e33510824b8f3ad334eb8631dce34794c869 67f54969f1b53c1b4d2ccfa101f18ec86b538003 699237d3903ed262a0f72c3b301a716bdd925df8 6c39e9d353d84504efd161ade9ccddfbf66fba59 6ca1cd7f92fffadc29d37b6e5074efae958c094a 6efc90d478964724c8dfaa170c5b9a9c77107c25 709ecf4c09f6cfacab0fad1d47ca4759504165f1 713e58fa372847ed41be5c1df45f58f70f25d3f7 72ad8f33ad472a6dccde1b6cf56d4cc89c532ed4 75988273211be8a5a2bcaf771511c2f2259c5e44 7694fcfec5d3577720e86d76f2d50ef18d744940 76b4f20a8fa77270abcaf7a1ffdf26ba1aa0b74b 76fb6669178c6fb5b2a27496c0f519abd200afca 7829b018857110d5bf8c5d5998438ad631ee7843 785f4bdf64a77e624a592063437a86bcd3ccaabd 7995e44d0c73d33b57ef1fb4c573d2b3e3253faa 7b22718f2eb659a3160680daf30eb9de0f9ada94 7c2ad8094fe0e51120be19a577a425f0fbb87929 7d454ab4f4d36006778091e9d17eca15b77300b7 7e3f4b9f8b020eb05bd6eb3b043bff5167b2ff3a 7e6d46d82e27e04fba7ec2063b4dadd4ade656bf 7ef4abac191f39945a6007b27d473a2607ec8370 7f33599e98acb15dd6798c6388422b814642abc6 7fdce055cb9bc777b75cbc573c86722e69d023a7 813bbf95ca837d51b3b99b4ff9bf4e5de47082c5 81bb590040d809bd10d956f60beed12204c7f8d4 81ed5a94eb8802981d80c9001152a39826688990 8240176dfb3417e0c303ec3f40481a62b01a37ed 8741bd90f2ba79b02f53fc10f864f43ffd969e10 876d0ccead34b1a0ab76351019c95f1272f2cdc3 88f4a5d196f4d5d527fc3dc7462640309c423f2f 8958f94bf180e29a72b370b8fbdd4e321d5bd196 8ad30153f42de1dd02bdb2bb3afe04ee44108125 8ad5e8abb617515fa69c3d614748af9a2f9f6ec4 8b4b0a5dd97fb01f9d9655d374f8655234d31979 8d1685a91557367377092f3593186e55979c5ca8 8d1ccabcdb4de3b7f2e81c6435758436176aa5d4 8dc158fec436f9c6faf0f4b547717a1159ef59e0 910dbf4a54de0a1ea40465df948ccad752e047ee 917423a3be1239f3d924ea2eca2708e8dd2eb4b7 91977799f7a79103c10993ce1b4bdd1b21e248ff 9297a336d9fd33c72d5420a6dad949b1ba38922a 94413bdf2b8903f0fc688664598e02f766b86218 969953c25cff56327b9136ad09bb56446f76ec6a 9984df03801c73dc6b5c0552fc0df081813ba308 998db467f7079ed96a9e148883b3f06e5b2b6623 9a00076a0abddf969d5832c92f73b798135db951 9a08f7dc609090ea10c49e366cb5bdbeb3cb786a 9aa62f10eaa579fdb9efb03e2bd152e106ab69f8 9f25fada26d3fd31551829973626054ffb3b0aeb 9fac6dde23a80e073214f95b48a4cb6294acf146 a0735efccbcdcf3b5920b25b764a6a9e2c1b6c5c a16361728edb09c1383b8b897a2436a7d9d6453e a1732b4f85a2b8fc74e34fb7777f031e692097cc a48976ea669162b0cc4e53406bd73ace5feade88 a515e9030424abe6a699adb48a30d88bf9a5eec3 a5837434b29c6df36fad5e323fb7c78aec2619df a5b16e3bf2dfaf8fe15ceacbf10e488c6ec692f6 a63601a3858d915a6cd98146b6654cb1276dafe2 a6d16585a63c42175c61a8fa44364f7fed2d3e61 a8007109544ef1ecd96461413ef550f1c6e6ec02 a87db7ebde2f3682e08402a57aa85463e2a96f53 a89b520d11f40378aadeec943d9b0f5882edbfb8 aab666bb828322fe7bff6d48e6b155f9b8f5f9a2 af11d93e0e40bf156aa47582e22c7897ae011c8b b024a8e2be261727a3c10b86021a67e8e8d00757 b04303d2367021def44e72a9c3db85d253975300 b14033f26c8aa78700af4d8b08e5681e15ff1850 b2e650f40e547f0b909d30ef676ae2ad067ebfe2 b3fbbd979dfaa50806ca437c79fa72949bcd1e01 b47c567c83be625e2c721eafc65ed4bc96cbe99e b4c35d9d9f53fdc9b8b9e2a0f05a8d464fbb85e6 b57c6d59ab607c7579c3052ae569527a5c2ca7b7 b8fc1a1dd8745150718841f9478f9b8fa78e4f16 bb098027e32a6a9ce82373a6a84d68854c4cc2f1 bb15f33bfc6e7c7236df6c8593a8b4883ac70f88 bd0941da960bb087247a61a84bea1b712bdfe644 bd42b2cc1a8c0811d49dd46e672efe4cb73708fd bf179903c3663c5555cf1ce0df22dda875d52d16 bf37c69caaa1ece980dc0c83a5b5adfdca016494 c1d47b440034ebaf7ea191fd4d645ae0eae2473b c781e73f57ff2c95ef63c681af4627af7461602a ce0955c732e7905d0b891c43d93d5f012e400ec1 ce2e4c7d34aaf53885bdc73e903a5680258e7128 d37dcb888a7d4cc7b525829866e902140b4adf5b d398b6524ec0e8e75eade371b9c34768748dd576 d39e2297096836910594a8871d597bb10e70fd86 d3ba85dfb790913c1de6b98463c0aa33d6e267b6 d96384cfecedb87586e0e9f4cfc6ea1195216f43 d9996ef6b15ee29ee264cd9b668d1861e37862a7 da2e052265077006513bd8a6897a6891b8505aa6 da5110e17939f67b3458d3ca2f8332bda67dd8e1 daf2a01e799706fb5c838a0ab14610603f23eb02 dea8341bc7c8bf4a4ff65cc5481c864a2dc7f07c df6beb32075f2c7fc258d16b3ec897a5e294acd2 e0046f82c6ac78da412afa1b9e37c9e47624f767 e09aaafb44bd06129d32318a053e0baf86ccd952 e3e80a6af1064d8efecb0c5204ce8670f891e64e e5f325c94b5b852c0720d56d0f3b76ee5712ada2 e94c88c6fbd7e3383d6559b56222c9356ce8c920 ea5eac1ddfdd361411e1e9ecdeb664f05c3b08a8 ea94f3127d51197de1c44fdaea5b4d97a9b650a7 eb2b9ae3bdf0e75d79c8dbfb4681fb7f058a09bb ec88a0d7764cb882af32857b697d2d86b731b173 ecee2023a7e4ca83d2bf9d49ae08c577bcc14e3d ed16f49dcc16bb3cfe540735c45db87d489ad9aa ed89412db294933b2363441ed9369f81b5cf2f22 edafe15c4bec55fc81af9b39fd6fc7ab7e34f652 ee47a7477283cac23ef85a5bb9a4c414cd83f827 eebbbb7095fe7744a4baf2e01fe053fc088840a9 f0d74bc502baf549dc36028ecf4bb796284a37ba f12ec480ba4d8271586359c9d0aaf5eea7b6dc12 f4788162da5892b669fd66d8cfc45cfc3c22cff6 f60d98213a336f2711b214c047a1388cb46a07d8 f6717be78106b3ebe25c8c1924790f5b593fdd8e f75e69f7318342eb51d3ffec49a54085b1bbece8 f77e43e3e94d884234697104b80976df42faca35 f7e45fbb11aed339a971e2443cf75bfc2183b088 f7eb3cb95cd72a757baed1c806d60bfe69399d4e f8480b52afddac66b2601423120fb797fcbf920d fa49cea6b361be5340b7b2a6376b7fdac64e68b5 fb7cb397981e45a62d0506eea95647c9c7d78cf5 fb923be68f8a1005aa8c9fd03a888d4a4e74ec2e
+
+Package: upm-doc
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: all
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 13
+Depends: libjs-jquery, libjs-underscore
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: doc
+Filename: pool/main/u/upm/upm-doc_1.6.0-git20180602-re2~re2+20180602+1_all.deb
+Size: 7506
+SHA256: acdee49c0b32d2592d1665df7f005708029232239c37860f322d99e78e4012ac
+SHA1: 4aac9b53018f356c234c8a16773fe0b09d21ff4e
+MD5sum: 555dbb0dd30e16f61094cbea4a504187
+Description: documentation for UPM
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains UPM documentation.
+
+Package: upm-examples
+Source: upm
+Version: 1.6.0-git20180602-re2~re2+20180602+1
+Architecture: all
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 2910
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: doc
+Filename: pool/main/u/upm/upm-examples_1.6.0-git20180602-re2~re2+20180602+1_all.deb
+Size: 210478
+SHA256: e95aa8aa18e153702c92ca9325289172530074b7c86d33a26d8da292ec5a811b
+SHA1: 7afe6fefce71b3dfc7f6b2181e658a008441602b
+MD5sum: 0667c891324fad1631fb4fcb0085a79c
+Description: examples for UPM
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains UPM examples.
+

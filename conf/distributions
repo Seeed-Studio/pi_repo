@@ -1,0 +1,8 @@
+Codename: stretch
+Suite: stable
+Components: main
+UDebComponents: main
+Architectures: armhf source
+Description: repository for pi
+SignWith: 4A3BF8AC
+

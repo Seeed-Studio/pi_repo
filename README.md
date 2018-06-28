@@ -8,16 +8,16 @@ MRAA & UPM Package Repository for Raspberry Pi
 
 ### Add repository
 ```
-echo "deb https://seeed-studio.github.io/pi_repo/ main" | sudo tee /etc/apt/sources.list.d/seeed.list
+echo "deb https://seeed-studio.github.io/pi_repo/ stretch main" | sudo tee /etc/apt/sources.list.d/seeed.list
 ```
 
 ### Add public GPG key
 ```
-curl http://respeaker.io/deb/public.key | sudo apt-key add -
+curl https://seeed-studio.github.io/pi_repo/public.key | sudo apt-key add -
 ```
 or
 ```
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BB8F40F3
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BB8F40F3
 ```
 
 

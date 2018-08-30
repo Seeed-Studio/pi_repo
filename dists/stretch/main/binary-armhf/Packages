@@ -396,6 +396,28 @@ Description: nodejs bindings for upm
  .
  This package contains upm nodejs binding.
 
+Package: python-grove-py
+Source: grove-py
+Version: 0.4-git20180830-0pi
+Architecture: all
+Maintainer: Peter Yang <turmary@126.com>
+Installed-Size: 402
+Depends: python-mraa, python-upm
+Homepage: https://github.com/Seeed-Studio/grove.py
+Priority: optional
+Section: electronics
+Filename: pool/main/g/grove-py/python-grove-py_0.4-git20180830-0pi_all.deb
+Size: 52234
+SHA256: fbe7a841f1afd0eb3657f5151813f11c4a49f9fd3c32208742e11a64b8f2f464
+SHA1: 89806d4d4fb0182e8cb9af7a4220686fdce08478
+MD5sum: 65e4b269e679b906248506cd20f03a01
+Description: Python2 library for Seeedstudio Grove Devices on Raspberry Pi.
+ After installing `grove-py`, A few CLI commands with prefix `grove_` is available,
+ such as `grove_led`, `grove_button`, `grove_ultrasonic_ranger` and etc.
+ For I2C Grove devices, the default bus is used (I2C 1 on Pi).
+ For digital input & output Grove devices,
+ pin numbers should be provided as the arguments of these commands.
+
 Package: python-mraa
 Source: mraa
 Version: 1.9.0-git20180813-pi20180813
@@ -527,6 +549,28 @@ Description: Python bindings for upm (documentation)
  groups of sensors may be.
  .
  This package contains the documentation for upm Python binding.
+
+Package: python3-grove-py
+Source: grove-py
+Version: 0.4-git20180830-0pi
+Architecture: all
+Maintainer: Peter Yang <turmary@126.com>
+Installed-Size: 382
+Depends: python3-mraa, python3-upm
+Homepage: https://github.com/Seeed-Studio/grove.py
+Priority: optional
+Section: electronics
+Filename: pool/main/g/grove-py/python3-grove-py_0.4-git20180830-0pi_all.deb
+Size: 51840
+SHA256: a0dc7bd9a4d3394a142118e4ae722f7e73c7d04c3887be412a0662d6be3fde23
+SHA1: 5fa190ea096c9cd74130b2314ab2aa3558eaa48d
+MD5sum: 6a16216fe1ede3c4f58747d760cfb3c9
+Description: Python3 library for Seeedstudio Grove Devices on Raspberry Pi.
+ After installing `grove-py`, A few CLI commands with prefix `grove_` is available,
+ such as `grove_led`, `grove_button`, `grove_ultrasonic_ranger` and etc.
+ For I2C Grove devices, the default bus is used (I2C 1 on Pi).
+ For digital input & output Grove devices,
+ pin numbers should be provided as the arguments of these commands.
 
 Package: python3-mraa
 Source: mraa

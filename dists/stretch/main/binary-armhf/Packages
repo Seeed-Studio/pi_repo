@@ -110,6 +110,22 @@ Description: debugging symbols for mraa
  This package contains mraa debugging symbols.
 Build-Ids: 84c989df84be0ed99d66f8baeeb9f86ca0f308d6
 
+Package: librespeaker
+Installed-Size: 18280
+Maintainer: Seeed Technology Co., Ltd.
+Architecture: armhf
+Version: 2.1.0-build181009
+Depends: libpulse-dev,libfftw3-dev,libatlas-base-dev,libsndfile1-dev,libasound2-dev
+Provides: librespeaker
+Priority: extra
+Section: Sound
+Filename: pool/main/libr/librespeaker/librespeaker_2.1.0-build181009_armhf.deb
+Size: 6096260
+SHA256: d64df591c8c21a6c30a0906b5ab5c787c762dca59ee2fceb56ca40c9a31450f2
+SHA1: 72b2af0fb4058712c94ae07777cafd83b585495d
+MD5sum: 5adcd835c3ac5041c3783193ea046ef0
+Description: librespeaker is an audio processing library which can perform noise suppression, direction of arrival calculation, beamforming, hotword searching. It reads the microphoone stream from pulseaudio server. It exposes a few APIs which enable users to get indicated when hotword is said and the processed microphone data in PCM format, which then can be sent to cloud services like alexa for further processing.
+
 Package: libupm-dev
 Source: upm
 Version: 1.6.0-git20180813-pi20180813

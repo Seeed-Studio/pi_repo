@@ -1,4 +1,4 @@
-MRAA & UPM Package Repository for Raspberry Pi
+Seeed Package Repository for Raspberry Pi
 ==============================================
 
 | Codename | Architecture |
@@ -27,3 +27,8 @@ sudo apt update
 sudo apt install python-mraa python-upm
 ```
 
+### Install librespeaker & respeakerd
+```
+sudo apt update
+sudo apt install librespeaker respeakerd
+```

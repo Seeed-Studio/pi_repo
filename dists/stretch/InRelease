@@ -3,13 +3,13 @@ Hash: SHA256
 
 Suite: stable
 Codename: stretch
-Date: Tue, 09 Oct 2018 11:22:53 UTC
+Date: Thu, 11 Oct 2018 08:36:11 UTC
 Architectures: armhf
 Components: main
 Description: repository for pi
 MD5Sum:
- 48d1b1ad7974e067817ebf773d17bee7 67747 main/binary-armhf/Packages
- d07fac7627b988c7f906f7460405959c 29573 main/binary-armhf/Packages.gz
+ 0df85b61c86330d8c4f1426269a7cf97 67747 main/binary-armhf/Packages
+ 7b7a799ac1a26a03f02546057041e420 29591 main/binary-armhf/Packages.gz
  ce03b39ad63f59f03fafd88e2880418e 95 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  3d6513c5d97545ab0d9c38757278038d 1975 main/source/Sources.gz
  b79ad56f8c0df15e03e33fb2dfec3115 96 main/source/Release
 SHA1:
- 8ac52874e136a7e7f5fd4b07564e93c4f63159de 67747 main/binary-armhf/Packages
- f56ee5e2f492b14036be31ae6048df7acf873c35 29573 main/binary-armhf/Packages.gz
+ 30cb633133165ae3da654b7f2d859287a81d31dc 67747 main/binary-armhf/Packages
+ f1405af63ea66c0400abc64d5e27053a6c50b6f6 29591 main/binary-armhf/Packages.gz
  a2dada4fb04bb77c510f0ca103794eccceba11e3 95 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  49793787b0d493c89c32570277dc813addca59fe 1975 main/source/Sources.gz
  6360552fbc144d0501ec341d04da37fcce76a2e5 96 main/source/Release
 SHA256:
- 2c554f2ee00c450cd027253714e122e565211042b0c765160ec86dece674b59e 67747 main/binary-armhf/Packages
- 5bad17785df1e13845726ce49f0630e11e49424a27ef9cfe49a7c55dd68aeb25 29573 main/binary-armhf/Packages.gz
+ eca600541d737232cbed483de1cf154cf25a88b0a5c9f047e307558aa7d8b893 67747 main/binary-armhf/Packages
+ 5be6c9d088a2726610ddfaee773af00821f4de19041ec6eb3caff02597074000 29591 main/binary-armhf/Packages.gz
  a1cf43b610e4799004d74dbdf148cca5ac18a1508122fd32e225f8c8ca025eac 95 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
@@ -35,19 +35,18 @@ SHA256:
  ac0d9de27609895c72bc2c1371780eb5176f50273c4bfdd63200f6a0762e4153 1975 main/source/Sources.gz
  4d84f80c644d1a0682b7cdc1104ba35b179b573f30441e7fe8bfa2cbcb60214a 96 main/source/Release
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v2
 
-iQIcBAEBCAAGBQJbvI+uAAoJENxhIVdKO/isiSoP/3yWbodWPGfl0KeC/Nv1v4Sv
-VaWPJEC2WY4LnyMMx5LMJvWjuD1gWAP/a1iCkdhv8EnnOFFlkd6SVKMR55txiTzQ
-LkrGbLLGsAK4tLbtnOqhtYIEjuwmCFlccYG7PXV/XFk4l6JcXMtjI1SoefW8GtyU
-AFwxklktqtN6zk3w35p0qIo9ndvbG6nK+MpdM/q+xObTgUjjCNfBRgx9YG6F8YGV
-RkVCiT88sc0PCY4Sv5y3647ikzoweo5ySFHhxOFYo7vTihsPN6b2QvRqLveM5iri
-tqtaLLiPA8EBZlMTpilBcJxLGGIR1Iaf/RakZzPMgeOZ5wFb9Q8SDRtMQN4FyZMf
-tRQEwbdqbv6M3JVulUYe5wjNSKyFwgTpxOxbBk4oVruzO01EhYF2sz0l7+SprK5F
-GSNAcey3gtQ4ld+wPjzeA3waSmujTpcSGQd48LfzG1SzrXiCasSr2Tj9Fppx15Y7
-Wn4EVEsig0gyaB8xz8zohPVSX6dh4RkECTnGmcyFWmh+xSiVP/xIgsl1WS0Bflw7
-mWqXx1Jb0fhqXkPSm0hn+2fEKqZN7d+JP4K9OjB2Oyxxz1h7kdAPFXBaGc4EFsij
-0SQRFi7W3bxt/QFZmXiSDqlCjDJkI3TPIqir8MxDMG8GL1Y3xoE9PQLp3FWTlY8I
-he81PUzgVsEzsLrn3nLq
-=c8I6
+iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlu/C3sACgkQ3GEhV0o7
++Kwshw/+P0b0yPiDNuSZydJZdUmGY0dxjsNU63YSza8FUMzZq125BFoJ/olrAz6n
+xA8HdnyiihtqDr5dQRd3HYnoM2euQif1iY3b4j8UxIc1rpkjZvywcrxXM0DRRB1p
+mYObGOm9nuBa0o79Iao60tXkstwWPfLMMTSb6yqCQaCvR3zjbWA9LYGxtBVVdI0v
+3yP/tHETFsV8LiHWHWKsD2N4vatmG6er3F+wrhshgWlKpkt2KQnnHTxUablO0Xpp
+lX9Xuar8SZPpYI9EJ+OwhkEgUDitUshfYiXy+HEnulFBBT7w0wjUh15zo60tLNd8
+JR7JS5PZTol2SKzob14SoXk/T8zLebdVBTKO5KBfKI6nwP7SJwUmWom7+OIBl6jp
+ILZmMwjjDRjk8XuLSnzRN/4m4pS0OpkMgn1hZ1nKt55v7+qSenpkaOmsIe5GsvJu
+PPszO4DVwFZv3Sezpk890uPRCySQbcQySNBSSQP9XECv0C1I0JinQ1m4OL4REZ60
+VfNy7WGlXb+Trf292214rvtQ3kgi8Vf79keLKveJURykh9DS++J7qUL5Rf97jxY7
++DFuTTq+zbENbt1o/rxXT9C1DvbPCPXFZpRhCrB5OpenUEXP7Ga1o5UhRPCyxFZw
+plpEp8iAVJeo00SigN2Go/3Ij5yIfJAY3/0IwhtvPx6ZlH3l1y0=
+=AM80
 -----END PGP SIGNATURE-----

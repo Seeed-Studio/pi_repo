@@ -414,19 +414,19 @@ Description: nodejs bindings for upm
 
 Package: python-grove-py
 Source: grove-py
-Version: 0.4-git20180830-0pi
+Version: 0.5-git20181011-0pi
 Architecture: all
 Maintainer: Peter Yang <turmary@126.com>
-Installed-Size: 402
-Depends: python-mraa, python-upm
+Installed-Size: 520
+Depends: python-mraa, python-upm, python-rpi.gpio
 Homepage: https://github.com/Seeed-Studio/grove.py
 Priority: optional
 Section: electronics
-Filename: pool/main/g/grove-py/python-grove-py_0.4-git20180830-0pi_all.deb
-Size: 52234
-SHA256: fbe7a841f1afd0eb3657f5151813f11c4a49f9fd3c32208742e11a64b8f2f464
-SHA1: 89806d4d4fb0182e8cb9af7a4220686fdce08478
-MD5sum: 65e4b269e679b906248506cd20f03a01
+Filename: pool/main/g/grove-py/python-grove-py_0.5-git20181011-0pi_all.deb
+Size: 67788
+SHA256: 003bcb7cdd82844b52e45d6e8f222fb5a10111ec9d4bdd11b6e57660ad3a9429
+SHA1: 43276d597b52ecf66de878cbce53ea3f5c42ddb9
+MD5sum: a010dfb95783dd3f775f4540079055e7
 Description: Python2 library for Seeedstudio Grove Devices on Raspberry Pi.
  After installing `grove-py`, A few CLI commands with prefix `grove_` is available,
  such as `grove_led`, `grove_button`, `grove_ultrasonic_ranger` and etc.
@@ -568,19 +568,19 @@ Description: Python bindings for upm (documentation)
 
 Package: python3-grove-py
 Source: grove-py
-Version: 0.4-git20180830-0pi
+Version: 0.5-git20181011-0pi
 Architecture: all
 Maintainer: Peter Yang <turmary@126.com>
-Installed-Size: 382
-Depends: python3-mraa, python3-upm
+Installed-Size: 466
+Depends: python3-mraa, python3-upm, python3-rpi.gpio
 Homepage: https://github.com/Seeed-Studio/grove.py
 Priority: optional
 Section: electronics
-Filename: pool/main/g/grove-py/python3-grove-py_0.4-git20180830-0pi_all.deb
-Size: 51840
-SHA256: a0dc7bd9a4d3394a142118e4ae722f7e73c7d04c3887be412a0662d6be3fde23
-SHA1: 5fa190ea096c9cd74130b2314ab2aa3558eaa48d
-MD5sum: 6a16216fe1ede3c4f58747d760cfb3c9
+Filename: pool/main/g/grove-py/python3-grove-py_0.5-git20181011-0pi_all.deb
+Size: 66696
+SHA256: a766c9e0e2e5c4f370a11a26871420c1696047c4049e417e3871a015cbd158bc
+SHA1: 77d3649495c031e3b3d7f580d76b4c31fa24e796
+MD5sum: 07a559e87c05bef12bf0fe23161c4ff1
 Description: Python3 library for Seeedstudio Grove Devices on Raspberry Pi.
  After installing `grove-py`, A few CLI commands with prefix `grove_` is available,
  such as `grove_led`, `grove_button`, `grove_ultrasonic_ranger` and etc.

@@ -1,33 +1,33 @@
 Suite: stable
 Codename: stretch
-Date: Thu, 11 Oct 2018 08:36:11 UTC
+Date: Thu, 11 Oct 2018 09:59:30 UTC
 Architectures: armhf
 Components: main
 Description: repository for pi
 MD5Sum:
- 0df85b61c86330d8c4f1426269a7cf97 67747 main/binary-armhf/Packages
- 7b7a799ac1a26a03f02546057041e420 29591 main/binary-armhf/Packages.gz
+ e60c8e253c85833b54737ff6686848a8 67782 main/binary-armhf/Packages
+ aabacf0ff86f82ec8b62d255c165dc90 29603 main/binary-armhf/Packages.gz
  ce03b39ad63f59f03fafd88e2880418e 95 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
- b1e67e94c1136777b5a36984e5a80238 6461 main/source/Sources
- 3d6513c5d97545ab0d9c38757278038d 1975 main/source/Sources.gz
+ 58b0958e3af0a6d4cd9e7a6924e647ff 6461 main/source/Sources
+ 92187e6fdfb21a23518deab6174b9491 1976 main/source/Sources.gz
  b79ad56f8c0df15e03e33fb2dfec3115 96 main/source/Release
 SHA1:
- 30cb633133165ae3da654b7f2d859287a81d31dc 67747 main/binary-armhf/Packages
- f1405af63ea66c0400abc64d5e27053a6c50b6f6 29591 main/binary-armhf/Packages.gz
+ 94f6b10bf87a9abcff375f81133bec8944e4c543 67782 main/binary-armhf/Packages
+ 9b882717054b04ce2b354736ece16f566eb44dff 29603 main/binary-armhf/Packages.gz
  a2dada4fb04bb77c510f0ca103794eccceba11e3 95 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
- 1b28f1d96aa466692ef88c8a9e16896291142924 6461 main/source/Sources
- 49793787b0d493c89c32570277dc813addca59fe 1975 main/source/Sources.gz
+ a6bccad0d4bb11c52f1888b9952bb32f7978d321 6461 main/source/Sources
+ b6f454dd2e0b811e8ee03a6fc6173df201b48a9b 1976 main/source/Sources.gz
  6360552fbc144d0501ec341d04da37fcce76a2e5 96 main/source/Release
 SHA256:
- eca600541d737232cbed483de1cf154cf25a88b0a5c9f047e307558aa7d8b893 67747 main/binary-armhf/Packages
- 5be6c9d088a2726610ddfaee773af00821f4de19041ec6eb3caff02597074000 29591 main/binary-armhf/Packages.gz
+ 6a59dca49bb38eaa5ae88b7969b5d94357aaa023600dec0a833369b2c9b4103d 67782 main/binary-armhf/Packages
+ 18e621ac411e360d30021b35693e0eebb73e9bc0cf7ceddff1c9f5c4eab9dc77 29603 main/binary-armhf/Packages.gz
  a1cf43b610e4799004d74dbdf148cca5ac18a1508122fd32e225f8c8ca025eac 95 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
- 858cfa85b6f44e50e4e8ce967bd512928166c1af9b6dcf395e59096b50ef17a7 6461 main/source/Sources
- ac0d9de27609895c72bc2c1371780eb5176f50273c4bfdd63200f6a0762e4153 1975 main/source/Sources.gz
+ 142d96d261d51fafcefefebdc632f989d266587b280826519c328b2f9fd38b8c 6461 main/source/Sources
+ cdac150bba4ed346f2876fa69c3316d80068f8577ff8b2396a08f343b046681c 1976 main/source/Sources.gz
  4d84f80c644d1a0682b7cdc1104ba35b179b573f30441e7fe8bfa2cbcb60214a 96 main/source/Release

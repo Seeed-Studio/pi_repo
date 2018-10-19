@@ -1,4 +1,5 @@
-Archive: stable
-Component: main
+Origin: seeed-studio.github.io
+Label: seeed-studio.github.io
+Archive: stretch
 Architecture: armhf
-Description: deb repository for MRAA & UPM
+Component: main

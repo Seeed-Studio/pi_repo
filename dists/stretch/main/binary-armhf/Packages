@@ -5,14 +5,14 @@ Installed-Size: 195
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: libmraa1 (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/libmraa-dev_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 32168
-MD5sum: 4f35ba5a48a5c0bdc38f302d5e15b93f
-SHA1: 35517d77a795bd53aac7cd4689462956bd405b2e
-SHA256: 0086ad3ffa95ed303721e27d99862fc7001ff1c6434be77e8608f4fc8d2fef04
-SHA512: 7e8b901995d73e0332d589b9508139709db274390ae2d8cac0ac54825c259eb9bd9d37ca46aa507b1ce91ab5aeaf92e13e1a47761395f7608d4c54abb4c03669
+Version: 1.9.0-git20181030-pi20181030
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/libmraa-dev_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 32152
+MD5sum: 6109a26b1095afac28bd83a0add949e1
+SHA1: ee1f748062121a251ebda91dab38e120feb18514
+SHA256: 80aa47f16b976b05eb9b572d86f45929aae62ba74e8702a0667ce5b509753750
+SHA512: cad7eacd789e4cba9a8aaaa33087cd6a088407a1b56d1227f73c269e77008e483bdfc71b22f48c1b17cfb8724908a464c0f5c6a5af659e52557ccbcdf16eb360
 Description: userspace I/O library (development)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -28,14 +28,14 @@ Installed-Size: 122
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: libmraa1 (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/libmraa-java_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 57834
-MD5sum: 939b8a280d02fb3aebe5544b9f871c37
-SHA1: a6c48c686fad0cf976b562f0ba31927a9967e476
-SHA256: e07528adb577c019a63559823be8eadfae10459f5095c266347429993f9ce616
-SHA512: ab4b39870691fae13e2779ceb4f53d45e156eed2799a84aa1277d67c7eaa1848b102f63add5bdf7c2518299e804e67de71d45029d12bb710358a5db42a758472
+Version: 1.9.0-git20181030-pi20181030
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/libmraa-java_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 57714
+MD5sum: 688cf738ca49156ce202721dbdfedf28
+SHA1: 9ddec752183a07ecfe74924328fd8c19fb4a77e9
+SHA256: 8999df8d23de16a4dfb5ffd0801cc5e32aed04aeaf81146c95978d5e9c280f7f
+SHA512: dcb738dd8d43fcd5456a689ecad8ba3a52e4a3c0bd2cf89c57b388330b55e2ff7e48fb54644bff7c0ae78f07cf4cf0e1eeabdcd39446ecc17109a7662164e01c
 Description: java bindings for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -51,22 +51,22 @@ Installed-Size: 186
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: libmraa-java (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/libmraa-java-dbg_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 150690
-MD5sum: fec8c8bc54fdfdcf8a063ccab8972364
-SHA1: f5c14ab143f372d0325ea052e69477e2d909e699
-SHA256: 787d794063ab49fd3499a1e5a7275fcb1c30e026fa04a091f97cdb4323406713
-SHA512: b9e26d2b02fb9368d4c3306ebabf1c5d80bec934a6fbceb89815d4f4ca9d4e131a976663bbaca83bab1348bc8cec483696b2af4c1a8fa351e998253bb753ff6d
+Version: 1.9.0-git20181030-pi20181030
+Depends: libmraa-java (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/libmraa-java-dbg_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 150680
+MD5sum: 8bc398d6cd6d69e65f218062d99cf632
+SHA1: 4258797560f25a61cf00d9e606116b96c58dcf8e
+SHA256: 46d37a811116efb033d84b16b91189dcc39f0472196e10b63115c6e6ccf279af
+SHA512: 6a9a74c6200797caa097d86721eddbb8479112ca9cfa6e90da0e8972e426573a83d41bdd074f3f60bb2d058b6bda9c4e4f5a3f2f95802194ea3e0de3a66d25f2
 Description: debugging symbols for mraa java binding
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa java binding.
+Build-Ids: d017598ca48ef6ce72649729de9df3ef72a83015
 Homepage: http://iotdk.intel.com/docs/master/mraa/
-Build-Ids: 6f2229e402a3a5ad8d48433696c14149895b31f9
 
 Package: libmraa1
 Priority: optional
@@ -75,14 +75,14 @@ Installed-Size: 147
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
+Version: 1.9.0-git20181030-pi20181030
 Depends: libc6 (>= 2.15), libjson-c3 (>= 0.10)
-Filename: pool/main/m/mraa/libmraa1_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 64832
-MD5sum: 3b2e713d002db735e6198afc9cfa2f08
-SHA1: d949cc604a824d63118ca1ef5ee7501d3d345da8
-SHA256: 3ecbc861b889dfb4d058ba76599206101fb29e0f658412d3bcbec46e3a9701cd
-SHA512: e87319bff3a028b31a25be96bc7db88495bfdacff066a828546f259142db3c336e2b81787ca382f21387b520c4a8734521786330495a25636b28551261396ada
+Filename: pool/main/m/mraa/libmraa1_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 64726
+MD5sum: 59d06b47acf6a94e982041a8b919306e
+SHA1: 7c7f8c9b185ee0cf82b2635a368aadc817ed9f02
+SHA256: 6130d1397a23912213896d042af8644f1155e5574e5e92d6bb602a4ebc673be4
+SHA512: af90e3197cbf4e8e2ecf9d51c8a5d420a113a944d8d6817ec7f70cc1be53ad00badde1739a23572d970fcede2c9d82926613af30266b9308c59641166b3d2cc3
 Description: userspace I/O library (runtime)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -98,39 +98,56 @@ Installed-Size: 272
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: libmraa1 (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/libmraa1-dbg_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 233814
-MD5sum: 30823c9623548e9e38c9f7a54f8d181f
-SHA1: 6d605b0717de4ac50bfcaaedca6de505d2d42d86
-SHA256: b1fa4edeb878ce4b8b26bcff83623fd1b49c5182a692e7c60e4d02ad8d3a5174
-SHA512: 3d2ab0ba0ed370392655828567e457dcd58c05ecc3d8d5e72d4d91be5c4e4b4b50372b2122582cdf998a0ebc2d9d758d223a3f5efdbd5dd2d00a20809faaa25b
+Version: 1.9.0-git20181030-pi20181030
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/libmraa1-dbg_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 233870
+MD5sum: a6a1efd92e03cf5a6324673baf85c93d
+SHA1: cb03a63c0ab012f594c2034a384507ae3171c8aa
+SHA256: 2dc21ee21629ea404f6863847eeeaf4ee627ff6d44f33dec88aedb1fdd72a94d
+SHA512: 6ce78e175e5a98c05f8a1b3616312c3500a59e660cb138f31259e6153dbd8db2d470253efa79f4b879b0a5dd465d5e1e7db18efa55eb449079ddec53951a1c19
 Description: debugging symbols for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains mraa debugging symbols.
-Build-Ids: 9c7832d175931308534e8da72b5b9a5fc99bcbc9
+Build-Ids: 2de56ffa4f9c69b6490631e722126623725a2a23
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 
 Package: librespeaker
-Priority: extra
-Section: Sound
-Installed-Size: 18280
-Maintainer: Seeed Technology Co., Ltd.
+Priority: optional
+Section: libs
+Installed-Size: 17900
+Maintainer: ReSpeaker Packages Builder <respeaker@seeed.cc>
 Architecture: armhf
-Version: 2.1.0-build181009
-Provides: librespeaker
-Depends: libpulse-dev, libfftw3-dev, libatlas-base-dev, libsndfile1-dev, libasound2-dev
-Filename: pool/main/libr/librespeaker/librespeaker_2.1.0-build181009_armhf.deb
-Size: 6096260
-MD5sum: 5adcd835c3ac5041c3783193ea046ef0
-SHA1: 72b2af0fb4058712c94ae07777cafd83b585495d
-SHA256: d64df591c8c21a6c30a0906b5ab5c787c762dca59ee2fceb56ca40c9a31450f2
-SHA512: b18b28652a25e5dcb84d301370e136cbcea7f3aa5c23ad86c9052c5cb44547ba2b33b37f4266c35f0917e13c1dee1cc6cc29c36924b8de773cd9a6cf2f08dc7e
-Description: librespeaker is an audio processing library which can perform noise suppression, direction of arrival calculation, beamforming, hotword searching. It reads the microphoone stream from pulseaudio server. It exposes a few APIs which enable users to get indicated when hotword is said and the processed microphone data in PCM format, which then can be sent to cloud services like alexa for further processing.
+Version: 2.1.1-build181119
+Depends: libasound2 (>= 1.0.16), libatlas3-base, libc6 (>= 2.18), libfftw3-single3 (>= 3.3.5), libgcc1 (>= 1:4.3), libglib2.0-0 (>= 2.12.0), libpulse-mainloop-glib0 (>= 0.99.1), libpulse0 (>= 0.99.1), libsndfile1 (>= 1.0.20), libstdc++6 (>= 6)
+Conflicts: librespeaker (<< 2.1.1)
+Filename: pool/main/libr/librespeaker/librespeaker_2.1.1-build181119_armhf.deb
+Size: 11091928
+MD5sum: 4897c9576f57a254201fcce76c629d32
+SHA1: 744b146fda8fcf7656d2498e7311f8224e602ff0
+SHA256: 84bfb5ab0a042fb48c5064294b760074085332a7002e9bc0367e7fe2a7bd4440
+SHA512: e8e461352a89bcf6756cbbb7628b4d155383aeac2c72b0363e6d7b6510dc157c8de5aa3e847920b0f4e83eac2d9b8c957c60aade12371c7abadfd44f64c74e8d
+Description: librespeaker is an audio processing library which can perform noise suppression, beamforming, echo cancellation, direction of arrival calculation,  hotword searching, etc.
+
+Package: librespeaker-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 87
+Maintainer: ReSpeaker Packages Builder <respeaker@seeed.cc>
+Architecture: armhf
+Source: librespeaker
+Version: 2.1.1-build181119
+Depends: librespeaker (= 2.1.1-build181119)
+Filename: pool/main/libr/librespeaker/librespeaker-dev_2.1.1-build181119_armhf.deb
+Size: 13662
+MD5sum: fc73a3f6ddad64b465c27c4a200bd33e
+SHA1: dab33ee7014b30e855adad09c45f2e7c704ed7c5
+SHA256: ff27bff376591d38d9448973c106f07d8c8c42f58a62ac83608aa03ee67139b4
+SHA512: ccf7ef9441be74c0ebeb752030ad8f5f5f657c295171127002c980621b62a91c8bded65acd045f0b6635cbb6417f0dc62714bf0accae016cd7c46d5a2bd511f5
+Description: librespeaker is an audio processing library which can perform noise suppression, beamforming, echo cancellation, direction of arrival calculation,  hotword searching, etc.
 
 Package: libupm-dev
 Priority: optional
@@ -256,14 +273,14 @@ Installed-Size: 4199
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: all
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
+Version: 1.9.0-git20181030-pi20181030
 Depends: libjs-jquery, libjs-underscore
-Filename: pool/main/m/mraa/mraa-doc_1.9.0-git20181011-pi20181011_all.deb
-Size: 1110280
-MD5sum: 14be51045770f1f4659b36c4d4dc8415
-SHA1: f8d1a2550f0101e92a3d9bbf031026f78919cd5e
-SHA256: d20b92938ccc5ec95037d9ecf1df70e4d7d33ef6dc28644dc3698aec9c843f42
-SHA512: 82e552ec7c2a4de0b0b21fa0d3c8b7526498f879ae914e27d8d88be086bb9475bc3dd3049a034004e7e12e4d6bc3234a2bdff4daad1323526cfa16da7c91fbf9
+Filename: pool/main/m/mraa/mraa-doc_1.9.0-git20181030-pi20181030_all.deb
+Size: 1109582
+MD5sum: d8ef2b162412bed82feb14b892c02f3a
+SHA1: 48ed7095ef36c72e0649f49f916a612247fcfc20
+SHA256: e14ad417510ba072d9e5afb1785a179bad5c23334d1559a1e586a8477c34c769
+SHA512: 3690114473b49e6722da6a043e0e93526ff100b55a85d7f936b3a43eb8b4f8758768d6ce45d8a71c176a05a6a7f194f85f4035abc45604c0578c822359027f6c
 Description: documentation for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -279,13 +296,13 @@ Installed-Size: 241
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: all
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Filename: pool/main/m/mraa/mraa-examples_1.9.0-git20181011-pi20181011_all.deb
-Size: 30246
-MD5sum: 05c0e03e9e0ee26711caff5a0de8b266
-SHA1: fcbce8b2fa0ab6f9caf5631245508b5562cfc8c3
-SHA256: f7ca4c734dd0ef6a88f8f338a6e7243adc717245b2438e4c1efe92235e38fda6
-SHA512: 02abef733ec9f6c4c6f3aa81a5216608877fc7e2c38d1377595bd0fd4aa496e037d0b3e63e0b848fe2da1c79fa1ec64ad56c8473c9379214d77a5eb2b6bf85d9
+Version: 1.9.0-git20181030-pi20181030
+Filename: pool/main/m/mraa/mraa-examples_1.9.0-git20181030-pi20181030_all.deb
+Size: 30242
+MD5sum: be68f3e452c8f9c6a833d94de9778aa5
+SHA1: 5c580372ac0d1b83c522f12475cfa702166a3a8c
+SHA256: c5462f9f5f82b73cfddbd613ba3c47160e7d197706997f8aea6e971c301b9a04
+SHA512: b5a0e544295141d41e5e87715f9d0a1194196c44820890363d3a224a81bf0aceb745540000217e38378900b86be6533f80fab48857c3a001fb9b5a88a5336305
 Description: examples for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -301,14 +318,14 @@ Installed-Size: 122
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
+Version: 1.9.0-git20181030-pi20181030
 Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.4), libjson-c3 (>= 0.10), libmraa1, libudev1 (>= 183), dfu-util (>= 0.9), mraa-firmata-fw
-Filename: pool/main/m/mraa/mraa-imraa_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 38418
-MD5sum: 3f4fa8bd14854829c23a04c5a6c8e332
-SHA1: 8a7cdfa55582d79bcfcd6269c18d68caf02b1dbd
-SHA256: 62a944ec4649690c82d68f829bab93956f59b66381280351db3b249b20abc3ae
-SHA512: a3f1640dbbf89025e07860e3f57173b1699f7feb3c6944e087432d94938e0bd6bad680e7aecc9f8e41ec2f9676ab45c35bf253a9c8240e1e4c68ec1800f109a8
+Filename: pool/main/m/mraa/mraa-imraa_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 38422
+MD5sum: 66ef1c6e78ff872c1ecd442d2d00a710
+SHA1: 50883812b0fe6ac4afac0cb3a61acbbc04edef41
+SHA256: f5d3a86e8b5a0854a81d8552d303f01cd7d23801800634541f37fb1707674a77
+SHA512: e846b09a617ca5d7f4ae142eaa55fbe32fd76eaa22470986985ba03b07811d2b8bfa05d1d9e5100a3032a76acfd59ec68ac9efc6bd392e471310fa4ccd475978
 Description: mraa imraa tool (firmata)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -324,14 +341,14 @@ Installed-Size: 15
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: mraa-imraa (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/mraa-imraa-dbg_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 7464
-MD5sum: 8a5f84d4636eae4da5484ee0a3e54631
-SHA1: a5210e2fa5cbc244b14f411f84cfebe79c89c45e
-SHA256: 686de55531237459953cdae362968d01264f51ec97ff5f6edb90dead42b6b852
-SHA512: 22c4a036c7ff17c5654f180a3c87db5b7a266b2402ed3b29005d4073aef35bbe33a26ccfe5cb91e4035996acf6d47a18647495ddd144388cf7aed5d396b52aa6
+Version: 1.9.0-git20181030-pi20181030
+Depends: mraa-imraa (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/mraa-imraa-dbg_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 7468
+MD5sum: 0a79ac7efa7676e3ffd3f9df675643c5
+SHA1: 6cab97dfaa8115c618f714b4b6890aeb21cdbe63
+SHA256: a4ad5d6abd88a0e5a2f200d85b2141cb3e2dd5a08a10fc04ed9ac1b306802ab5
+SHA512: f2200a43f5c4e793a10a546ebea3ecf2750fb04e85b2b653127c88e245f923f7cf91ce00ce3fa52b4054ff90f9607df9a73864b2e899e2a9fe6fd2a28ddba8e7
 Description: debugging symbols for mraa imraa tool
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -345,14 +362,14 @@ Installed-Size: 36
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
+Version: 1.9.0-git20181030-pi20181030
 Depends: libc6 (>= 2.7), libjson-c3 (>= 0.10), libmraa1
-Filename: pool/main/m/mraa/mraa-tools_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 13730
-MD5sum: e0a24429dcf3a3b3d570ee19cc6a8288
-SHA1: 9dcfd4dea2bbef4da72dc03226a84c260dbe24b3
-SHA256: 3740a88e1c53228207329cb0414dcc2f0e35dd734b211aa9ce52d08fd79fd25c
-SHA512: b0fe16ea632e7b5bceab2332f67495586f0d7ad8283fe0c578e68c2cdc8ffef4e4a9eda39a28c17aca36b1fc01363d12bdbfbeef67ed3ab46391a99850b4913c
+Filename: pool/main/m/mraa/mraa-tools_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 13728
+MD5sum: 6dccba2d0b0a1d100a3981b840658de0
+SHA1: ad0acf1fba2ba53c694d15fa623c2fd68266e449
+SHA256: f291584e36ab52e4334177cf764fc906ec893c761777791379755ff066519f6f
+SHA512: 6bc24b5bdc4a3f7ccc814276976a41d4c78b0da10cd0be1643863f4947c79f130d9a92b80c8b875670d8b6072fd4f9cdc749e5aa29574166ea31c9ea0df3eb90
 Description: userspace I/O  tools (GPIO/I2C)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -368,14 +385,14 @@ Installed-Size: 53
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: mraa-tools (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/mraa-tools-dbg_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 29332
-MD5sum: 6846ca87767706f0fc938bc69e7cfbaa
-SHA1: 08deb99e4da0ba74daf205a150b77d34e4c71f72
-SHA256: 862dc59a0c2078da105cbdc70e85b14c80d71795e1043518e11de926eca64641
-SHA512: ba1f4fe91268fbf3b3919439acba3907bbf9bfc9a2d0d82c691f4bd83e24075340c20de499effb1fff526e62473f12670d9cade7e210895468d4fb293142366f
+Version: 1.9.0-git20181030-pi20181030
+Depends: mraa-tools (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/mraa-tools-dbg_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 29348
+MD5sum: 145fb84779fa76bb54bab053ba74c081
+SHA1: aa3a3f6125491f3d7601f9515659e30a9cf01518
+SHA256: cc294c409975c64091c17554e36c914e3ee1ac0382b7c703a763bdad1e7e698d
+SHA512: 5b0f5ad76ac47cd8b5d55143f2e63489db876f340884a97ec8fb4c27136ece29e8c216101c0ede14562a9228683693dadb9adc45d28dbdbb24a4bfa2bc998572
 Description: debugging symbols for mraa GPIO tool
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -383,7 +400,7 @@ Description: debugging symbols for mraa GPIO tool
  .
  This package contains mraa GPIO tool debugging symbols.
 Homepage: http://iotdk.intel.com/docs/master/mraa/
-Build-Ids: 1c1289111a1a733f07820d56376c5ee041a71f2b cc8570fe4716a3ccb17378dc64a74fd6c7bf7c7e
+Build-Ids: 449313073a3aa87367c6d1d9f9d085f3673fda3c c6dc731754bb072b673c01c0433c17efa8086e3b
 
 Package: node-mraa
 Priority: optional
@@ -392,14 +409,14 @@ Installed-Size: 15
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: libmraa1 (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/node-mraa_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 7478
-MD5sum: 9044b816e9790f555d992f7dfbcab55c
-SHA1: 3b88eab6b1f4369667acc6c4ae788240529ebddf
-SHA256: 5b1898f0987bbba35cf438b22a6202ce0f50a7c0fe02d0e76050c3322c51c742
-SHA512: 9b632d24b0c0eb125337301b6792119d4a80111f53e4b259b4f0e6f15dbabaebb6ac43b9134421461ff19be2aa6e4dddfc6794261f1c16839f7e51a672a0c5fe
+Version: 1.9.0-git20181030-pi20181030
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/node-mraa_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 7482
+MD5sum: 8c43508a97f5ef1a738ad4aa9b7501e2
+SHA1: 04437febac34737ee67eeccbf1e6a555a4288fd7
+SHA256: dcb89704966dad2ddf089d2f8654ae96f6ef729f56f8ab8fed39148ae823ce8b
+SHA512: a6a5cabaf5e78df1d45cedce44df37535006f702c1db7de5e149662a8123e06b883013a8898d25a6bb855be1da1fcdc81bd7822b4897606a32c744f758fe344a
 Description: nodejs bindings for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -461,14 +478,14 @@ Installed-Size: 205
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
+Version: 1.9.0-git20181030-pi20181030
 Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7.5-5~), libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjson-c3 (>= 0.10), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2)
-Filename: pool/main/m/mraa/python-mraa_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 52166
-MD5sum: 53495cac6449c1f325d2175c1de7f7d5
-SHA1: 8ba9e75f2d54ee13ab253f62260f343e511932d5
-SHA256: a646b649fa84dd464cb997cee4f8bb071db755c756757ee4f7041f7e7776b37c
-SHA512: 55e97f1539098e93fcf5946b59eb9c980c708ec180ee0082a52d1251342b86ba6650f774e8c870d61ee223e5a7d891022f0de2b180d290c42944ebb1d84f0335
+Filename: pool/main/m/mraa/python-mraa_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 52212
+MD5sum: e0fbbb6fd5f48b83b3d0e1ef6562e62b
+SHA1: 378fd0cb185227b63acb19eb7f73b84f55601e67
+SHA256: 4c591a7c640f18ff372cec60640df3432a153e05b9a69908604219920baf05d2
+SHA512: 8e1d141877d3d73d3d4629b81c6c6a328f43d20d6b472479887dd6805950ca107adbd1762ad431976e42e8f0fda044e6c2a3507962a5f11f4b7074b6d23a3e9b
 Description: Python binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -484,22 +501,22 @@ Installed-Size: 230
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: python-mraa (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/python-mraa-dbg_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 199372
-MD5sum: e6e4d27a2108bb0400bb541853cec281
-SHA1: 9ee1999a47d5a73307b6dbd43b7c3dbdd634d61d
-SHA256: e43e1838cf430a4dbee63e9deb801ee5a95dca7294a77c52f91860a93e5e745c
-SHA512: f76029476a099e9c4da63e53e53de86539227bf0f3531056d99323c268cd8fc24699def1f2a338acc84d0b5c7176efbd1968b99950c8ca015e3537d2878c1b8b
+Version: 1.9.0-git20181030-pi20181030
+Depends: python-mraa (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/python-mraa-dbg_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 199434
+MD5sum: e4a000085f8bef8e0536fe3896389b62
+SHA1: 371d72cce62d5eed2bad9a29f89b467e2efdbff2
+SHA256: d6e3379e2895e52e07f4db0461b2fe63c7689c7a07435cc711d930050f4bf644
+SHA512: 6c1bf19e62dedea1e516821f64f043845e59f3157a16f763004c20ffefbf7ef278e86fb245429df1d69b85031e51caf1180c3d197f5557c1f5c4e222415a9825
 Description: debugging symbols for mraa Python 2 binding
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa Python 2 binding.
-Build-Ids: fbb916e4a222aed5e67b8705a1845cc608ab06c5
 Homepage: http://iotdk.intel.com/docs/master/mraa/
+Build-Ids: 62c729ebf46da8f92f6e28bdae18150a68998224
 
 Package: python-mraa-doc
 Priority: optional
@@ -508,13 +525,13 @@ Installed-Size: 461
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: all
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Filename: pool/main/m/mraa/python-mraa-doc_1.9.0-git20181011-pi20181011_all.deb
-Size: 62954
-MD5sum: fc4bccfb2a925319ecba6387512e187d
-SHA1: 7bcb905663547e13ed0efbb88dc416a42eb3db68
-SHA256: 33f3fbc1ece9f0216275783ca28033a7bcc57af687bb4e6d83b27cb77c6ed373
-SHA512: b202f78716cc3872c2061ddaeeaa437e39d90aad45617d7bf05f0ad74f509714af07138edfb612a70bc08173f379761a749ddbd7f6ab8db85a5bca9302703b3c
+Version: 1.9.0-git20181030-pi20181030
+Filename: pool/main/m/mraa/python-mraa-doc_1.9.0-git20181030-pi20181030_all.deb
+Size: 62924
+MD5sum: 3c57a9629a81d112455c2e64ea6ccade
+SHA1: dc2e4e019b48fb2df5afb48032044dc00e7da0db
+SHA256: 3cec12aeab5725ec51bec8e0ad1c51fbdba18aed3bb5ac59956330a23dee5130
+SHA512: 3a14b903b89dd7a646601c25b0ef378eca7bb44ad4a16d57e17ad73fc5d84fda276f0c226afce45bd2b5554d789b7f5e38fa4442d515e31982eea70da03e92cd
 Description: Python binding for mraa (documentation)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -622,14 +639,14 @@ Installed-Size: 155
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
+Version: 1.9.0-git20181030-pi20181030
 Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libjson-c3 (>= 0.10), libmraa1, libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2)
-Filename: pool/main/m/mraa/python3-mraa_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 44862
-MD5sum: 1c8e4d644e08a95df277556233a1dd8e
-SHA1: 8d7ed23273d3026f5298632024ace1a470767f49
-SHA256: 82eaa603e808a8a490ba7ec88dde3a5d1380baba3deb764b4a8421e11984e7f9
-SHA512: b1a79d41d3c0f9d15ad637eb1ed1e56656dfe4efa1772de1048a8676d8c8cb46fb7fd1daf47811a053264af1470d5068a9ec1cb7f232f4480d9875f9b2b55cd1
+Filename: pool/main/m/mraa/python3-mraa_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 44916
+MD5sum: c470cddd9e1518f40f3268b5037b30b3
+SHA1: d24d7bb1578c9c0ad8d4923296ff2d1bded19149
+SHA256: 8449eba55fa1bf730510fd1c8ed150029822ff2129170d48e27d7e977b69ed18
+SHA512: cbcfe88c255bddc0ebb63a2ae4555f7d5b8243a492bb7058056f7360285d7e33577b6330822385012c2a133fa1acaa6ff7fba6c700d7211a0e1563fbff45ad27
 Description: Python 3 binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -645,21 +662,21 @@ Installed-Size: 231
 Maintainer: Tom Ingleby <tom@ewsting.org>
 Architecture: armhf
 Source: mraa
-Version: 1.9.0-git20181011-pi20181011
-Depends: python3-mraa (= 1.9.0-git20181011-pi20181011)
-Filename: pool/main/m/mraa/python3-mraa-dbg_1.9.0-git20181011-pi20181011_armhf.deb
-Size: 200618
-MD5sum: 650cd63622c4e0217200a6694ad45c87
-SHA1: 3139029d2d3019b705b0b5637da9423c9596f915
-SHA256: c4a4af2aca4696d90818eda783722f214246e7e4697077bceb9ff0c6915764cb
-SHA512: 19cf78fe09dd36e268f851eb679e15cf0f6944c9fb20e9dc537c380c2fe24e6270a7541e8f5f6d2c9f21fea844d0d92b7e025a1514a612d2e515f6fcba04d6df
+Version: 1.9.0-git20181030-pi20181030
+Depends: python3-mraa (= 1.9.0-git20181030-pi20181030)
+Filename: pool/main/m/mraa/python3-mraa-dbg_1.9.0-git20181030-pi20181030_armhf.deb
+Size: 200726
+MD5sum: c46cbd266b0df395910b21824c3fbe6f
+SHA1: b940b77fb5e85982a0cbc979109094b7076b4466
+SHA256: 1334985f0ce3d5f11563efcc104bbee78c555fc0556913b5b27f8d939c7abe5b
+SHA512: 52e10978f7f9d2667ffbf9c9ba11d8805b6e4d8a16139a40e39a797e3c68435a0ccc42910e814aac28264f69d93dc08a35e5bf9b8476eb77a08099543d5bf990
 Description: debugging symbols for mraa Python 3 binding
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa Python 3 binding.
-Build-Ids: e34d563dae9dabc203437c4304ed3f44e946044c
+Build-Ids: b5f9914ec9ef95d18716132c61f5a26f2f5301da
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 
 Package: python3-upm
@@ -706,8 +723,8 @@ Description: debugging symbols for upm Python 3 binding
  groups of sensors may be.
  .
  This package contains the debugging symbols for upm Python 3 binding.
-Build-Ids: 019b24b57a5e513e5f3be9164eacb5aee692cc1d 01bbdd035dcded1fc875318423671c54be13684a 0279ec7e7b1b302c61bde51e4fa178f158abef9a 033b7b35f3ac4698befb91e9e381b0c9d6f5dbdc 033dca89be2f187ef4f8228eeeb6685809d19bd2 03c7e44abc7d1ddbd0c52933f29c12ea8b35ff20 041bab2b33981fd1665ca4dbd6c2b0b57e68053d 048dcd7818b95a751bf828be8c7598b2e50b13dd 04a4ae7a6eda8ed6566be5ed35f0b2652e48f42c 04ba35168f8347fa62f321fdf41b2c84bcd36395 050513e94c8d581866216255cad4f36672735290 08426d7b86735566eae5320941095e10e973dc2f 08659746dab5d88c6ecf24182bafd973093f8475 094ede9e1cbc939f26d00fcde29e7a7e56eb58fa 096adc68b6abc0369b8cff78805982bab0458549 0a9079e058325af4b55f50dee48be19350784d00 0c23ce267988272056825a17bc87457dfca1e967 0df6630ea349244521fac72b4a2aa0d202602e56 0f4c5f716e70380a67285f698a9a36ec0f4e4ab4 0fecc62dd01235201eb4dff1662f49e7a0b49d1a 11783b766569338b847167885c3381448ac1755e 13ac0dc18751a001c075fe176a545be9b292b2ad 140643d34c8c93efd249e8717d334be82aaf2038 163270c8f2b38dbfc2b4202d58e469c5f2109757 17c17468694f559747c4e1b4f6d66f49cb261c34 180c6ad132de65a0077867c58154c932d0ed2bd6 18bd174f7d954e503c7a7f72db43fd827ee8ecd2 1b7183c2581d069ae064568ed5ccaaef64b83ecb 1c66b9b6f73eb14309392c3ca346290e19f5fbaa 1c7223052f4907acec00de468cb470c42880b105 1f13d5c861540b995dcd7ad9ebc7e73fa7bc63bc 203ec9d6c3de00194668ff4ec6f12955eb0c5441 211c70d05c554d75e50308e1acc25d7d9fbf6621 215e03552e137ee71b32ec13c1857ae2011d6aab 22db8a04d6711fdbaff38dd66c5828c4ef126452 24c5d961eae0c1e9e8b020ee902486f25aea8b04 27fb40bea3ee550e9c4fc944e7e7039a39623eee 283faf59fbc4374e9cea9fd3c0997c4a14d19b71 2c0201cbd3309f770c9aca2e96402230f53da235 2c0520757ad6ee540a6085a4e6e344e9b1e32c5d 2c25694217fe1def1dd01d175556307628e1deb8 2dde8e409fc700668da89e171d82e75c192306ce 2e539d1cf27403269a09f9353b7ed1782714a547 30d907ba55b8d6e3948a07c80f43cfffec93befb 30ed22c562d69fd3443ebed6a5cb4b7389ea2246 328461aadbdd7deb886097c6c6b963a31a24e530 346a91dc2531254842a5231c58113121ae686508 36296c11aceee66310d543c7fab87a433205fa3d 36b91568194a6c46e6fd4a3726b0f060a85cf533 3721515ad08564e9860fc4ab152487fad2c53669 38f0af69f7741077f50c73d89afb33c20ecb1df6 39402a8e76c0316ab845ce7b4e007952e7e7f47e 3be9d96fe11cce15a6cdf852db8cacf9a33e6805 3d133f93aae5be4613d9c470ce6800d78ac97b71 3d4742ed183dc06565c52b6cd3ded053dd33abe6 3fa5db13ff05233c62e7240c21d9a19fc885ba52 405a01d6e7cbf711294e0d8ed8b07717922b5470 40b97a03721c859633bbc580ceb88b96742c52d2 40e2c95dbdee565021f57bc2d10b814abd70b374 411634670bf2136e8c75d7410b048aa610291e52 411ebc7e7fb663fdfd57ac4a3955a726f6f1f780 440dbbd75f07176476edb82e30372ee4122c9b3c 443465033e05bed904065d1e6774a77e25740143 44a2cd17a77b2bb03e4c16ae5b44735fc63ad510 462672483b5598903b94ea90607cdb10d828e14a 49e8715b35f1967703144c830af5e20a45ba5e3e 4a8c15453c11eda242968aaddd47dec8be1da85c 4c794394a9f2e55e28279b1855e17320b976306c 4cd829d971e5d99c39d561d5cfd3cba7f6974110 4d835b4cb7a4a768cda6a1479d9dc706cd3e7c6e 4ff11706c2b4869ecf61a192b21edcdc5bba68a1 511858906563a8847f6409f746d2e9d39604c81e 514395811494e9297fc5036f20dd95253cd2b7af 52445cce6ed51f872cd99b692105703d740cc8ee 5555cc894c286665366ffc588697078223eb1402 56aa613b9fe56b2920fa1c08cb0775fb5547c3af 56cd3bcb3450c8e4f5e3d0400a156db53767ada5 5728cbd1327568989e69cf4d8341b73995c2e4df 59134e7446b04786af7d405fc827121a8c746452 598801a78b6bbea7e1ff97658f3683c5036f1189 59e60a763efff8387b2eb50145e0aa3f98e7a013 5e9259befb4e239b0654d2138e13e38a0517aa42 5ecfd26a3ea2d2ee1c36203c737d092c35171b11 5f0b69aa05138e9ddcb21aff477311b01e25a9e4 5f1b1c02171d7a15a097438464d8cde1ec8633de 61f95ef5fef913a0b188d821e62304f4e26ce582 652d3be00bdf572f4f5cbaffcbbd689d5628194f 65503ed94bc7fde6e4bea849ceceeb2eb6e3d707 6590c2ce4f36e13e0e272b7e27f180f442b1b7be 67469dd3f52196ceed9e2a05cfd276e065adceb0 67e30a95766de5505c5d642c89077b2dde0f12aa 681002661e701c98654cd88860b92999e5a76238 69e4cfc87286ac4f814398c22f76157fd163dae0 69f93441f1b261d736a19d93de8526bcd02299e5 6a181e782b1db83818ba9cbc75418073a0e84e18 6c8bc55512f1d23fb73267fda3802d08c296b36f 6cf297f57e842ca03042f5d6780144e0c586ddcc 6dec183242cf6291b5afe9dfe3f53f43f1210711 6e109e0f04113b50d8a6d2e0b1e943ea00f12319 6fa90ae4c3ce85c31860fce2266170b082457cd3 71443930afefa16c3fea7cb900886c2f48792162 7176b8dfb34cf8dd16fc5af6fc8ff9d001b44083 718cf2e50ece208618481c7d4aa44c0439cf48b8 71e4b4e12e842e344dad64e48de543f88705c6d3 728965a3fb0c4d315d710e7f2ef792d934a55224 7518dd33cc52e8e771be71db66dcbae5a70ee35b 7845df61015a878d4f248f59ff35a2ed806259a9 7a022289592da8eea2ea43154ab587523e4f912b 7a4fd1acc8bca47024a5759b576b0c17889ba54a 7ae2274c59caff78321e33f8e8966131f6087048 7b1c26b50d4f428a5e13de5c946be11be2b629c6 7bd7b4e71ce67941498a3301458e4cc39e9f3835 7c2212e1c9eb3bb9927930d50556645931213b01 7d92f82ed47996b137af740b5ac46cc5871299ec 7dc66a7e83f4fefceec202f0fff1dd6a8ee40441 7ed90d3951e0a1d3ea89c942b5b1c16f611dad58 7f5b2c2a1675fd299523e12c67f714c14dcd5705 80973a21e543eab21fef0ec04bac4bbc8ef29a2e 80a1b5be8da51a46e7261d96399d1ddeb6260037 815b75ce11c5cf4b8e6771640a8f09ba8c4aa66a 81c98b4c2200e92c3ddd79bf354a4fc5d7f34cf0 842470e1a4b82457f7592a32810828a4920b9692 850ea5b10133d3de8bae436aa3d3eee21afd1e28 8526cd988a2d6e2669cd5d6963ed781aeb3f1546 85a33fc73f10ad535747ae733bdd73989e711f17 8857d140e6bd45513f4ba8d05b405b6f7bc48ac9 8ab81bd10500f7fa8785723228faa5aa0fca4db3 8b117af1fa6e552f0ab6e0677bc826a674c8ef3c 8d72501fc039632cbfcaa4106d782b107e7722f2 8e0652e48e060be14f15edc3a24e675bf04e406a 8f4270a2d7f1b4432a2f962376ffb515e717253f 9219e2cfa201d1f071cb88cc13ebb9a4ff5689f7 94c639b12694117feb03a9f72c131cf18efcbb7e 95cbf658a0afcf4e04a952738818978c49e9e9fc 95e3f950b07ce21b0b023cd64091fe24183a751b 95f94feda74450c55fbe4aa65fc5b495a4e77da0 965c9116f5bd67e2429ba331700856f0975ff171 99a9e93e943ee174e2923d0de71289b0c3ff0a97 9a40484e2b7e3e869067b95222a92528cfbc1deb 9b61944720660eb34ffded9c96cbb0b16a5cb0b0 9bcb441b371a65a5f41bb4b375f4e0d9fc86214b 9d3609a3616ef616b884fba86f1cd7e0a9cfe782 a041f3a7f47e7e1e55fd27397f739d95f98e0328 a07c956b51673e7417e2ff526361455328a2d4e7 a27e704df029fbe3cccadab823a85eb915ae2783 a4d5aa683e32e819ae8e3a25359d188bd079ff1d a771d0a7c4d2658cdc5a6ccea8391a50967b7d76 a7f57008c66d6a1b1e58722ec304f11534a4ca23 a8c8bfd481148a466c94b657eea89c5755c3d6da aab8c34dc140526e4e07ca07f205a208bde6457b ab76576ebb09e1a41829546649881eaf3547439a abd15581386fa3daeec1d8e9d761995a1664154f aee8c82a014445f320824b976ba74bde1facfb34 af9aa814ba5bb01071a02201beee9ee24c2a307b b0690e187a8a331dd258432a7fe15b0649db7c1d b21062624b47409d8f971d4a1f94de26420c2d44 b2baf6a2b6b421427adbbffe309b7399379f5380 b3d448907071264cd824c57651b66bd646abb24d b65fbbc77834228dce212991b900dc4f5e61032e b755bedb332938c8ae3d1826f643b459a109fac1 b91dcdc696bab6ea4c4d9d756990386e7220b65b b98b8c530f70e9a895adff83a25bc95d2d38a036 b9c64a795da159c2e6108dea3605b71e0c748ff6 ba06fc2dcf8786241564715ffe803e78fdec6d23 bc1cf4a23ded2b7479633237adccd78b78a5ac13 bc1d895d72f2c80731be59f55edb51d83855264d bcac9879a46dea583eee3e81e1270ac92f44fcba bdda4cddf3757fea88071fe1b9864d8f32798119 bebd4b2e494662e2fbf7aac4d6e35a2b21bd5f8b c1d44f4e179fb2fc9555110148e70c16eb80a6fa c2c83235af8730ade9b518cb72b7fd42425de042 c2e759ed06109f10567184b464ab51fec575997a c795d438b772290bcb2432404673eb03264b0af6 c8aad0e5936bd30ab1cd66b2540b490e93c4d9d5 c8f194ca09267d62d98bbe3b9faee223924feb7a ca0c36c5bad4f8bc1ef3790597c23a383efb5437 ca54fa1ec541c38b911a9307a043c5979d9262d3 ce3d6518bcf350e0b2499709771553fa2bbc3215 ce61b80f3531276622c94563b73ee30be1da45e5 cfab5d46575b358a691cc940b7b29f06973a3414 d04cf458116180fd4eb46194b9c799199b4194ea d1880b89a00df2297b5167547a186e088aedcc37 d1b6bbd29530e1b52eb6cafc6b3611c941ee5be4 d1eafdc92df82f9f55b52860d053240027591b9c d294822b4b840f6ae0fac221291e11f614c4b9cb d3634371181fdffa8b007d685c98ae0eedba6518 d420f3b5550f0b78a67cb4fc91d62586700b62a4 d7d6e86584c8eac4087d366380427ec4be41f14e d9c995295781621ba0a8feef7c16ca345a4c6b74 dab2e214c36898bc5997a8ba26d667de4b37c31e dd7dd41390a6988aa24b977410d3846da0269f67 deac1bbd366fbf9fd1e21916b32525581651424c e017e813950e9fd128a33201f618113d10875e3e e05c29f19d43d1a867f73c7d73e5423bd04539b2 e0ac3ca36648d68224de069ba17032b60b9a946c e0e9db27a296f7be8b160a68219d63f769cba998 e3ec99d09c30acc043a9e41e63b96c13e866eba4 e531de67308f2a2b568af1ccbf351a7d0cdc4635 e57128002d747bca1f75be127de142ad81a4d397 e7ce65bf7837913ece64802bf176eb4a9e017494 e8b2e9bca4246f284153a1a72c09ba36e5951354 ea3d5bcccd5161c26c45b5cbd21562776b6d4913 ea94d00020320b900f501524ace3f01903c026df eadab69907108cb11baa3ad609967c084ca8daae ed1ebd8c351cee7b05852a7998a422f5c8d5676b edf3f0c2c8f8ca664ac294415c2253186a7fd2f4 f0021fa6f2d522c6c4ba7aef6fb281495709e805 f102581acbbe661defd0bd283c3ad24abedf51a2 f13d71476ecde1759f9cdadf113d5b101c311cde f175bc6343098fa786f1f5e339255d58b7c3e426 f54b8ea6a7a42c026014d47df59194613c019405 f970b8a725c0934995b4004d695e18347f16a6f8 f9ad4ece1fe7d7d2f523da9af3a0da194735b2bd fbaf6970d599d24aad49f14bab0358ecb12bf045 fdd3b33aed1c1be370bf1be521d220e8d5b4a966 feaf5bd075e5d66d551626ff4c71ab1445c5d919
 Homepage: http://iotdk.intel.com/docs/master/upm/
+Build-Ids: 019b24b57a5e513e5f3be9164eacb5aee692cc1d 01bbdd035dcded1fc875318423671c54be13684a 0279ec7e7b1b302c61bde51e4fa178f158abef9a 033b7b35f3ac4698befb91e9e381b0c9d6f5dbdc 033dca89be2f187ef4f8228eeeb6685809d19bd2 03c7e44abc7d1ddbd0c52933f29c12ea8b35ff20 041bab2b33981fd1665ca4dbd6c2b0b57e68053d 048dcd7818b95a751bf828be8c7598b2e50b13dd 04a4ae7a6eda8ed6566be5ed35f0b2652e48f42c 04ba35168f8347fa62f321fdf41b2c84bcd36395 050513e94c8d581866216255cad4f36672735290 08426d7b86735566eae5320941095e10e973dc2f 08659746dab5d88c6ecf24182bafd973093f8475 094ede9e1cbc939f26d00fcde29e7a7e56eb58fa 096adc68b6abc0369b8cff78805982bab0458549 0a9079e058325af4b55f50dee48be19350784d00 0c23ce267988272056825a17bc87457dfca1e967 0df6630ea349244521fac72b4a2aa0d202602e56 0f4c5f716e70380a67285f698a9a36ec0f4e4ab4 0fecc62dd01235201eb4dff1662f49e7a0b49d1a 11783b766569338b847167885c3381448ac1755e 13ac0dc18751a001c075fe176a545be9b292b2ad 140643d34c8c93efd249e8717d334be82aaf2038 163270c8f2b38dbfc2b4202d58e469c5f2109757 17c17468694f559747c4e1b4f6d66f49cb261c34 180c6ad132de65a0077867c58154c932d0ed2bd6 18bd174f7d954e503c7a7f72db43fd827ee8ecd2 1b7183c2581d069ae064568ed5ccaaef64b83ecb 1c66b9b6f73eb14309392c3ca346290e19f5fbaa 1c7223052f4907acec00de468cb470c42880b105 1f13d5c861540b995dcd7ad9ebc7e73fa7bc63bc 203ec9d6c3de00194668ff4ec6f12955eb0c5441 211c70d05c554d75e50308e1acc25d7d9fbf6621 215e03552e137ee71b32ec13c1857ae2011d6aab 22db8a04d6711fdbaff38dd66c5828c4ef126452 24c5d961eae0c1e9e8b020ee902486f25aea8b04 27fb40bea3ee550e9c4fc944e7e7039a39623eee 283faf59fbc4374e9cea9fd3c0997c4a14d19b71 2c0201cbd3309f770c9aca2e96402230f53da235 2c0520757ad6ee540a6085a4e6e344e9b1e32c5d 2c25694217fe1def1dd01d175556307628e1deb8 2dde8e409fc700668da89e171d82e75c192306ce 2e539d1cf27403269a09f9353b7ed1782714a547 30d907ba55b8d6e3948a07c80f43cfffec93befb 30ed22c562d69fd3443ebed6a5cb4b7389ea2246 328461aadbdd7deb886097c6c6b963a31a24e530 346a91dc2531254842a5231c58113121ae686508 36296c11aceee66310d543c7fab87a433205fa3d 36b91568194a6c46e6fd4a3726b0f060a85cf533 3721515ad08564e9860fc4ab152487fad2c53669 38f0af69f7741077f50c73d89afb33c20ecb1df6 39402a8e76c0316ab845ce7b4e007952e7e7f47e 3be9d96fe11cce15a6cdf852db8cacf9a33e6805 3d133f93aae5be4613d9c470ce6800d78ac97b71 3d4742ed183dc06565c52b6cd3ded053dd33abe6 3fa5db13ff05233c62e7240c21d9a19fc885ba52 405a01d6e7cbf711294e0d8ed8b07717922b5470 40b97a03721c859633bbc580ceb88b96742c52d2 40e2c95dbdee565021f57bc2d10b814abd70b374 411634670bf2136e8c75d7410b048aa610291e52 411ebc7e7fb663fdfd57ac4a3955a726f6f1f780 440dbbd75f07176476edb82e30372ee4122c9b3c 443465033e05bed904065d1e6774a77e25740143 44a2cd17a77b2bb03e4c16ae5b44735fc63ad510 462672483b5598903b94ea90607cdb10d828e14a 49e8715b35f1967703144c830af5e20a45ba5e3e 4a8c15453c11eda242968aaddd47dec8be1da85c 4c794394a9f2e55e28279b1855e17320b976306c 4cd829d971e5d99c39d561d5cfd3cba7f6974110 4d835b4cb7a4a768cda6a1479d9dc706cd3e7c6e 4ff11706c2b4869ecf61a192b21edcdc5bba68a1 511858906563a8847f6409f746d2e9d39604c81e 514395811494e9297fc5036f20dd95253cd2b7af 52445cce6ed51f872cd99b692105703d740cc8ee 5555cc894c286665366ffc588697078223eb1402 56aa613b9fe56b2920fa1c08cb0775fb5547c3af 56cd3bcb3450c8e4f5e3d0400a156db53767ada5 5728cbd1327568989e69cf4d8341b73995c2e4df 59134e7446b04786af7d405fc827121a8c746452 598801a78b6bbea7e1ff97658f3683c5036f1189 59e60a763efff8387b2eb50145e0aa3f98e7a013 5e9259befb4e239b0654d2138e13e38a0517aa42 5ecfd26a3ea2d2ee1c36203c737d092c35171b11 5f0b69aa05138e9ddcb21aff477311b01e25a9e4 5f1b1c02171d7a15a097438464d8cde1ec8633de 61f95ef5fef913a0b188d821e62304f4e26ce582 652d3be00bdf572f4f5cbaffcbbd689d5628194f 65503ed94bc7fde6e4bea849ceceeb2eb6e3d707 6590c2ce4f36e13e0e272b7e27f180f442b1b7be 67469dd3f52196ceed9e2a05cfd276e065adceb0 67e30a95766de5505c5d642c89077b2dde0f12aa 681002661e701c98654cd88860b92999e5a76238 69e4cfc87286ac4f814398c22f76157fd163dae0 69f93441f1b261d736a19d93de8526bcd02299e5 6a181e782b1db83818ba9cbc75418073a0e84e18 6c8bc55512f1d23fb73267fda3802d08c296b36f 6cf297f57e842ca03042f5d6780144e0c586ddcc 6dec183242cf6291b5afe9dfe3f53f43f1210711 6e109e0f04113b50d8a6d2e0b1e943ea00f12319 6fa90ae4c3ce85c31860fce2266170b082457cd3 71443930afefa16c3fea7cb900886c2f48792162 7176b8dfb34cf8dd16fc5af6fc8ff9d001b44083 718cf2e50ece208618481c7d4aa44c0439cf48b8 71e4b4e12e842e344dad64e48de543f88705c6d3 728965a3fb0c4d315d710e7f2ef792d934a55224 7518dd33cc52e8e771be71db66dcbae5a70ee35b 7845df61015a878d4f248f59ff35a2ed806259a9 7a022289592da8eea2ea43154ab587523e4f912b 7a4fd1acc8bca47024a5759b576b0c17889ba54a 7ae2274c59caff78321e33f8e8966131f6087048 7b1c26b50d4f428a5e13de5c946be11be2b629c6 7bd7b4e71ce67941498a3301458e4cc39e9f3835 7c2212e1c9eb3bb9927930d50556645931213b01 7d92f82ed47996b137af740b5ac46cc5871299ec 7dc66a7e83f4fefceec202f0fff1dd6a8ee40441 7ed90d3951e0a1d3ea89c942b5b1c16f611dad58 7f5b2c2a1675fd299523e12c67f714c14dcd5705 80973a21e543eab21fef0ec04bac4bbc8ef29a2e 80a1b5be8da51a46e7261d96399d1ddeb6260037 815b75ce11c5cf4b8e6771640a8f09ba8c4aa66a 81c98b4c2200e92c3ddd79bf354a4fc5d7f34cf0 842470e1a4b82457f7592a32810828a4920b9692 850ea5b10133d3de8bae436aa3d3eee21afd1e28 8526cd988a2d6e2669cd5d6963ed781aeb3f1546 85a33fc73f10ad535747ae733bdd73989e711f17 8857d140e6bd45513f4ba8d05b405b6f7bc48ac9 8ab81bd10500f7fa8785723228faa5aa0fca4db3 8b117af1fa6e552f0ab6e0677bc826a674c8ef3c 8d72501fc039632cbfcaa4106d782b107e7722f2 8e0652e48e060be14f15edc3a24e675bf04e406a 8f4270a2d7f1b4432a2f962376ffb515e717253f 9219e2cfa201d1f071cb88cc13ebb9a4ff5689f7 94c639b12694117feb03a9f72c131cf18efcbb7e 95cbf658a0afcf4e04a952738818978c49e9e9fc 95e3f950b07ce21b0b023cd64091fe24183a751b 95f94feda74450c55fbe4aa65fc5b495a4e77da0 965c9116f5bd67e2429ba331700856f0975ff171 99a9e93e943ee174e2923d0de71289b0c3ff0a97 9a40484e2b7e3e869067b95222a92528cfbc1deb 9b61944720660eb34ffded9c96cbb0b16a5cb0b0 9bcb441b371a65a5f41bb4b375f4e0d9fc86214b 9d3609a3616ef616b884fba86f1cd7e0a9cfe782 a041f3a7f47e7e1e55fd27397f739d95f98e0328 a07c956b51673e7417e2ff526361455328a2d4e7 a27e704df029fbe3cccadab823a85eb915ae2783 a4d5aa683e32e819ae8e3a25359d188bd079ff1d a771d0a7c4d2658cdc5a6ccea8391a50967b7d76 a7f57008c66d6a1b1e58722ec304f11534a4ca23 a8c8bfd481148a466c94b657eea89c5755c3d6da aab8c34dc140526e4e07ca07f205a208bde6457b ab76576ebb09e1a41829546649881eaf3547439a abd15581386fa3daeec1d8e9d761995a1664154f aee8c82a014445f320824b976ba74bde1facfb34 af9aa814ba5bb01071a02201beee9ee24c2a307b b0690e187a8a331dd258432a7fe15b0649db7c1d b21062624b47409d8f971d4a1f94de26420c2d44 b2baf6a2b6b421427adbbffe309b7399379f5380 b3d448907071264cd824c57651b66bd646abb24d b65fbbc77834228dce212991b900dc4f5e61032e b755bedb332938c8ae3d1826f643b459a109fac1 b91dcdc696bab6ea4c4d9d756990386e7220b65b b98b8c530f70e9a895adff83a25bc95d2d38a036 b9c64a795da159c2e6108dea3605b71e0c748ff6 ba06fc2dcf8786241564715ffe803e78fdec6d23 bc1cf4a23ded2b7479633237adccd78b78a5ac13 bc1d895d72f2c80731be59f55edb51d83855264d bcac9879a46dea583eee3e81e1270ac92f44fcba bdda4cddf3757fea88071fe1b9864d8f32798119 bebd4b2e494662e2fbf7aac4d6e35a2b21bd5f8b c1d44f4e179fb2fc9555110148e70c16eb80a6fa c2c83235af8730ade9b518cb72b7fd42425de042 c2e759ed06109f10567184b464ab51fec575997a c795d438b772290bcb2432404673eb03264b0af6 c8aad0e5936bd30ab1cd66b2540b490e93c4d9d5 c8f194ca09267d62d98bbe3b9faee223924feb7a ca0c36c5bad4f8bc1ef3790597c23a383efb5437 ca54fa1ec541c38b911a9307a043c5979d9262d3 ce3d6518bcf350e0b2499709771553fa2bbc3215 ce61b80f3531276622c94563b73ee30be1da45e5 cfab5d46575b358a691cc940b7b29f06973a3414 d04cf458116180fd4eb46194b9c799199b4194ea d1880b89a00df2297b5167547a186e088aedcc37 d1b6bbd29530e1b52eb6cafc6b3611c941ee5be4 d1eafdc92df82f9f55b52860d053240027591b9c d294822b4b840f6ae0fac221291e11f614c4b9cb d3634371181fdffa8b007d685c98ae0eedba6518 d420f3b5550f0b78a67cb4fc91d62586700b62a4 d7d6e86584c8eac4087d366380427ec4be41f14e d9c995295781621ba0a8feef7c16ca345a4c6b74 dab2e214c36898bc5997a8ba26d667de4b37c31e dd7dd41390a6988aa24b977410d3846da0269f67 deac1bbd366fbf9fd1e21916b32525581651424c e017e813950e9fd128a33201f618113d10875e3e e05c29f19d43d1a867f73c7d73e5423bd04539b2 e0ac3ca36648d68224de069ba17032b60b9a946c e0e9db27a296f7be8b160a68219d63f769cba998 e3ec99d09c30acc043a9e41e63b96c13e866eba4 e531de67308f2a2b568af1ccbf351a7d0cdc4635 e57128002d747bca1f75be127de142ad81a4d397 e7ce65bf7837913ece64802bf176eb4a9e017494 e8b2e9bca4246f284153a1a72c09ba36e5951354 ea3d5bcccd5161c26c45b5cbd21562776b6d4913 ea94d00020320b900f501524ace3f01903c026df eadab69907108cb11baa3ad609967c084ca8daae ed1ebd8c351cee7b05852a7998a422f5c8d5676b edf3f0c2c8f8ca664ac294415c2253186a7fd2f4 f0021fa6f2d522c6c4ba7aef6fb281495709e805 f102581acbbe661defd0bd283c3ad24abedf51a2 f13d71476ecde1759f9cdadf113d5b101c311cde f175bc6343098fa786f1f5e339255d58b7c3e426 f54b8ea6a7a42c026014d47df59194613c019405 f970b8a725c0934995b4004d695e18347f16a6f8 f9ad4ece1fe7d7d2f523da9af3a0da194735b2bd fbaf6970d599d24aad49f14bab0358ecb12bf045 fdd3b33aed1c1be370bf1be521d220e8d5b4a966 feaf5bd075e5d66d551626ff4c71ab1445c5d919
 
 Package: upm-doc
 Priority: optional

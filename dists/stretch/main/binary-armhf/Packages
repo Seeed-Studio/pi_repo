@@ -65,8 +65,8 @@ Description: debugging symbols for mraa java binding
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa java binding.
-Build-Ids: d017598ca48ef6ce72649729de9df3ef72a83015
 Homepage: http://iotdk.intel.com/docs/master/mraa/
+Build-Ids: d017598ca48ef6ce72649729de9df3ef72a83015
 
 Package: libmraa1
 Priority: optional
@@ -515,8 +515,8 @@ Description: debugging symbols for mraa Python 2 binding
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains the debugging symbols for mraa Python 2 binding.
-Homepage: http://iotdk.intel.com/docs/master/mraa/
 Build-Ids: 62c729ebf46da8f92f6e28bdae18150a68998224
+Homepage: http://iotdk.intel.com/docs/master/mraa/
 
 Package: python-mraa-doc
 Priority: optional

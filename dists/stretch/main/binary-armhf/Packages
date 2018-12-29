@@ -15,19 +15,19 @@ Description: Raspberry Pi BMA456 Library
  BMA456 Step Counter Control Library for the Raspberry Pi.  
 
 Package: libbmi088
-Version: 0.0.1-1
+Version: 0.0.2-1
 Architecture: armhf
 Maintainer: Peter Yang <turmary@126.com>
-Installed-Size: 47
+Installed-Size: 76
 Depends: libc6 (>= 2.4)
 Homepage: https://github.com/turmary/bmi088-python
 Priority: optional
 Section: base
-Filename: pool/main/libb/libbmi088/libbmi088_0.0.1-1_armhf.deb
-Size: 11442
-SHA256: 7a8c2a683e0a3ae727b1d3b999feea36059d6644e462618d9f4eeb7d9e2b4dfe
-SHA1: 36b6341bacba3e5209f909f01eff376a2d2b8ce6
-MD5sum: 300ccadc7e000214c9b7d09ad1908485
+Filename: pool/main/libb/libbmi088/libbmi088_0.0.2-1_armhf.deb
+Size: 14702
+SHA256: cca69d87ae3c895c2d71571e947523819fa2688a12b117304cdb6511d22f607c
+SHA1: d443befd684971dd042a8e46abcf7533fe0fcd05
+MD5sum: 64ee82c089a59f11b960c41d2d8fa1fa
 Description: Raspberry Pi BMI088 Library
  BMI088 6-Axis Accelerometer & Gyroscope Control Library
  for the Raspberry Pi.

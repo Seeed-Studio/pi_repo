@@ -3,13 +3,13 @@ Hash: SHA256
 
 Suite: stable
 Codename: stretch
-Date: Fri, 21 Dec 2018 08:21:45 UTC
+Date: Sat, 29 Dec 2018 09:48:35 UTC
 Architectures: armhf
 Components: main
 Description: repository for pi
 MD5Sum:
- 2e24abc32f1efcad36feb5338a438957 68907 main/binary-armhf/Packages
- c16d8181ad5c653de8423ce46a5c7249 30040 main/binary-armhf/Packages.gz
+ 203d309650697052c0ecbe124519e565 68907 main/binary-armhf/Packages
+ b4122fc9cf4e571d9485f49a396dc509 30037 main/binary-armhf/Packages.gz
  ce03b39ad63f59f03fafd88e2880418e 95 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  92187e6fdfb21a23518deab6174b9491 1976 main/source/Sources.gz
  b79ad56f8c0df15e03e33fb2dfec3115 96 main/source/Release
 SHA1:
- 037d1e424a15292d2e6cec31a353e8424757c103 68907 main/binary-armhf/Packages
- 79e32f160e5388be05be1dbd9655e0a7b2c0ecb0 30040 main/binary-armhf/Packages.gz
+ 42b7f75d9827f3f8cafcd429b3378d58d4dca199 68907 main/binary-armhf/Packages
+ fd782550417f12e766b09245e3edb80bf3b17005 30037 main/binary-armhf/Packages.gz
  a2dada4fb04bb77c510f0ca103794eccceba11e3 95 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  b6f454dd2e0b811e8ee03a6fc6173df201b48a9b 1976 main/source/Sources.gz
  6360552fbc144d0501ec341d04da37fcce76a2e5 96 main/source/Release
 SHA256:
- 16803faae8d4e4524c5a29ffd0e34738e7add46e3d76eca99a8181f09c2f79be 68907 main/binary-armhf/Packages
- a8870a088c69c5215bddd7b29a99cf7fed090a6f469a1b729aa343f686f26c91 30040 main/binary-armhf/Packages.gz
+ ca2cdc97cc1d46cc74e736231974008bf7a5e242ef6d978b40061dfe619b5fdc 68907 main/binary-armhf/Packages
+ 5d99ec84f44bd8cf30cfd95b642afee7b8002892cac044493f8d3fd4431703bc 30037 main/binary-armhf/Packages.gz
  a1cf43b610e4799004d74dbdf148cca5ac18a1508122fd32e225f8c8ca025eac 95 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
@@ -36,17 +36,17 @@ SHA256:
  4d84f80c644d1a0682b7cdc1104ba35b179b573f30441e7fe8bfa2cbcb60214a 96 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlwcopwACgkQ3GEhV0o7
-+KyzGxAAj/dvkVpQPUdVUofGmezXWyS6+8IpdqdK7reNyaco2JaZk0PZeSRdhCLt
-g5wbvcUSpZzt0X3/lTRc5xBvpNDAFoenKInATQ6X4Q2R2pddTUIySkigL/wKkZPk
-0T5rRMH3kd/QfjDfIWtUI0mLLHyP0Kw+1niCnNwCcnHuU0qH7DL0yQ52sjaSZVq3
-KStcMv7n5tUzcL5OR+VwLlo4kbieRcWaE2ZyDdsEdMai3Jn29DlR5WUU4bAXEb1C
-b5RFfBfBXwCBojrws0YjVOCq8J+NCn+ysArjl8WsL1Xl134coupD/aWQfzcZewD2
-WSF4bKAUd8O6wgjw7PX7VLMF+yH+NmchhHn71gG7npGVJsV323EPBtDQwOECtFIl
-++xFkhSD2jGDg2bh4iRYuw0+LD1oQo0mDeQGpErMqBqi4QeWuba7LBfSPCcOgSNZ
-+b8r+oMriGchfpCOk84a60GBtt8B6XBvOveIqrOXoeRJxUMKMUCkNhBqe3Z61F/l
-OE2JhPOmvqXTlghgfOvlLjts4RbCFF6JzIzRRhRWM15AKGdDoIuv9he1nBVu2kgD
-kOZ38a1ugHjVIo+LpyEO60MYro+0XonGiyXDNRXLGxs3r9ToNQ3VNE4DLCdPUpl4
-1zeKiIxu7uU4HuOsLJ9bSZZ775PTUm05aHIj5ykQ5CtdeWpMU+k=
-=yw4p
+iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlwnQvcACgkQ3GEhV0o7
++KwteA//c1oURwx0CKSWq7klNQPEJl4m3WFZPL0SzFjgt3HHxpKXlg70LVpv473d
+kvrpxZEQ6vrTaNeNlchGbbW1hhEY/aHdarogwrIkTmXGT8EO8NX3RnHh0HtX52PV
+XGOnMJBF/Ixqjapn2vKXcKCM5OmobxqeJS0dJiQJZrh6DtzVt0cSbe4kRwuECuHX
+QU3itBYtRgiRj0R2zbZ16u2z1PtNLyZnw5MEf+evPXF6au1uoio6u0VS+1ppjHDu
+dUme2WdRDo9tnITw11I9I4MjzOCRrrj8sBmWJEbiABTXZ8sKQ0gLx/EBqwrekaON
+Sf/ezTBEt3LzIJAFSY0kmNKt/b4i13rJTUF6/FYk7LfEl0U4LyN1vN5eNerFkW7B
+bUmJ6Ti9FJkMMWOBJPQOkQCArKfm5T6MI4AFv47aS7p+ZqYBBN6ogiLso2DkK9fY
+xb5E3ndyBLd5ajykwnE+kjdrklGoaH0Sa+XUryYoyrL+OrWx1JnwCLoZozcX7MRu
+njTnYTUEmM+YgcSkfMmZ181T/hBcxuRwTJvzzva8cvGJo8lfEjdLAs8+RsAwU9Td
+z9HV9mhZIof9ki/sCcxHEXS6JkuptGwfLIdoAuJfIU/mpO5FcmKTm9jZmJCF+i8V
+03l/NqlYZ8V2neJnYN9UmPih4h1NJfpqssyX0eCDYp/igq6xBO4=
+=AN29
 -----END PGP SIGNATURE-----

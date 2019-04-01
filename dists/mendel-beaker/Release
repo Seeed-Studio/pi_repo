@@ -1,0 +1,33 @@
+Suite: stable
+Codename: mendel-beaker
+Date: Mon, 01 Apr 2019 04:34:15 UTC
+Architectures: arm64
+Components: main
+Description: repository for Coral Dev Board Beta
+MD5Sum:
+ 926cc262b22a808a60d9bcec6e3ed1cc 14119 main/binary-arm64/Packages
+ a667f667f59201898c52d1f1d1715190 2941 main/binary-arm64/Packages.gz
+ 06dc67e6129c7b28776d4636bc4e2026 101 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ bedac69188dab0d89efd11e238af7757 102 main/source/Release
+SHA1:
+ 8e28ce14e5b726c79aa044b0c738ef6f7db4866f 14119 main/binary-arm64/Packages
+ 3b98ab3e5a5c95148c2097d3ff92da4b5997da25 2941 main/binary-arm64/Packages.gz
+ b6efec8b1b20e9b7b23e80d8b319b89ddc97fe01 101 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ b0d02c429b0049c420a4ea5aef7cb65fc9fe7a01 102 main/source/Release
+SHA256:
+ adcf836e9419ebdc9d19381dd7c2524ff0db34b195751fcc7a52b1f50f668b75 14119 main/binary-arm64/Packages
+ eb5d88751d177380012f4c60e4b983fa6fc00411583ad81024288d9ed24b8ed2 2941 main/binary-arm64/Packages.gz
+ 3b7b07b3a09bd29ec49fc95e2f029180f50fa7787e91ffb35771059174706bb1 101 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 25e6b6857cfa528a2da741de06a5f1798fc613e06737af2a71363b097bff341e 102 main/source/Release

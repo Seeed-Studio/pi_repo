@@ -1,0 +1,353 @@
+Package: libmraa-dev
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 195
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: libdevel
+Filename: pool/main/m/mraa/libmraa-dev_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 32164
+SHA256: cadcdec84965a7b809d808a2fd45d3cf29ddf7f54d6f84e13dd99963ff422ed2
+SHA1: f130518b1579db34f313cb89d6ec8cf29fe082c6
+MD5sum: 69bdf412f187dac39c6dae9c193933b7
+Description: userspace I/O library (development)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the library development files.
+
+Package: libmraa-java
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 155
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: java
+Filename: pool/main/m/mraa/libmraa-java_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 59234
+SHA256: 0ba3d1f89071e377e06f8efd92dc151ec41b184fbaf854ea0ebcb5c74e5f7528
+SHA1: 2b9bd8414206708858b18b1b1494aa616e22f384
+MD5sum: 01b9d2b18b1f1928688d840c47d1dd54
+Description: java bindings for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa Java binding.
+
+Package: libmraa-java-dbg
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 194
+Depends: libmraa-java (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/libmraa-java-dbg_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 155648
+SHA256: 0310d994f61d0461ce53e638c9b24d83084fad0eafd9dc5f489176b291427709
+SHA1: e31e7144b0bc9fb865c72ef203f73c7b2757f077
+MD5sum: f44e29c6347633a82c98ab2a2d2e420f
+Description: debugging symbols for mraa java binding
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the debugging symbols for mraa java binding.
+Build-Ids: 9fd29dfd1f3388c3abfa50f77e681560d93c5e10
+
+Package: libmraa1
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 189
+Depends: libc6 (>= 2.17), libjson-c3 (>= 0.10)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mraa/libmraa1_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 63532
+SHA256: a627eaed176cdeb6d337f16cbb437d3f97acbce2b0d8a299fc0cd18f5a87f69c
+SHA1: 1c636f561f85aa43bd9d2aec1c363f37c7897ae3
+MD5sum: 59f43b2964148d74f8b48bd7fc3e897b
+Description: userspace I/O library (runtime)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the library used at runtime.
+
+Package: libmraa1-dbg
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 286
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/libmraa1-dbg_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 249066
+SHA256: 9d25aff55b38a3ef073ce677b27f93f2d75b2804590f37b87803f9d82cb9530d
+SHA1: a13e960a90ee2bdfb1ced00b8b4773c737a9cb43
+MD5sum: 57d9801c08191e8c43bf02df4525f199
+Description: debugging symbols for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa debugging symbols.
+Build-Ids: 719b9f6382292e154b3e7c24797c4b815bd7af92
+
+Package: mraa-examples
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: all
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 241
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mraa/mraa-examples_1.9.0-git20181030-pi20181030_all.deb
+Size: 30242
+SHA256: c5462f9f5f82b73cfddbd613ba3c47160e7d197706997f8aea6e971c301b9a04
+SHA1: 5c580372ac0d1b83c522f12475cfa702166a3a8c
+MD5sum: be68f3e452c8f9c6a833d94de9778aa5
+Description: examples for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa examples.
+
+Package: mraa-imraa
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 137
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.17), libjson-c3 (>= 0.10), libmraa1, libudev1 (>= 183), dfu-util (>= 0.9), mraa-firmata-fw
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mraa/mraa-imraa_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 39616
+SHA256: 7074f94b0b79763a58d537b6da715ff750a43dd78876e2469c076ecfa5a256ad
+SHA1: 9f226511925f92dba576532787e588c8de04a49a
+MD5sum: 0fd4ef50356fad557931dc61a5d71330
+Description: mraa imraa tool (firmata)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa imraa tool. Daemon that configures firmata devices
+
+Package: mraa-imraa-dbg
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 15
+Depends: mraa-imraa (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/mraa-imraa-dbg_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 7468
+SHA256: 81fce0d81afb9b19bf797b2949aa6e7bf517eb31e6c8c794be2442396273f8fe
+SHA1: d8d62ff8eeb2f9691b126bc82e2ae841512fb7c0
+MD5sum: 85a6c87f369a4c357861be4c0f5f0c81
+Description: debugging symbols for mraa imraa tool
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+
+Package: mraa-tools
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 46
+Depends: libc6 (>= 2.17), libjson-c3 (>= 0.10), libmraa1
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: utils
+Filename: pool/main/m/mraa/mraa-tools_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 13874
+SHA256: bdf4ec7c38d10fde79ffeaf0c797bc9753287748713389fa5d9bea074fd0cb3f
+SHA1: 64180364de4aa01ff3e6e1f749b07ffcdaa4fa0b
+MD5sum: 26eca09d5a1478b9a15fb034feb79241
+Description: userspace I/O  tools (GPIO/I2C)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa GPIO tool.
+
+Package: mraa-tools-dbg
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 57
+Depends: mraa-tools (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/mraa-tools-dbg_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 29986
+SHA256: 1c03e6ceaaaa4e877cc1e3f48cc61724b2a1be34b6d722df96f0587749531dd6
+SHA1: f3eaf5a3e31df5f165b4e9b7df864d8baf4b9418
+MD5sum: 77d0d3b6c1998095a0dca07c86e2b742
+Description: debugging symbols for mraa GPIO tool
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa GPIO tool debugging symbols.
+Build-Ids: aeaab8f2641a9d2e5dc9da9e72bfcf495bb04f04 d7e65703147fc9246336a0b460cf4dc36f77a251
+
+Package: node-mraa
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 15
+Depends: libmraa1 (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: libs
+Filename: pool/main/m/mraa/node-mraa_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 7482
+SHA256: 71544ad41d7d5a2fb4e0350820b7b992ab90621a4901fb04a39d2e971de334c8
+SHA1: 7987690bbfbe9b057343a7aa61bf420bfb686de8
+MD5sum: 4c4b95d9ae928bf0ee50ececc13df14f
+Description: nodejs bindings for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa nodejs binding.
+
+Package: python-mraa
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 267
+Depends: python (<< 2.8), python (>= 2.7~), python:any (<< 2.8), python:any (>= 2.7.5-5~), libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: python
+Filename: pool/main/m/mraa/python-mraa_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 54502
+SHA256: d86b8dcd9cc951e89bb8f8aaba15c4ae9d25c468d33feddc83fba8a9539c6475
+SHA1: c9ee79b42b8b22395a13bb206183e1bc1d7489b4
+MD5sum: 20d83b7fe041d0596821fe7a7db96826
+Description: Python binding for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa Python binding.
+
+Package: python-mraa-dbg
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 240
+Depends: python-mraa (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/python-mraa-dbg_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 207278
+SHA256: 836e3ef6f70e2ca13793f5c8b750c3e32f315ad6c0aeb62a2bec69c7cab43598
+SHA1: a5678f61ac821bf632156ecd4eec8ec8a193c636
+MD5sum: 6612172a70d872b8439381ddc1c84963
+Description: debugging symbols for mraa Python 2 binding
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the debugging symbols for mraa Python 2 binding.
+Build-Ids: 7f962471947c3c5a4b924bd202b949bc6d268c42
+
+Package: python-mraa-doc
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: all
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 461
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: doc
+Filename: pool/main/m/mraa/python-mraa-doc_1.9.0-git20181030-pi20181030_all.deb
+Size: 62924
+SHA256: 3cec12aeab5725ec51bec8e0ad1c51fbdba18aed3bb5ac59956330a23dee5130
+SHA1: dc2e4e019b48fb2df5afb48032044dc00e7da0db
+MD5sum: 3c57a9629a81d112455c2e64ea6ccade
+Description: Python binding for mraa (documentation)
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the documentation for mraa Python binding.
+
+Package: python3-mraa
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 205
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjson-c3 (>= 0.10), libmraa1, libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: optional
+Section: python
+Filename: pool/main/m/mraa/python3-mraa_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 46588
+SHA256: 3448184519932acab057e751814a556d4674c6e96cb99069c0d7d035d253ed95
+SHA1: c72af317903ce4e06120b6956157a35d4eafe0fe
+MD5sum: e0555e974e3222db86da7eccd3c4ba20
+Description: Python 3 binding for mraa
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains mraa Python 3 binding.
+
+Package: python3-mraa-dbg
+Source: mraa
+Version: 1.9.0-git20181030-pi20181030
+Architecture: arm64
+Maintainer: Tom Ingleby <tom@ewsting.org>
+Installed-Size: 241
+Depends: python3-mraa (= 1.9.0-git20181030-pi20181030)
+Homepage: http://iotdk.intel.com/docs/master/mraa/
+Priority: extra
+Section: debug
+Filename: pool/main/m/mraa/python3-mraa-dbg_1.9.0-git20181030-pi20181030_arm64.deb
+Size: 208670
+SHA256: 7be39e8dbc2c10d77cb7530720e9cf330362481756c23ee8b52dece338a253d9
+SHA1: 3943d419e847b810fc6b14bdcfe3d13db9ec1645
+MD5sum: 1ef1eb7c37f0d7331c6b4000880f2935
+Description: debugging symbols for mraa Python 3 binding
+ mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
+ platforms. The library abstracts platform quirks away from the end user.
+ Currently interfaces supported include GPIO/PWM/I2C/SPI.
+ .
+ This package contains the debugging symbols for mraa Python 3 binding.
+Build-Ids: 40ac820acc44853b97c8950893db338223e18970
+

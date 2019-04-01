@@ -6,3 +6,11 @@ Architectures: armhf source
 Description: repository for pi
 SignWith: 4A3BF8AC
 
+Codename: mendel-beaker
+Suite: stable
+Components: main
+UDebComponents: main
+Architectures: arm64 source
+Description: repository for Coral Dev Board Beta
+SignWith: 4A3BF8AC
+

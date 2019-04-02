@@ -1,9 +1,9 @@
-Seeed Package Repository for Raspberry Pi
+Seeed deb Package Repository for Embeded Linux Platform
 ==============================================
 
-| Codename | Architecture |
-|----------|--------------|
-| stretch  | armhf        |
+| Codename | Architecture | Architecture |
+|----------|--------------|--------------|
+| stretch  | armhf        | arm64        |
 
 
 ### Add repository

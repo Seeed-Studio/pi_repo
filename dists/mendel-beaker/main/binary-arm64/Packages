@@ -1,3 +1,37 @@
+Package: libbma456
+Version: 1.0.0-1
+Architecture: arm64
+Depends:
+Maintainer:  Peter Yang (turmary@126.com)
+Homepage: https://github.com/Seeed-Studio/Seeed_BMA456/tree/rpi
+Priority: optional
+Section: base
+Filename: pool/main/libb/libbma456/libbma456_1.0.0-1_arm64.deb
+Size: 48900
+SHA256: 1e9d2fcdcd9a0a8b46c2bd1d90449e6b060bea4b20503fd327d4b3b444fb201e
+SHA1: 15173aa2b1f5a97325a3f0adeed3d116a9b2971d
+MD5sum: 140ab39df803d4e0cac810c0bed4cf0c
+Description: Raspberry Pi BMA456 Library
+ BMA456 Step Counter Control Library for the Raspberry Pi.  
+
+Package: libbmi088
+Version: 0.0.2-1
+Architecture: arm64
+Maintainer: Peter Yang <turmary@126.com>
+Installed-Size: 85
+Depends: libc6 (>= 2.17)
+Homepage: https://github.com/turmary/bmi088-python
+Priority: optional
+Section: base
+Filename: pool/main/libb/libbmi088/libbmi088_0.0.2-1_arm64.deb
+Size: 15016
+SHA256: 8653238f7fb1a7fa86c7c0959b1a1028e634cfa09f6faf7609f2c3dbce3c0f2e
+SHA1: f1033ec52d720ed2f9fe42e6625426dd58b6371e
+MD5sum: 6a22549bef6dfe7ddee3712f5ee5191a
+Description: Raspberry Pi BMI088 Library
+ BMI088 6-Axis Accelerometer & Gyroscope Control Library
+ for the Raspberry Pi.
+
 Package: libmraa-dev
 Source: mraa
 Version: 1.9.0-git20181030-pi20181030

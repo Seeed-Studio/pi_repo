@@ -3,13 +3,13 @@ Hash: SHA256
 
 Suite: stable
 Codename: mendel-beaker
-Date: Mon, 01 Apr 2019 04:34:15 UTC
+Date: Tue, 02 Apr 2019 06:01:44 UTC
 Architectures: arm64
 Components: main
 Description: repository for Coral Dev Board Beta
 MD5Sum:
- 926cc262b22a808a60d9bcec6e3ed1cc 14119 main/binary-arm64/Packages
- a667f667f59201898c52d1f1d1715190 2941 main/binary-arm64/Packages.gz
+ 3171d8036188ce9fd47c35e5c598af50 15245 main/binary-arm64/Packages
+ 44f21384468addc26be7df1b2095a1b9 3381 main/binary-arm64/Packages.gz
  06dc67e6129c7b28776d4636bc4e2026 101 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  bedac69188dab0d89efd11e238af7757 102 main/source/Release
 SHA1:
- 8e28ce14e5b726c79aa044b0c738ef6f7db4866f 14119 main/binary-arm64/Packages
- 3b98ab3e5a5c95148c2097d3ff92da4b5997da25 2941 main/binary-arm64/Packages.gz
+ 4d86bcfc9d519cf847808edfdd8783c2623353aa 15245 main/binary-arm64/Packages
+ 9470671897a8887b832013ce3a85bc455a0e0cb3 3381 main/binary-arm64/Packages.gz
  b6efec8b1b20e9b7b23e80d8b319b89ddc97fe01 101 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  b0d02c429b0049c420a4ea5aef7cb65fc9fe7a01 102 main/source/Release
 SHA256:
- adcf836e9419ebdc9d19381dd7c2524ff0db34b195751fcc7a52b1f50f668b75 14119 main/binary-arm64/Packages
- eb5d88751d177380012f4c60e4b983fa6fc00411583ad81024288d9ed24b8ed2 2941 main/binary-arm64/Packages.gz
+ a3a32a47a984f09c367f7eab9058937e811a6d7e813f8f5d6d3c3647af406b5a 15245 main/binary-arm64/Packages
+ 9a1f889b8cceab59b29e8a7ba4f74ed525443fc5819c22da744b28d7357c118e 3381 main/binary-arm64/Packages.gz
  3b7b07b3a09bd29ec49fc95e2f029180f50fa7787e91ffb35771059174706bb1 101 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
@@ -36,17 +36,17 @@ SHA256:
  25e6b6857cfa528a2da741de06a5f1798fc613e06737af2a71363b097bff341e 102 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlyhlMcACgkQ3GEhV0o7
-+KzEYRAAraJzQzq4oXmtLEq9iTTu6h9G3xnjyIV3E9UNsGQF17wshV2k5nPZ9BH7
-vvbCnAEQTf0ZyxqoCrlJSCokXYG5Af9galOVNFTMgmLstw3jWzbFLqjEAvtcYu8m
-Vmnvc9xcnfXdgMXWdpY2dOR+mJIfvIJSbKhzALIbEoX5c5K/n/b6ZB7E9zh44a8S
-Hvy0u6wjzmlAd+z8tmU2wFyGqVs3rIN/WIPOhOjxgffcTaNd4EwqznP1iIYKODm2
-JyQO/XnZXedayZcYvUrZOKSoGENT15pdQvYp7ExXaCAcjLcn5IzdfKvOcTGScw7n
-ak6PCbFGUDyeHiBVMvRmO1Pkd7jWOVysxC1AhlZdgtyPTnI0acvoXFG4qgOGO4Yu
-dizVJKgBpzZ5NE8dBow64jbbF1xxfxaUGs4UPCF0niP2tOTtobHtS2SbThxSSC39
-ZcRh/70gMOeoIgCetPwMFpOCSzFFjIUGevTAp6XX2GhoqAgzguvqU+7d7D6Vya9H
-WHBsZOBy/X/caQRL1NLmZSpTTTlrETu9o6F3CSa8h/4FI2RAYbIfOJbzKGGD44GI
-VB6SPL0tGHmHrl7LVkgz1WKTKjBKqU8GhzY09UHsNbpa+Y/t+ZUsr/yh2iI5Agd0
-zOSgbiqqYwiu3WMwGSFT9XgGYwPpqT8EiJrvBRjjB6sYC+6ZTGw=
-=Ddtr
+iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlyi+soACgkQ3GEhV0o7
++KxL1w/8CjC7pcezrmZQ0EDvMDx7bHLvcpFZK9QM+Q7Ey9/IlCiM8Ug+oFkBLeaZ
+zjWWdNJYqLfJsqI3PWMb9QGHjLmz8TsP/r8pBdTWz6DBi939maKo1Fa4ZyeXFELC
+EcCMjG442NCXuR0dRqNwWseEeQ1ueZ9Abhv5JMIUP3ubC1c1orHU4kWyJ42/sX7h
+TaBiGydI0ENabac4RiBHaSmlq7Nh4RVY9JxFglftW9Xd5CIbgFlgw3iCHNLUAB7P
+mZ/1xDFZXrKdY3kTgsUqAg2rcPSiZRNerVakh/pUJb38/RAAhlp31MgTBAhXSSFp
+fP3DfoL8BDMWh2O2WA98CrCA6LEyMGETWa6PJMbgrXSd3Z1JULFRk3j9pohHlPsN
+4aSgMgSpl1y9QADPIfPz3FSNbml/1tbhFJih3LhTEsG2nO2GPaXIgv22weU6EFZ1
+VhFhs43QGe5BR/A/qpNc4o2zgn1R2dAYNVfB6/Kls104/URCXjz7qNIuU4M6/pXM
+3ztzsZgszpMzD7KakPhL2U85BOWsGGUkbDGkmUVcUnN6Swk0szTDdNiHV8LVsfcb
+7TJIj8bRax/F4R+R7kgEyeN0jTFB3riZmkr84sOyhd7wkXoikeeTHWH7BGoJ05/g
+ffkx1xQ8NRdlFVae/1roT3aKZZoA0kKZYCfwJB7HtM3p9TdkGfo=
+=Zx6i
 -----END PGP SIGNATURE-----

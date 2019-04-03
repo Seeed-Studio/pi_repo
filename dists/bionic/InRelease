@@ -1,0 +1,52 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Suite: stable
+Codename: bionic
+Date: Wed, 03 Apr 2019 01:13:53 UTC
+Architectures: arm64
+Components: main
+Description: repository for ubuntu bionic
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 1a665b78deb1f39c1566dd37bd4b34d4 94 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
+ 7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
+ 9dbf49fe944dc1c961cf14fca3840659 95 main/source/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 9a65ffcfdec33e1bf702720fbcfe7752b2c510f1 94 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
+ 40db175637f17f8c64f4b94ae3a23cf43a6f94ab 95 main/source/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 1c67b93fad54da7eaf6afbeb4a4e3a9af9eeecab6cba968bf6e4aaa5eda2fc95 94 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
+ 1f55521957818cd7f3637376e7c835df15950059702159644664385ce42008d9 95 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlykCNMACgkQ3GEhV0o7
++Kymog/9FG1tlnkHFl6Hh5a1qBFhiEI4qciQvF0wQYweOVE7Gh56qM2dp1VIg3ZS
+NsBuciBw+uHfJEEO0TT6FHFeDqvHMXKlRkypGcTpspWCbIZZilaSkMCSdJmPly+S
+bvUb4L5QgmhtNGFHwNq79QqZ+Q1CvWi12MeiZsDnkbtkm84yfFLIyET2BLVFVzFl
+fVHPYDFYsbwhJ8kzeFGCr63Ib5aNYBOrrgFGuA2+79N6u0iALdmxF5sCzHXuwr7u
+waSearnaGA1N+RLmSMQtCRNBTF1+lFAfOTptJZSw8r0dnIbmEpJGLnSRQX1PbnWo
+zp2rhGHIKT3/fUWVxgDuVal+g4BfaFnuAYFD0BV7dW+v0GSKtQBvCS33vNwafZ8v
+k9Dz7r3ISTu8s6+WKgMG01iCUuGrjcq+DgNU7JfPZqemj3WnLDlnX22cLtJ+y6kN
+INDN101ldgRuV04dxNMUUVjz4MoIqGdNx+9TFFPdBWMdqHjpKHCf5BRac33JfBhF
+zakUGSTm6EKY7g9+h0pPR/nb0eg/HUJlrlRdxDExn8ZuiUnMFroQJGB5FYLQLI5V
+7kXqZYhSTpR9Rvt9zYjLNrY7YcnZwjkxpXg64TTXoU15JNoz8svhGJ2Remc1Z7ch
+cdSkFoKyZ2PGT57k6S0InbLyI/90ClP9Yf6sKiMaJa1aEnkkFmc=
+=zWXL
+-----END PGP SIGNATURE-----

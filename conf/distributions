@@ -14,3 +14,11 @@ Architectures: arm64 source
 Description: repository for Coral Dev Board Beta
 SignWith: 4A3BF8AC
 
+Codename: bionic
+Suite: stable
+Components: main
+UDebComponents: main
+Architectures: arm64 source
+Description: repository for ubuntu bionic
+SignWith: 4A3BF8AC
+

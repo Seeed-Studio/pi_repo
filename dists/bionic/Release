@@ -1,12 +1,12 @@
 Suite: stable
 Codename: bionic
-Date: Wed, 03 Apr 2019 01:13:53 UTC
+Date: Mon, 08 Apr 2019 06:26:02 UTC
 Architectures: arm64
 Components: main
 Description: repository for ubuntu bionic
 MD5Sum:
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 6ec22fed04f334744636af935ea9ffc7 3550 main/binary-arm64/Packages
+ daa72f994965b55b183cb29e531e90bf 1081 main/binary-arm64/Packages.gz
  1a665b78deb1f39c1566dd37bd4b34d4 94 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -14,8 +14,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  9dbf49fe944dc1c961cf14fca3840659 95 main/source/Release
 SHA1:
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 9cbf2c6ebe36d1c85b0b7b6316c8290c3e996d47 3550 main/binary-arm64/Packages
+ 058a7a011ee52dde07c98c2f63c5c27026033115 1081 main/binary-arm64/Packages.gz
  9a65ffcfdec33e1bf702720fbcfe7752b2c510f1 94 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -23,8 +23,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  40db175637f17f8c64f4b94ae3a23cf43a6f94ab 95 main/source/Release
 SHA256:
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 291d050bcab9c03511f8dae40c123199d6ded01c09a116c3c47f2050fe1343fd 3550 main/binary-arm64/Packages
+ ff40d91960dbc9840790c7d0c051adf46e9ae1f6884517786906e29a49971111 1081 main/binary-arm64/Packages.gz
  1c67b93fad54da7eaf6afbeb4a4e3a9af9eeecab6cba968bf6e4aaa5eda2fc95 94 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz

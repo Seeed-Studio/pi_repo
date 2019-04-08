@@ -3,13 +3,13 @@ Hash: SHA256
 
 Suite: stable
 Codename: bionic
-Date: Wed, 03 Apr 2019 01:13:53 UTC
+Date: Mon, 08 Apr 2019 06:26:02 UTC
 Architectures: arm64
 Components: main
 Description: repository for ubuntu bionic
 MD5Sum:
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
- 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 6ec22fed04f334744636af935ea9ffc7 3550 main/binary-arm64/Packages
+ daa72f994965b55b183cb29e531e90bf 1081 main/binary-arm64/Packages.gz
  1a665b78deb1f39c1566dd37bd4b34d4 94 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  9dbf49fe944dc1c961cf14fca3840659 95 main/source/Release
 SHA1:
- da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
- 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 9cbf2c6ebe36d1c85b0b7b6316c8290c3e996d47 3550 main/binary-arm64/Packages
+ 058a7a011ee52dde07c98c2f63c5c27026033115 1081 main/binary-arm64/Packages.gz
  9a65ffcfdec33e1bf702720fbcfe7752b2c510f1 94 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  40db175637f17f8c64f4b94ae3a23cf43a6f94ab 95 main/source/Release
 SHA256:
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
- 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 291d050bcab9c03511f8dae40c123199d6ded01c09a116c3c47f2050fe1343fd 3550 main/binary-arm64/Packages
+ ff40d91960dbc9840790c7d0c051adf46e9ae1f6884517786906e29a49971111 1081 main/binary-arm64/Packages.gz
  1c67b93fad54da7eaf6afbeb4a4e3a9af9eeecab6cba968bf6e4aaa5eda2fc95 94 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
@@ -35,18 +35,19 @@ SHA256:
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
  1f55521957818cd7f3637376e7c835df15950059702159644664385ce42008d9 95 main/source/Release
 -----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2
 
-iQIzBAEBCAAdFiEEk1dqVCREUBIdFHHs3GEhV0o7+KwFAlykCNMACgkQ3GEhV0o7
-+Kymog/9FG1tlnkHFl6Hh5a1qBFhiEI4qciQvF0wQYweOVE7Gh56qM2dp1VIg3ZS
-NsBuciBw+uHfJEEO0TT6FHFeDqvHMXKlRkypGcTpspWCbIZZilaSkMCSdJmPly+S
-bvUb4L5QgmhtNGFHwNq79QqZ+Q1CvWi12MeiZsDnkbtkm84yfFLIyET2BLVFVzFl
-fVHPYDFYsbwhJ8kzeFGCr63Ib5aNYBOrrgFGuA2+79N6u0iALdmxF5sCzHXuwr7u
-waSearnaGA1N+RLmSMQtCRNBTF1+lFAfOTptJZSw8r0dnIbmEpJGLnSRQX1PbnWo
-zp2rhGHIKT3/fUWVxgDuVal+g4BfaFnuAYFD0BV7dW+v0GSKtQBvCS33vNwafZ8v
-k9Dz7r3ISTu8s6+WKgMG01iCUuGrjcq+DgNU7JfPZqemj3WnLDlnX22cLtJ+y6kN
-INDN101ldgRuV04dxNMUUVjz4MoIqGdNx+9TFFPdBWMdqHjpKHCf5BRac33JfBhF
-zakUGSTm6EKY7g9+h0pPR/nb0eg/HUJlrlRdxDExn8ZuiUnMFroQJGB5FYLQLI5V
-7kXqZYhSTpR9Rvt9zYjLNrY7YcnZwjkxpXg64TTXoU15JNoz8svhGJ2Remc1Z7ch
-cdSkFoKyZ2PGT57k6S0InbLyI/90ClP9Yf6sKiMaJa1aEnkkFmc=
-=zWXL
+iQIcBAEBCAAGBQJcqul7AAoJENxhIVdKO/isoG4P/RmJauCaehHrq70l61fnUUCT
+vtkhcF1kRLW2YPoOPuPz1Auks8oJbCE5MOJGeHip6sFSG4tr5/rE7IqQ9ScgU29N
+2ia/Ioz10+v9O+uPRut9T9LB/sYgJSDsoATrN7mK+jBZhL3ICVRIQRoYzSRd08PB
+YISVLj70auO/M3R4Y3dLOWoOuwxq2+XWYlKWm3d0bcti91r8SfQWhvITXrzKyN/Y
+LRFZo/RJEnFf/zwWI2wB9Vrb87MxJEgdB6z0kRPXbMx1wm1WrVK28RFyQkWTXbPI
+8b89ZlHXrwvJqwb6Ea4JeGZFr0gvrewEYqg1x0tvRvuJN7c55+B+0ncOFkFVXkVb
+fjrAgZolFnJ5bucwUuEle1qip0R/WsGypmlzz83ZLkTOy0cLFD8g2gGkIbmT9KHh
+qxHRz+IS7CXW5LbfHYv7/N0lcuSbw9A9UOqb+wSU3aBSO7+ACo91jwvS/6FnJ76s
+WCPdBgDiEgUM2uFSx4x9bBG1fKIOpmoNy+wX8w8lc4ppbe6KSrlWyCiYDUdldqAg
+N7qsp4NR6MUdnryKt2FK4q35y8Jr/f2Asy+8/sgaFgFwlHNCVpIMhbE2Ekro9K7S
+Tkkk+SlteB0gHYbRy5HbZwQgs2qVI8FZDMGO8lDLqAA09pd5Li/Fk9hpYnlTFtA2
+iAKqeCcoAdyE1njgCi2L
+=VC7Y
 -----END PGP SIGNATURE-----

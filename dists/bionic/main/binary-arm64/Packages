@@ -1,3 +1,32 @@
+Package: libjpeg62-turbo
+Source: libjpeg-turbo
+Version: 1:1.5.1-2
+Architecture: arm64
+Maintainer: Ondřej Surý <ondrej@debian.org>
+Installed-Size: 285
+Depends: libc6 (>= 2.17)
+Conflicts: libjpeg62
+Replaces: libjpeg62
+Provides: libjpeg62 (= 1:1.5.1-2)
+Multi-Arch: same
+Homepage: http://www.libjpeg-turbo.org/
+Priority: optional
+Section: libs
+Filename: pool/main/libj/libjpeg-turbo/libjpeg62-turbo_1.5.1-2_arm64.deb
+Size: 111330
+SHA256: 298cb476c0b7e92bda75054a50b5800d3d1cd1e2c575548e0a79860a075c2ba7
+SHA1: 3a465a03caae09c8bfdb470c29403d5070b264b7
+MD5sum: 0b53422043040e4ffaa62c9f3939a57f
+Description: libjpeg-turbo JPEG runtime library
+ The libjpeg-turbo JPEG library is a library for handling JPEG files.
+ .
+ libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX,
+ SSE2, NEON) to accelerate baseline JPEG compression and decompression
+ on x86, x86-64, and ARM systems.  The libjpeg-turbo JPEG library is
+ an API/ABI compatible with the IJG JPEG library.
+ .
+ This package contains the shared runtime library.
+
 Package: libmraa-dev
 Source: mraa
 Version: 1.9.0-git20190404-pi20190404
@@ -42,6 +71,50 @@ Description: userspace I/O library (runtime)
  .
  This package contains the library used at runtime.
 
+Package: libupm-dev
+Source: upm
+Version: 1.6.0-git20180813-pi20180813
+Architecture: arm64
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 3852
+Depends: libupm1 (= 1.6.0-git20180813-pi20180813)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: libdevel
+Filename: pool/main/u/upm/libupm-dev_1.6.0-git20180813-pi20180813_arm64.deb
+Size: 374538
+SHA256: df3a4ce41309aaa5cdae4489dd19181c759011f20c20c5b710f22f94ce79d9ed
+SHA1: 3e900e8352dfd944ba6a7ddccf61f0ea87af9094
+MD5sum: 332685d5c1c39f078912634cd9286485
+Description: Sensor/Actuator repository for MRAA (development)
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the library development files.
+
+Package: libupm1
+Source: upm
+Version: 1.6.0-git20180813-pi20180813
+Architecture: arm64
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 5159
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libmraa1, libstdc++6 (>= 6)
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: libs
+Filename: pool/main/u/upm/libupm1_1.6.0-git20180813-pi20180813_arm64.deb
+Size: 636876
+SHA256: 94d0639569d2de80e3feb3e1e9b9f2cbb6ae777651025b863ab352b63e8f1ff0
+SHA1: 408669253bfd88a9748e58dac5c9c896b014a0aa
+MD5sum: 4a23888c47efb360f142c9ac4ea8737e
+Description: Sensor/Actuator repository for MRAA (runtime)
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains the library used at runtime.
+
 Package: python-mraa
 Source: mraa
 Version: 1.9.0-git20190404-pi20190404
@@ -64,6 +137,28 @@ Description: Python binding for mraa
  .
  This package contains mraa Python binding.
 
+Package: python-upm
+Source: upm
+Version: 1.6.0-git20180813-pi20180813
+Architecture: arm64
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 28324
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2), libupm1
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: python
+Filename: pool/main/u/upm/python-upm_1.6.0-git20180813-pi20180813_arm64.deb
+Size: 2808340
+SHA256: e570f4c732ba2c04f15297657ea1cfebda8c273e40a43a05e5f183b321c967f9
+SHA1: 64cac84c607099e0e79b06841d9012efbf7dca19
+MD5sum: d4edbd2896d42d62a8d68cdd09019544
+Description: Python binding for upm
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains upm Python binding.
+
 Package: python3-mraa
 Source: mraa
 Version: 1.9.0-git20190404-pi20190404
@@ -85,4 +180,26 @@ Description: Python 3 binding for mraa
  Currently interfaces supported include GPIO/PWM/I2C/SPI.
  .
  This package contains mraa Python 3 binding.
+
+Package: python3-upm
+Source: upm
+Version: 1.6.0-git20180813-pi20180813
+Architecture: arm64
+Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
+Installed-Size: 27974
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libmraa1, libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2), libupm1
+Homepage: http://iotdk.intel.com/docs/master/upm/
+Priority: optional
+Section: python
+Filename: pool/main/u/upm/python3-upm_1.6.0-git20180813-pi20180813_arm64.deb
+Size: 2771016
+SHA256: b2617a8b01877af1a7ba0025d90b95197feba39e6c6fe83c1a3c7e7ec0d928f2
+SHA1: c198a483485c103854cf60fa2f8e6a469580facd
+MD5sum: 7872ba1d64a96f8a8735cfecd837dde2
+Description: Python 3 binding for upm
+ UPM is a high level repository for sensors that use MRAA. Each sensor
+ links to MRAA and are not meant to be interlinked although some
+ groups of sensors may be.
+ .
+ This package contains upm Python 3 binding.
 

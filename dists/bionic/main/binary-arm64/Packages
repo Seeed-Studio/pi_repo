@@ -38,10 +38,10 @@ Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: libdevel
 Filename: pool/main/m/mraa/libmraa-dev_1.9.0-git20190404-pi20190404_arm64.deb
-Size: 27508
-SHA256: b0800cbf9dc1eca7c4dbc0b454e42c13200431479629506cd884b9d1838dbfab
-SHA1: 7480323e9d3a08c2ec498625b9327a126c2184c3
-MD5sum: 7a0f942ae4dd39fc39aee117ada55e1e
+Size: 27536
+SHA256: a4aa769f4780820b4d2e589247f4c76ee4a2099d0934773532d5c12b93648e29
+SHA1: d45dc2b22c03d9ec5ab111254d90d13fdad8f6a0
+MD5sum: 3dd5b1a585a3bb6f2b54438b65d641a7
 Description: userspace I/O library (development)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -54,16 +54,16 @@ Source: mraa
 Version: 1.9.0-git20190404-pi20190404
 Architecture: arm64
 Maintainer: Tom Ingleby <tom@ewsting.org>
-Installed-Size: 179
+Installed-Size: 187
 Depends: libc6 (>= 2.27), libjson-c3 (>= 0.10)
 Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mraa/libmraa1_1.9.0-git20190404-pi20190404_arm64.deb
-Size: 58976
-SHA256: a7f1844bf1fed59d8095e84903998b7467f00d37f9340c1ccc126391d9d6f30b
-SHA1: 8dfd790044640a5989dd5a5e2ac57ac2892b395c
-MD5sum: 75ee31e2c3f761f4af9c5802cda54a78
+Size: 61480
+SHA256: f9e022fe2ad70386fb259667c06fdb763352e28a50b54d2e6df6f9faadb7d414
+SHA1: d34f2b3863c60af58bbab1a39567ec1d53580716
+MD5sum: 72f596382b409949de55fbd86dcc8680
 Description: userspace I/O library (runtime)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -73,19 +73,19 @@ Description: userspace I/O library (runtime)
 
 Package: libupm-dev
 Source: upm
-Version: 1.6.0-git20180813-pi20180813
+Version: 1.6.0-git20190408-pi20190408
 Architecture: arm64
 Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
-Installed-Size: 3852
-Depends: libupm1 (= 1.6.0-git20180813-pi20180813)
+Installed-Size: 3846
+Depends: libupm1 (= 1.6.0-git20190408-pi20190408)
 Homepage: http://iotdk.intel.com/docs/master/upm/
 Priority: optional
 Section: libdevel
-Filename: pool/main/u/upm/libupm-dev_1.6.0-git20180813-pi20180813_arm64.deb
-Size: 374538
-SHA256: df3a4ce41309aaa5cdae4489dd19181c759011f20c20c5b710f22f94ce79d9ed
-SHA1: 3e900e8352dfd944ba6a7ddccf61f0ea87af9094
-MD5sum: 332685d5c1c39f078912634cd9286485
+Filename: pool/main/u/upm/libupm-dev_1.6.0-git20190408-pi20190408_arm64.deb
+Size: 366112
+SHA256: afe5d825b9f3a5e7b17c7a39a468183fa221d9a436ed1802d2c64c7fb5748fab
+SHA1: 771a6cde27c912dc572b6b5864a2d61fab793d92
+MD5sum: 78e47bc81aedc57d6a53af0874b7eb4a
 Description: Sensor/Actuator repository for MRAA (development)
  UPM is a high level repository for sensors that use MRAA. Each sensor
  links to MRAA and are not meant to be interlinked although some
@@ -95,19 +95,19 @@ Description: Sensor/Actuator repository for MRAA (development)
 
 Package: libupm1
 Source: upm
-Version: 1.6.0-git20180813-pi20180813
+Version: 1.6.0-git20190408-pi20190408
 Architecture: arm64
 Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
-Installed-Size: 5159
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libmraa1, libstdc++6 (>= 6)
+Installed-Size: 5017
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libmraa1, libstdc++6 (>= 6)
 Homepage: http://iotdk.intel.com/docs/master/upm/
 Priority: optional
 Section: libs
-Filename: pool/main/u/upm/libupm1_1.6.0-git20180813-pi20180813_arm64.deb
-Size: 636876
-SHA256: 94d0639569d2de80e3feb3e1e9b9f2cbb6ae777651025b863ab352b63e8f1ff0
-SHA1: 408669253bfd88a9748e58dac5c9c896b014a0aa
-MD5sum: 4a23888c47efb360f142c9ac4ea8737e
+Filename: pool/main/u/upm/libupm1_1.6.0-git20190408-pi20190408_arm64.deb
+Size: 633760
+SHA256: 02a018833138ccb8a714005623cea78795fb823b632c867e4fea731d1b481a97
+SHA1: e5fef076fd663223b71b238246209d9ffea5163c
+MD5sum: 079cad751c98ca6d6ccdefe214e0e98f
 Description: Sensor/Actuator repository for MRAA (runtime)
  UPM is a high level repository for sensors that use MRAA. Each sensor
  links to MRAA and are not meant to be interlinked although some
@@ -126,10 +126,10 @@ Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: python
 Filename: pool/main/m/mraa/python-mraa_1.9.0-git20190404-pi20190404_arm64.deb
-Size: 52140
-SHA256: 4292790c20bd9b51217617df5e6c14999b9def62d586f64d675d325a7c7e1597
-SHA1: 283d53bd78d3fc604212618f63577a55b85752b3
-MD5sum: 238937613c27b27b453d65c37badcd01
+Size: 52036
+SHA256: 709073b9f9d1f6a2bcd7b45da51b6a50a86784c12a198faf9016ef8cc3fb5652
+SHA1: f9b6fe0d940ef82f3e3ca3e32647ff3fcf04955b
+MD5sum: 7c931c53cf02a047fba31960947015a3
 Description: Python binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -139,19 +139,19 @@ Description: Python binding for mraa
 
 Package: python-upm
 Source: upm
-Version: 1.6.0-git20180813-pi20180813
+Version: 1.6.0-git20190408-pi20190408
 Architecture: arm64
 Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
-Installed-Size: 28324
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2), libupm1
+Installed-Size: 29679
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libmraa1, libpython2.7 (>= 2.7), libstdc++6 (>= 5.2), libupm1
 Homepage: http://iotdk.intel.com/docs/master/upm/
 Priority: optional
 Section: python
-Filename: pool/main/u/upm/python-upm_1.6.0-git20180813-pi20180813_arm64.deb
-Size: 2808340
-SHA256: e570f4c732ba2c04f15297657ea1cfebda8c273e40a43a05e5f183b321c967f9
-SHA1: 64cac84c607099e0e79b06841d9012efbf7dca19
-MD5sum: d4edbd2896d42d62a8d68cdd09019544
+Filename: pool/main/u/upm/python-upm_1.6.0-git20190408-pi20190408_arm64.deb
+Size: 2913460
+SHA256: 94284d4334537d794ff58511e817837504827c289b34a7a4d6b7f01a2afd736e
+SHA1: b4cf134a5ad413e7b148e072045490349e09b924
+MD5sum: db790e40ee2868fdac41da6501a37201
 Description: Python binding for upm
  UPM is a high level repository for sensors that use MRAA. Each sensor
  links to MRAA and are not meant to be interlinked although some
@@ -170,10 +170,10 @@ Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: python
 Filename: pool/main/m/mraa/python3-mraa_1.9.0-git20190404-pi20190404_arm64.deb
-Size: 43996
-SHA256: 102895b0a9a590c028fc1cfd419c15ff36048cf383b01c0760591f5fc462482c
-SHA1: 4e6fd7e30294f2d8e7b9a0cdcdf1a6604a6e1100
-MD5sum: 79504e5eb119d60c2351a3df01d9e2fc
+Size: 43936
+SHA256: e287395eef089a8635464edb8fbc2144a7ce9f502a6593a69c4251f216cfd7dc
+SHA1: 858173e2f81080eba55acd3bf3f67bca5f42aa15
+MD5sum: e8c7b3fc298aed4422cf5480d088f601
 Description: Python 3 binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -183,19 +183,19 @@ Description: Python 3 binding for mraa
 
 Package: python3-upm
 Source: upm
-Version: 1.6.0-git20180813-pi20180813
+Version: 1.6.0-git20190408-pi20190408
 Architecture: arm64
 Maintainer: Flavian Costin Manea <flavian.manea@rinftech.com>
-Installed-Size: 27974
-Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libjpeg62-turbo (>= 1.3.1), libmraa1, libpython3.5 (>= 3.5.0~b1), libstdc++6 (>= 5.2), libupm1
+Installed-Size: 29247
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libmraa1, libpython3.6 (>= 3.6.5), libstdc++6 (>= 5.2), libupm1
 Homepage: http://iotdk.intel.com/docs/master/upm/
 Priority: optional
 Section: python
-Filename: pool/main/u/upm/python3-upm_1.6.0-git20180813-pi20180813_arm64.deb
-Size: 2771016
-SHA256: b2617a8b01877af1a7ba0025d90b95197feba39e6c6fe83c1a3c7e7ec0d928f2
-SHA1: c198a483485c103854cf60fa2f8e6a469580facd
-MD5sum: 7872ba1d64a96f8a8735cfecd837dde2
+Filename: pool/main/u/upm/python3-upm_1.6.0-git20190408-pi20190408_arm64.deb
+Size: 2879612
+SHA256: d36f4b74050f22d186667d92af33a4db160aea66c82f8bd5fc265ba6159695e0
+SHA1: eb09608e13cc22d3b5e7514119a9d357bc1e6230
+MD5sum: cd59ec0c0f0e02731a66c247ffae677a
 Description: Python 3 binding for upm
  UPM is a high level repository for sensors that use MRAA. Each sensor
  links to MRAA and are not meant to be interlinked although some

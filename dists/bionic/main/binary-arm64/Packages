@@ -1,3 +1,37 @@
+Package: libbma456
+Version: 1.0.0-1
+Architecture: arm64
+Depends:
+Maintainer:  Peter Yang (turmary@126.com)
+Homepage: https://github.com/Seeed-Studio/Seeed_BMA456/tree/rpi
+Priority: optional
+Section: base
+Filename: pool/main/libb/libbma456/libbma456_1.0.0-1_arm64.deb
+Size: 48900
+SHA256: 1e9d2fcdcd9a0a8b46c2bd1d90449e6b060bea4b20503fd327d4b3b444fb201e
+SHA1: 15173aa2b1f5a97325a3f0adeed3d116a9b2971d
+MD5sum: 140ab39df803d4e0cac810c0bed4cf0c
+Description: Raspberry Pi BMA456 Library
+ BMA456 Step Counter Control Library for the Raspberry Pi.  
+
+Package: libbmi088
+Version: 0.0.2-1
+Architecture: arm64
+Maintainer: Peter Yang <turmary@126.com>
+Installed-Size: 85
+Depends: libc6 (>= 2.17)
+Homepage: https://github.com/turmary/bmi088-python
+Priority: optional
+Section: base
+Filename: pool/main/libb/libbmi088/libbmi088_0.0.2-1_arm64.deb
+Size: 15016
+SHA256: 8653238f7fb1a7fa86c7c0959b1a1028e634cfa09f6faf7609f2c3dbce3c0f2e
+SHA1: f1033ec52d720ed2f9fe42e6625426dd58b6371e
+MD5sum: 6a22549bef6dfe7ddee3712f5ee5191a
+Description: Raspberry Pi BMI088 Library
+ BMI088 6-Axis Accelerometer & Gyroscope Control Library
+ for the Raspberry Pi.
+
 Package: libjpeg62-turbo
 Source: libjpeg-turbo
 Version: 1:1.5.1-2
@@ -60,10 +94,10 @@ Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: libs
 Filename: pool/main/m/mraa/libmraa1_1.9.0-git20190404-pi20190404_arm64.deb
-Size: 61480
-SHA256: f9e022fe2ad70386fb259667c06fdb763352e28a50b54d2e6df6f9faadb7d414
-SHA1: d34f2b3863c60af58bbab1a39567ec1d53580716
-MD5sum: 72f596382b409949de55fbd86dcc8680
+Size: 61336
+SHA256: d1835f173596218380d44133e17349bbd94388c5afc00bc440fee1a18eaed347
+SHA1: 232350754b690c85719e94e145ab059091c876d1
+MD5sum: 03eed17b7dd526532c208e9383a98e25
 Description: userspace I/O library (runtime)
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -126,10 +160,10 @@ Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: python
 Filename: pool/main/m/mraa/python-mraa_1.9.0-git20190404-pi20190404_arm64.deb
-Size: 52036
-SHA256: 709073b9f9d1f6a2bcd7b45da51b6a50a86784c12a198faf9016ef8cc3fb5652
-SHA1: f9b6fe0d940ef82f3e3ca3e32647ff3fcf04955b
-MD5sum: 7c931c53cf02a047fba31960947015a3
+Size: 52148
+SHA256: 7b1e8cb62cf6dc091682c8e0d5667b69490cd4590fd8f94e3de6274bf0cabee2
+SHA1: 0890b9cf22a6b59108ce11f95070dd9bdac54abf
+MD5sum: 85f2a0c6a20b703890acc0965bd4ecca
 Description: Python binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.
@@ -170,10 +204,10 @@ Homepage: http://iotdk.intel.com/docs/master/mraa/
 Priority: optional
 Section: python
 Filename: pool/main/m/mraa/python3-mraa_1.9.0-git20190404-pi20190404_arm64.deb
-Size: 43936
-SHA256: e287395eef089a8635464edb8fbc2144a7ce9f502a6593a69c4251f216cfd7dc
-SHA1: 858173e2f81080eba55acd3bf3f67bca5f42aa15
-MD5sum: e8c7b3fc298aed4422cf5480d088f601
+Size: 43984
+SHA256: 894cf75e578f38f2d69c39a14e53be9904532860e9716ed5ebe2069962dcf06d
+SHA1: a900fed528eb44a94cfdd474773846b71225bd65
+MD5sum: 3d9bbb446d4b6edfc20ac816e2adccff
 Description: Python 3 binding for mraa
  mraa (libmraa) is library for interacting with userspace I/O on GNU/Linux
  platforms. The library abstracts platform quirks away from the end user.

@@ -3,13 +3,13 @@ Hash: SHA256
 
 Suite: stable
 Codename: bionic
-Date: Tue, 16 Apr 2019 08:57:38 UTC
+Date: Wed, 17 Apr 2019 07:08:21 UTC
 Architectures: arm64
 Components: main
 Description: repository for ubuntu bionic
 MD5Sum:
- 8c290ebfe2d49e9acb7c3d53f3cd5d35 8036 main/binary-arm64/Packages
- bfa042dc9964eb6987ec0cb36022e54e 2217 main/binary-arm64/Packages.gz
+ 8ce006665594795ab9af116b84c05476 9162 main/binary-arm64/Packages
+ 031167a6254aaf86fd11d35f4c34616e 2646 main/binary-arm64/Packages.gz
  1a665b78deb1f39c1566dd37bd4b34d4 94 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -17,8 +17,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  9dbf49fe944dc1c961cf14fca3840659 95 main/source/Release
 SHA1:
- f2096f37b38a9010764197b13ee46b26a996b06c 8036 main/binary-arm64/Packages
- d220f205668c6f05b06a9234acfbf4d50e980e02 2217 main/binary-arm64/Packages.gz
+ 976eae2d0c4a6128c6b4949d8a2f71dc23e2f3a5 9162 main/binary-arm64/Packages
+ 6bc6e17885c467b50f908ff26adbc7ca5cc4819b 2646 main/binary-arm64/Packages.gz
  9a65ffcfdec33e1bf702720fbcfe7752b2c510f1 94 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -26,8 +26,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  40db175637f17f8c64f4b94ae3a23cf43a6f94ab 95 main/source/Release
 SHA256:
- 8b16bcdedcba0551eb2a93442209f87e0e5b6d1b454658ec1c7bc0a4d24483e3 8036 main/binary-arm64/Packages
- 7ed505540c6494bfd858c35d62365b08bb4830a528c98b5ec17628076fc77ed5 2217 main/binary-arm64/Packages.gz
+ 022be46106def7e22e026cfe9f27a3b1b781f5775f6d72a80495ef35fe8b6d08 9162 main/binary-arm64/Packages
+ bc39d1edbb971ea955f01cb63d99938252b8ddbad8c9a755af59728e7145f62b 2646 main/binary-arm64/Packages.gz
  1c67b93fad54da7eaf6afbeb4a4e3a9af9eeecab6cba968bf6e4aaa5eda2fc95 94 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
@@ -37,17 +37,17 @@ SHA256:
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v2
 
-iQIcBAEBCAAGBQJctZkCAAoJENxhIVdKO/isJ6MP+weewrwVSICJ54laxgEj+cxe
-iamWRtMiue9n0YlxY6yXI2P+I3a2ChgrH3NkRlSCKqzoiGjYdbIh4EUdipizLKjT
-2IWdx8ab1K0lSDjlYvSdtDJWH7VtLudG8xy+6kTLwi82lj0ISnv69o0N5dQg8NaD
-9y6hQxBaCGCowQxHyQML4MBc/shQotadDhaDqnN/oFWYzRokJTiAYWzITDGpHO8+
-FGejBzQgfSKohawb3Fa7LHUeWmcNTZ6ZKt0eAZuHIPoZJ3kUNCyDw2Ou2ZgSib2Z
-7Lga8UvhOM7RmJ9XoAGLBKZ6eLLhdFMhhNhhzOPpxWuW6GlQVGsKBBn4jDNoYdKY
-n2klNBcvoN53GIg7EHAGYEWz5vIz54RCT+K+OHhi7Artk3MS6EfOBvvTfCopl/I7
-KAdv5c6J9GnKOq0jOcN0paSgDNEKNNvZi237D985KAeh8lSc+2uyrYYePF4olpTF
-83UACoMptAE6TS/5KxG5AAlce6T7tBv/8h/Q2HWa6Np5oJNekkSzaxIOqHid+NLl
-70+9c/y+tCVCIjACkNxIH+Q6dWWWbM0M2h02lwuxUoCNisySk4l696BT9GUYlxA7
-5S+zz2gjCBKKUyDrhvoVZKLIGYO2iptGFzttOfAdp74H8SSNSKhyQ0OJUGxu3Q//
-cBLJEhFG3DL7jRA31iaF
-=IbOW
+iQIcBAEBCAAGBQJcttDmAAoJENxhIVdKO/isxvsP/3T5+L3dxskFgWRkKtTHWmoR
+5B9/cY5PAol8uekCCEn0xU//SI3uHmgeBe1FGhhPICdvxLTEWvYMMDGK7D9cbKDI
+r8zh83DI0TyF9EO9b2Pd3AKHi2t6TZlcEG3RIpQpHyRbpdH+mlG/f4WMKQcnVebF
+p5mRInKlODxW79vxH6UEepbOO6CnWl+FvWvZ/X6NFEU6RxU3lFdfPsOJmhPizhTb
+LeHs2hsAijEd9vYRG1hSw1IuTGuPjUSYvcMdnOSCvSv7tV3eekpUARqyjxpJjlYU
+mrmBUMJJRWK0FAnn3RuGMbTh/GrApgHCwp7Egwi/TAIGT4HmQlWQ5ThIo+C+gAdF
+0Hcmsi5aPEG+GxY113r6/nZ8TJAKIEEvs9evb6CgGEvJvY1+o3XY1nwNkvckQBHU
+E/v0zOKbFbCy9Q6VuybIoJWWgzLAWpCJxgFWL31NN+C/R1UoFCF1JKFvLO/7ABIg
+/5e2cCkcaXg18sKAMM7nlyr4dId6lw6hKTIrt7D/CW6AKlthNQmr8Axip1T5lspL
+0pzj7aYVRmhrKY/sMl6PT6dwDQKU+k6tTqX/gHDYvWqhMUypVBb/QlsqCrnsvFI7
+wHle3tWrgpapozT5Tor8FCtdTrzAwW/K+QyMG2W/anYAXFvsBGTq+1HgJGORf6Tp
+fFrLA4qp62S7Dts9qSgU
+=k9Xl
 -----END PGP SIGNATURE-----

@@ -1,5 +1,5 @@
-Origin: seeed-studio.github.io
-Label: seeed-studio.github.io
+Origin: stretch
+Label: main
 Archive: stretch
 Architecture: armhf
 Component: main
